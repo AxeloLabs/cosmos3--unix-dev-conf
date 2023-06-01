@@ -1,26 +1,42 @@
 #!/bin/sh
-
-
+# -0 
+# -0 
+# -0 
 alias g='git'
-
 alias g-open='g-open'
 alias g-clone='g clone'
 
+# -0 
+# -0 branch details
+# -0 
+alias g-branch-a='g branch -a'               # list all branch
+alias g-branch-list-remote='g remote -v'     # list all remote URLs
+alias g-branch-list-upstream='g branch -vv ' # verbose list set-upstrzeam
+alias NEW_LINE='echo -----'                  ##
+alias gbb='ECHO \
+&& g-branch-a && NEW_LINE  \
+&& g-branch-list-remote && NEW_LINE \
+&& g-branch-list-upstream ; ECHO'
+# -- remote
+alias g-remote-v='g remote -v'
+alias g-remote-add-origin='g remote add origin'
+# git remote add origin https://github.com/nzaero/cosmos-2023.git
+# create remote branch
+# alias g-push--set-upstream='g push --set-upstream origin master'
+
+# -0 
+# -0 USE
+# -0 
 # -- add
 alias ga='g add '
 alias gaa='g add --all .'
-
 # -- commit
 alias ggm='gaa && g commit -m '
 alias gm='g commit -m '
 alias gmm='g commit -m "⬛ --"'
-
 # -- push
 alias gp='g push'
 alias gpp='gaa && gmm && gp '
-#
-# | h -ni "Enumerating objects:" "Writing objects:" "remote: Resolving deltas:"
-#
 # -- stash
 # alias gtt='g stash'
 # alias gtp='g stash pop'
@@ -29,17 +45,13 @@ alias g-stash='g stash'
 alias g-stash-pop='g stash pop'
 alias g-stash-list='g stash list '
 alias g-stash-list--date='g stash list --date=local'
-
 # -- show
 alias g-show-axel='g show $(g stash list | cut -d":" -f 1)'
-
 # tag
 alias g-tag='g tag | h -ni 2.2.3 2.2.4 2.2.5'
-
-# ----------------------------------------------------------
+# STATUS
 # hash
-export BOUCHON__GIT_HASH="'ad2e172|e869510' 21068 22606 '615d7ff|ec4667e|ad2e172'"
-
+BOUCHON__GIT_HASH="'ad2e172|e869510' 21068 22606 '615d7ff|ec4667e|ad2e172'"
 # files
 BOUCHON__GIT_FILES="'jojo.xml' "
 # status
@@ -57,37 +69,28 @@ BOUCHON__GIT_STATUS=" 'Current branch development is up to date.' \
 '\(use \"git push\" to publish your local commits\)|\(use \"git add/rm <file>...\" to update what will be committed\)|\(use \"git restore <file>...\" to discard changes in working directory\)|\(use \"git add\" to track\)|\(use \"git add <file>...\" to include in what will be committed\)|Changes to be committed:\(use \"git add <file>...\" to include in what will be committed\)|\(fix conflicts and then run \"git rebase --continue\"\)|\(use \"git rebase --skip\" to skip this patch\)|\(use \"git rebase --abort\" to check out the original branch\)|\(use \"git restore --staged <file>...\" to unstage\)|\(use \"git add/rm <file>...\" as appropriate to mark resolution\)|nothing to commit, working directory clean' \
 '\(use \"git add\" and/or \"git commit -a\"\)|Your branch is up to date with|no changes added to commit|nothing added to commit but untracked files present|On branch|interactive rebase in progress|nothing added to commit but untracked files present \(use \"git add\" to track\) '\
 "
-
 alias a="ECHO && g status \
 | h $BOUCHON__GIT_FILES \
 | h $BOUCHON__GIT_STATUS ; \
 ECHO"
-# ----------------------------------------------------------
-# delete branch locally
-# g branch -d localBranchName
-
-# delete branch remotely
-# g push origin --delete remoteBranchName
-
+# -0
+# -0
+# -0
 # alias gb='g branch' # used by fuzzy
 alias gc='g checkout'
 alias gcb='g checkout -b'
 alias g-checkout='g checkout'
 alias g-checkout-and-createBranch='g checkout -b'
 
-# branch details
-alias g-branch-a='g branch -a'               # list all branch
-alias g-branch-list-remote='g remote -v'     # list all remote URLs
-alias g-branch-list-upstream='g branch -vv ' # verbose list set-upstrzeam
-alias NEW_LINE='echo -----'                  ##
-alias gbb='ECHO \
-&& g-branch-a && NEW_LINE  \
-&& g-branch-list-remote && NEW_LINE \
-&& g-branch-list-upstream ; ECHO'
-
 # -- branch deletions
 # git delete branch
 # git branch -d
+
+# delete branch locally
+# g branch -d localBranchName
+
+# delete branch remotely
+# g push origin --delete remoteBranchName
 
 # -- delete remote branch
 # git push origin --delete feature/login  # delete remote
@@ -98,14 +101,7 @@ alias g-push-origin--delete='g push origin --delete'
 # git push origin -u <new_name>
 # git push origin --delete <old_name>
 
-# -- remote
-alias g-remote-v='g remote -v'
-alias g-remote-add-origin='g remote add origin'
-
-# create remote branch
-alias g-push--set-upstream='g push --set-upstream origin master'
-
-# %%% RESET vs REVERT
+# 1 RESET vs REVERT
 # TIP: git revert = Public branch (cree un commit qui efface l autre)
 # TIP: git reset = private branch (supprime vraiment de l historique)
 
@@ -127,23 +123,17 @@ alias grH='g reset HEAD | h -n "M	    "'
 # I recently had a conversation about git reset --hard vs git checkout -f, and it turns out they do the same thing. This is one of the tricky things about Git, there are often multiple ways to do the same thing.
 # Note: git checkout -f is the same as git checkout . except -f works even when there is a currently a merge conflict (git checkout . throws an error in this situation)
 
-# -----------------------------------------------------
-# %%% REBASE vs MERGE
-# -----------------------------------------------------
+# 1 REBASE vs MERGE
 # -- rebase
 alias grc='g rebase --continue'
 
 # -- pull rebase -- (use this, when you want to update your branch)
 alias gitp='g pull --rebase '
 
-# -----------------------------------------------------
-# -- merge
-# -----------------------------------------------------
+# 1 merge
 # git merge --abort # when merging, you can abort
 
-# -----------------------------------------------------
-# %%% OTHER REPAIR CMD
-# -----------------------------------------------------
+# 1 OTHER REPAIR CMD
 # -- cherry pick
 alias gcp='g cherry-pick' #git cherry -v master
 # REGLE: LORSQUE TU CHERRY PICK: IL FAUT ABSOLUEMENT QUE TU METTES:
@@ -153,7 +143,9 @@ alias gcp='g cherry-pick' #git cherry -v master
 
 # GIT LOG - git log --oneline (stack view) - https://g-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-Cred
 
-# // -2 TOUTES LES BRANCHES
+# -2 
+# -2 TOUTES LES BRANCHES
+# -2 
 # You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
 # alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
 alias gl="ECHO CURRENT_BRANCH - ONE && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
@@ -194,18 +186,16 @@ alias lgg="ECHO TREE - ALL && g log -13 --graph --show-linear-break --abbrev-com
 
 
 # // -3 UNE SEULE BRANCHE
-alias lg='g log --graph --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
+alias lggg='g log --graph --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
 # alias gll='g lg'
-
-
 # // -0 UI: GRAPH
-alias lggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  \
+alias lgggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  \
 | h -i  $BOUCHON__GIT_LOG \
 | h -ni popo pipi pupu koko kiki kuku  '\[maven-release-plugin\] prepare for next development iteration|\[maven-release-plugin\] prepare release'  \
 | h -ni $BOUCHON__GIT_HASH "
-alias lgggg="g log -30 --graph --pretty=format:'  %C(yellow)%<(25)%d   %C(white)%<(100)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  "
+alias lggggg="g log -30 --graph --pretty=format:'  %C(yellow)%<(25)%d   %C(white)%<(100)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  "
 # Z
-alias lggggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all "
+alias lgggggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all "
 # alias lggg="g log -13 --graph -–pretty=format:' %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset ' --abbrev-commit --date=short --all "
 
 # // -0 UI: hash-list
@@ -223,3 +213,7 @@ alias gl-4='g log -20 --author="axel" --stat  --oneline --pretty=format:"%Cred%h
 alias gl-5='g log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s <%ad>" --abbrev-commit --date=relative --name-status their = log --all --graph --decorate --oneline --simplify-by-decoration'
 alias gl-6='g log -50 --author="axel" --stat'
 alias gl-7='g log --author="axel" --stat'
+
+# -2
+# -2 END
+# -2
