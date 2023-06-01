@@ -1,6 +1,17 @@
 # ZSH-RC -- 15 may 2023 - COSMOS
 
 # -------------------------------------
+# ZSH-HISTORY
+# -------------------------------------
+# https://www.soberkoder.com/better-zsh-history/
+# https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh
+export HISTFILE=~/.zsh_history # HISTSIZE - Refers to the number of commands that are loaded into memory from the history file
+export HISTSIZE=100000000      # HISTFILE - Refers to the path/location of the history file
+export SAVEHIST=100000000      # SAVEHIST - Refers to the number of commands that are stored in the zsh history file
+export HISTTIMEFORMAT="[%F %T] "
+
+
+# -------------------------------------
 pathadd() {
     if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
         PATH="${PATH:+"$PATH:"}$1"
@@ -118,3 +129,9 @@ printc() {
     local color="%F{$1}"
     echo -E ${(qqqq)${(%)color}}
 }
+
+#  BUGS
+#-----------------------------------------------------------
+# fnm (better nvm - node version manager)
+eval "$(fnm env --use-on-cd)"
+#-----------------------------------------------------------

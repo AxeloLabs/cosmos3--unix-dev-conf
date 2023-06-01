@@ -44,18 +44,18 @@ export BOUCHON__GIT_HASH="'ad2e172|e869510' 21068 22606 '615d7ff|ec4667e|ad2e172
 BOUCHON__GIT_FILES="'jojo.xml' "
 # status
 BOUCHON__GIT_STATUS=" 'Current branch development is up to date.' \
-'nothing to commit, working tree clean| untracked files:|Your branch is ahead of |\(use \"git push\" to publish your local commits\)|\(use \"git add <file>...\" to include in what will be committed\)|nothing added to commit but untracked files present (use \"git add\" to track)' \
+'modified:|nothing to commit, working tree clean|Untracked files:|new file:|Your branch is ahead of |\(use \"git add <file>...\" to include in what will be committed\)|nothing added to commit but untracked files present (use \"git add\" to track)' \
 'redcolor' \
 '\(use \"git reset HEAD <file>...\" to unstage\)' \
 'orangecolor' \
 'purplecolor' \
-'redcolorBG' \
-'\(all conflicts fixed: run \"git rebase --continue\"\)|modified:|Your branch is up-to-date with|\(use \"git add/rm <file>...\" to update what will be committed\)|\(use \"git restore <file>...\" to discard changes in working directory\)|\(use \"git checkout -- <file>...\" to discard changes in working directory\)|\(use \"git add <file>...\" to update what will be committed\)' \
-'Unmerged paths|Untracked files:|Changes to be committed:|Changes not staged for commit:|no changes added to commit|You are currently rebasing branch|\(use \"git add <file>...\" to mark resolution\)' \
-'deleted:' \
-'added:|main|origin/main' \
-'\(use \"git add\" and/or \"git commit -a\"\)|\(use \"git add\" to track\)|\(use \"git add <file>...\" to include in what will be committed\)|Changes to be committed:\(use \"git add <file>...\" to include in what will be committed\)|\(fix conflicts and then run \"git rebase --continue\"\)|\(use \"git rebase --skip\" to skip this patch\)|\(use \"git rebase --abort\" to check out the original branch\)|new file: |\(use \"git restore --staged <file>...\" to unstage\)|\(use \"git add/rm <file>...\" as appropriate to mark resolution\)|nothing to commit, working directory clean' \
-'Your branch is up to date with|nothing added to commit but untracked files present|On branch|interactive rebase in progress|nothing added to commit but untracked files present \(use \"git add\" to track\) '\
+'deleted:|Changes to be committed:' \
+'\(all conflicts fixed: run \"git rebase --continue\"\)|Changes not staged for commit:|Your branch is up-to-date with|\(use \"git checkout -- <file>...\" to discard changes in working directory\)|\(use \"git add <file>...\" to update what will be committed\)' \
+'Unmerged paths|stories.ts|.svelte|--no|README.md|packages.json|.npmrc|origin|You are currently rebasing branch|\(use \"git add <file>...\" to mark resolution\)' \
+'node_modules' \
+'added:|main|main' \
+'\(use \"git push\" to publish your local commits\)|\(use \"git add/rm <file>...\" to update what will be committed\)|\(use \"git restore <file>...\" to discard changes in working directory\)|\(use \"git add\" to track\)|\(use \"git add <file>...\" to include in what will be committed\)|Changes to be committed:\(use \"git add <file>...\" to include in what will be committed\)|\(fix conflicts and then run \"git rebase --continue\"\)|\(use \"git rebase --skip\" to skip this patch\)|\(use \"git rebase --abort\" to check out the original branch\)|\(use \"git restore --staged <file>...\" to unstage\)|\(use \"git add/rm <file>...\" as appropriate to mark resolution\)|nothing to commit, working directory clean' \
+'\(use \"git add\" and/or \"git commit -a\"\)|Your branch is up to date with|no changes added to commit|nothing added to commit but untracked files present|On branch|interactive rebase in progress|nothing added to commit but untracked files present \(use \"git add\" to track\) '\
 "
 
 alias a="ECHO && g status \
@@ -153,36 +153,71 @@ alias gcp='g cherry-pick' #git cherry -v master
 
 # GIT LOG - git log --oneline (stack view) - https://g-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-Cred
 
-# UNE SEULE BRANCHE
-alias gl='g log --graph --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
-alias gll='g lg'
+# // -2 TOUTES LES BRANCHES
+# You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
+# alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
+alias gl="ECHO CURRENT_BRANCH - ONE && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
+alias gll="ECHO CURRENT_BRANCH - ALL && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' --all; ECHOO"
 
-# TOUTES LES BRANCHES
-alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto)%d%C(reset) %C(normal)%s%C(reset) %C(dim white)%an%C(reset) %C(dim blue)(%ar)%C (reset)' --all; ECHOO"
+alias lg="ECHO TREE - ONE && g log -13 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an';  ECHOO"
+alias lgg="ECHO TREE - ALL && g log -13 --graph --show-linear-break --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an' --all;  ECHOO"
 
-# UI: GRAPH
-alias lg="g log -13 --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+# https://git-scm.com/docs/git-log
+# https://git-scm.com/docs/pretty-formats
+# https://git-scm.com/docs/git-config#Documentation/git-config.txt-color
+# normal
+# black
+# red
+# green
+# yellow
+# blue
+# magenta
+# cyan
+# white
+
+# bold
+# dim
+# ul
+# blink
+# reverse
+# italic
+# strike
+# bright  # (Git 2.26, Q1 2020, example: brightred)
+
+# The value for a variable that takes a color is a list of colors (at most two, one for foreground and one for background) and attributes (as many as you want), separated by spaces.
+# The basic colors accepted are normal, black, red, green, yellow, blue, magenta, cyan, white and default. The first color given is the foreground; the second is the background. All the basic colors except normal and default have a bright variant that can be specified by prefixing the color with bright, like brightred.
+# The color normal makes no change to the color. It is the same as an empty string, but can be used as the foreground color when specifying a background color alone (for example, "normal red").
+# The color default explicitly resets the color to the terminal default, for example to specify a cleared background. Although it varies between terminals, this is usually not the same as setting to "white black".
+# Colors may also be given as numbers between 0 and 255; these use ANSI 256-color mode (but note that not all terminals may support this). If your terminal supports it, you may also specify 24-bit RGB values as hex, like #ff0ab3.
+# The accepted attributes are bold, dim, ul, blink, reverse, italic, and strike (for crossed-out or "strikethrough" letters). The position of any attributes with respect to the colors (before, after, or in between), doesn’t matter. Specific attributes may be turned off by prefixing them with no or no- (e.g., noreverse, no-ul, etc).
+# The pseudo-attribute reset resets all colors and attributes before applying the specified coloring. For example, reset green will result in a green foreground and default background without any active attributes.
+
+
+# // -3 UNE SEULE BRANCHE
+alias lg='g log --graph --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
+# alias gll='g lg'
+
+
+# // -0 UI: GRAPH
 alias lggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  \
 | h -i  $BOUCHON__GIT_LOG \
 | h -ni popo pipi pupu koko kiki kuku  '\[maven-release-plugin\] prepare for next development iteration|\[maven-release-plugin\] prepare release'  \
 | h -ni $BOUCHON__GIT_HASH "
 alias lgggg="g log -30 --graph --pretty=format:'  %C(yellow)%<(25)%d   %C(white)%<(100)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  "
+# Z
+alias lggggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all "
+# alias lggg="g log -13 --graph -–pretty=format:' %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset ' --abbrev-commit --date=short --all "
 
-# UI: hash-list
+# // -0 UI: hash-list
 alias ggl="g log -30 \
 | h -i  $BOUCHON__GIT_LOG \
 | h -ni popo pipi pupu koko kiki kuku  '\[maven-release-plugin\] prepare for next development iterationgi|\[maven-release-plugin\] prepare release'  \
 | h -ni $BOUCHON__GIT_HASH "
 alias gggl="g log --graph --abbrev-commit --date=relative"
 
-# DIFF + / -
+# // -0 DIFF + / -
 alias gl-1='g log -50 --stat'
 alias gl-2='g log -10 --graph --oneline --decorate --all --name-status --stat' # WARN: je n ai pas le nom des personnes
-
-# Z
-alias lggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all "
-# alias lggg="g log -13 --graph -–pretty=format:' %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset ' --abbrev-commit --date=short --all "
-
 alias gl-3='g log -20 --stat  --oneline --pretty=format:"%Cred%h%Creset %C\(yellow\)%d%Creset %C\(yellow\)%s %Cgreen\(%cr\) %C\(bold blue\)<%an>%Creset" --abbrev-commit | grep -E "/|$"'
 alias gl-4='g log -20 --author="axel" --stat  --oneline --pretty=format:"%Cred%h%Creset %C(yellow)%d%Creset %C(yellow)%s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit | grep -E "/|$"'
 alias gl-5='g log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s <%ad>" --abbrev-commit --date=relative --name-status their = log --all --graph --decorate --oneline --simplify-by-decoration'

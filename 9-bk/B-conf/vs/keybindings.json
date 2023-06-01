@@ -171,17 +171,21 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": " class=\"$1\" " // -2
+      "snippet": " class=\"$1\" " // -0
     }
-  }
-  // {
-  //   "key": "cmd+7",
-  //   "command": "editor.action.insertSnippet",
-  //   "when": "editorTextFocus",
-  //   "args": {
-  //     "snippet": "@apply $1; " // -2
-  //   }
-  // },
+  },
+  {
+    "key": "alt+cmd+b",
+    "command": "workbench.action.closeAuxiliaryBar"
+  },
+  {
+    "key": "cmd+7",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "@apply $1; " // -0
+    }
+  },
   //  ??? z
   // {
   //   "key": "ctrl+shift+-",
@@ -207,14 +211,12 @@
   //   "key": "shift+alt+down",
   //   "command": "cursorWordEndLeftSelect"
   // },
-  // {
-  //   "key": "alt+cmd+b",
-  //   "command": "workbench.action.closeAuxiliaryBar"
-  // },
+
   // {
   //   "key": "cmd+1",
   //   "command": "-workbench.action.focusFirstEditorGroup"
   // }
+
   // ###
   // ### Z
   // ###
@@ -239,14 +241,19 @@
   //   "command": "workbench.action.terminal.sendSequence",
   //   "args": { "text": "0x18" }
   // }
+
   //  z
   // --- jump bracket todo
   // Jump to matching bracket	⇧⌘\	editor.action.jumpToBracket
-  // {
-  // 	"key": "alt+cmd+0",
-  // 	"command": "editor.action.jumpToBracket",
-  // 	"when": "editorTextFocus"
-  // },
+  {
+    "key": "alt+cmd+0",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+0",
+    "command": "highlight-matching-tag.jumpToMatchingTag"
+  }
   // {
   // 	"key": "ctrl+shift+alt+cmd+l",
   // 	"command": "-editor.action.jumpToBracket",
