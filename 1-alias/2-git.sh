@@ -22,7 +22,7 @@ alias g-remote-v='g remote -v'
 alias g-remote-add-origin='g remote add origin'
 # git remote add origin https://github.com/nzaero/cosmos-2023.git
 # create remote branch
-# alias g-push--set-upstream='g push --set-upstream origin master'
+alias g-push--set-upstream='g push --set-upstream origin main'
 
 # -0 
 # -0 USE
