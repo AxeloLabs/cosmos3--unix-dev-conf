@@ -1,13 +1,13 @@
 # ~/.config/starship.toml
 
-[battery]
-full_symbol = "🔋"
-charging_symbol = "🔌"
-discharging_symbol = "⚡"
+# [battery]
+# full_symbol = "🔋"
+# charging_symbol = "🔌"
+# discharging_symbol = "⚡"
 
-[[battery.display]]
-threshold = 30
-style = "bold red"
+# [[battery.display]]
+# threshold = 30
+# style = "bold red"
 
 [character]
 error_symbol = "[✖](bold red) "
@@ -22,7 +22,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 
 [git_branch]
 format = " [$symbol$branch]($style) "
-symbol = "🍣 "
+symbol = "🌴 "
 style = "bold yellow"
 
 [git_commit]
@@ -59,10 +59,10 @@ symbol = "ஃ "
 style = "bold green"
 
 [memory_usage]
-format = "$symbol[${ram}( | ${swap})]($style) "
-threshold = 70
-style = "bold dimmed white"
-disabled = false
+# format = "$symbol[${ram}( | ${swap})]($style) "
+# threshold = 70
+# style = "bold dimmed white"
+# disabled = false
 
 [package]
 disabled = true

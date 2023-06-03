@@ -1,8 +1,35 @@
 {
   // -0
+  // -0 EXCLUDE (file / search)
+  // -0
+  "files.exclude": {
+    // global
+    // "**/node_modules": true,
+    "**/yarn.lock": true,
+    "**/yarn-error.log": true,
+    "**/package-lock.json": true,
+    //     ".firebase"                                   : true,
+    "firebase-debug.log": true
+    //     ".editorconfig"                               : true,
+    //     "license.txt"                                 : true,
+    //     "favicon.ico"                                 : true,
+    //     // PERSO
+  },
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules/": true,
+    "**/public/": true,
+    "**/build/": true,
+    "**/.firebase/": true,
+    "**/.git/": true,
+    "**.lock": true,
+    "**lock.json": true
+  },
+  // -0
   // -0 Todo Highlight (grosses barres)
   // -0
-
+  // "todohighlight.isEnable": true,
+  // "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
     {
       "text": "window.alert",
@@ -393,8 +420,6 @@
       "overviewRulerColor": "transparent"
     }
   ],
-  // "todohighlight.isEnable": true,
-  // "todohighlight.isCaseSensitive": true,
   // -0
   // -0 EDITOR
   // -0
@@ -434,12 +459,13 @@
           "keyword.operator.new.js"
         ],
         "settings": {
-          "fontStyle": "italic"
+          // "fontStyle": "italic"
         }
       },
       {
         "scope": ["comment"],
         "settings": {
+          "foreground": "#8e8e8e",
           "fontStyle": "underline"
         }
       },
@@ -470,11 +496,13 @@
       }
     ]
   },
-
-  // -0
-  // -0 WORKBENCH
-  // -0
+  // -3
+  // -3 WORKBENCH
+  // -3
   "workbench.colorCustomizations": {
+    "editorError.foreground": "#00eaff",
+    "editorWarning.foreground": "#ff0",
+    "editorInfo.foreground": "#00f",
     // 1 rulers
     "scrollbarSlider.background": "#ff000058",
     "editorOverviewRuler.background": "#ffffff",
@@ -485,14 +513,17 @@
     // "editorOverviewRuler.infoForeground": "#0000",
     // ruler end
     // 1 git
-    "gitDecoration.stageModifiedResourceForeground": "#15d01579",
-    "gitDecoration.modifiedResourceForeground": "#2aa12a",
-    "gitDecoration.renamedResourceForeground": "#2aa12a",
     "gitDecoration.addedResourceForeground": "#fdfdfd",
-    "gitDecoration.deletedResourceForeground": "#0000ff",
+    //
+    "gitDecoration.stageModifiedResourceForeground": "#15d01579",
+    "gitDecoration.modifiedResourceForeground": "#30b930",
+    "gitDecoration.renamedResourceForeground": "#269069",
+    //
+    "gitDecoration.deletedResourceForeground": "#fffb00",
     "gitDecoration.untrackedResourceForeground": "#ff0000",
     "gitDecoration.ignoredResourceForeground": "#d691d8",
-    "gitDecoration.conflictingResourceForeground": "#00f7ff",
+    //
+    "gitDecoration.conflictingResourceForeground": "#00e5ff",
 
     //
     "editorGutter.modifiedBackground": "#00fd00",
@@ -506,7 +537,7 @@
     "editorInlayHint.background": "#01A0E4",
     "editorInlayHint.foreground": "#090300",
     // inlay hints E
-    // 1 termnial start
+    // -1 termnial start
     "terminal.background": "#090300",
     "terminal.foreground": "#A5A2A2",
     "terminalCursor.background": "#A5A2A2",
@@ -527,7 +558,7 @@
     "terminal.ansiRed": "#DB2D20",
     "terminal.ansiWhite": "#A5A2A2",
     "terminal.ansiYellow": "#FDED02",
-    // ----------------------------------------
+    // -1 tab
     "tab.activeBorderTop": "#FFF",
     "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#777777",
@@ -537,10 +568,6 @@
     // "debugConsole.errorForeground": "#f7b1b1",
     // "debugConsole.sourceForeground": "#0c0",
     // "debugConsole.infoForeground": "#f1dca6",
-    // ----------------------------------------
-    "editorError.foreground": "#00eaff",
-    "editorWarning.foreground": "#ff0",
-    "editorInfo.foreground": "#00f",
     // ----------------------------------------
     // "editorSuggestWidget.selectedBackground": "#ffee00",
     // "editorSuggestWidget.selectedForeground": "#000000",
@@ -579,51 +606,35 @@
     // "tab.inactiveForeground": "#FFF",
     // "activityBar.activeBorder": "#422c74",
     // blockman end
-    // 1 explorer start
+    // -1 list
+    "editorSuggestWidget.selectedBackground": "#000",
+    "editorSuggestWidget.border": "#fff",
+    "editorSuggestWidget.foreground": "#000",
+    "editorSuggestWidget.background": "#fff",
+    "editorSuggestWidget.selectedForeground": "#fff",
+    "editorSuggestWidget.focusHighlightForeground": "#ff0000",
+    "editorSuggestWidget.highlightForeground": "#ff0000",
+
+    // -1 explorer start
     "list.errorForeground": "#ff0000",
     "list.activeSelectionBackground": "#33c602",
     "list.activeSelectionForeground": "#000",
+    //
     "list.inactiveSelectionBackground": "#33c602",
     "list.inactiveSelectionForeground": "#000",
+    //
     "list.hoverForeground": "#000",
     "list.hoverBackground": "#c6b602",
+    //
     "sideBar.background": "#d5d5d5",
     "sideBar.foreground": "#000000"
+
     // explorer end
   },
-  // -0
-  // -0 EXCLUDE
-  // -0
-  // 1
-  "files.exclude": {
-    // global
-    // "**/node_modules": true,
-    "**/yarn.lock": true,
-    "**/yarn-error.log": true,
-    "**/package-lock.json": true,
-    //     ".firebase"                                   : true,
-    "firebase-debug.log": true
-    //     ".editorconfig"                               : true,
-    //     "license.txt"                                 : true,
-    //     "favicon.ico"                                 : true,
-    //     // PERSO
-  },
-  // 1
-  "search.exclude": {
-    "pnpm-lock.yaml": true,
-    "**/node_modules/": true,
-    "**/public/": true,
-    "**/build/": true,
-    "**/.firebase/": true,
-    "**/.git/": true,
-    "**.lock": true,
-    "**lock.json": true
-  },
-  // -0
-  // -0 Z
-  // -0
-  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
-  // 1 Terminal S
+  // -1
+  // -1 Z
+  // -1
+  // -2 Terminal S
   // "terminal.integrated.fontFamily": "Cascadia Code",
   // "terminal.integrated.fontFamily": "Firicico",
   // "terminal.integrated.fontSize": 9,
@@ -632,7 +643,7 @@
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.scrollback": 4000,
   // terminal E
-  // 1 minimap S
+  // -2 minimap S
   "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
@@ -641,30 +652,28 @@
   "editor.minimap.scale": 3,
   "editor.minimap.size": "fit",
   // minimap E
-  // 1 editor start
+  // -2 editor start
   "editor.tabSize": 2,
   "editor.rulers": [60],
   // ne pas afficher suggestion abc
   "editor.suggest.showWords": false,
-  // 1 font start
+  // editor end
+  // -2 font start
   // "editor.fontFamily": "Firicico",
   "editor.fontLigatures": true,
-  // editor end
   // font end
-  // 1 explorer start
+  // -2 explorer start
   "explorer.confirmDragAndDrop": false,
-  // 1 color directories
+  // -2 color directories
   "material-icon-theme.folders.color": "#43a047",
   "explorer.sortOrder": "filesFirst",
   "workbench.tree.indent": 16,
   "git.decorations.enabled": true,
   // explorer end
-  // default end
-  // 1 svelte TS
+  // -2 svelte TS
   "svelte.enable-ts-plugin": true,
   //
-  // -1 FORMAT start
-  //
+  // -2FORMAT start
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     // "source.fixAll": true,
@@ -716,18 +725,11 @@
   // "workbench.statusBar.visible": true,
   // swx E
   // format end
-
-  // -1 inlay hints S
+  // -2 inlay hints S
   "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
   // inlay hints E
-  // 1 blockman start
-  // "editor.wordWrap": "off",
-  // "diffEditor.wordWrap": "off",
-  // "editor.guides.indentation": false,
-  // "editor.guides.bracketPairs": "active",
-  // "editor.inlayHints.enabled": "off",
-  // blockman end
+  // -2 END
   "workbench.colorTheme": "Darkside (rainglow)",
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDelete": false,
@@ -735,5 +737,9 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "tabnine.experimentalAutoImports": true,
   "editor.inlineSuggest.enabled": true,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)"
+  // -2
+  // -2
+  // -2
 }

@@ -1,5 +1,9 @@
 # ZSH-RC -- 15 may 2023 - COSMOS
 
+# use bat in man
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+
 # -------------------------------------
 # ZSH-HISTORY
 # -------------------------------------
