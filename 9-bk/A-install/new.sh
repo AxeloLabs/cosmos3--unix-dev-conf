@@ -97,6 +97,7 @@ brew install --cask notunes
 
 # github CLI
 brew install gh
+brew install git-open
 
 brew install --cask vlc
 

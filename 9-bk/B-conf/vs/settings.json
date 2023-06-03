@@ -1,0 +1,739 @@
+{
+  // -0
+  // -0 Todo Highlight (grosses barres)
+  // -0
+
+  "todohighlight.keywords": [
+    {
+      "text": "window.alert",
+      "color": "white",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "console.",
+      "color": "white",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<svelte:head>",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "SlateBlue ",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</svelte:head>",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "SlateBlue",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "import type { Meta, StoryObj } from '@storybook/svelte';",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "SlateBlue",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "import ",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    // "text": " from '",
+    // "color": "black",
+    // "backgroundColor": "#737373",
+    // "color": "black",
+    // "backgroundColor": "mediumpurple",
+    // "isWholeLine": true,
+    // "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": " from \"",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+
+    {
+      "text": "export default meta;",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "Orchid",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "type Story = StoryObj<typeof meta>;",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "Orchid",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "const meta ",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "export ",
+      // "color": "black",
+      // "backgroundColor": "#737373",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# :",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// :",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    //   "text": " * ",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": "/**",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": " */",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": " *",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "# -1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<!-- 1 -->",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// 1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -0",
+      "color": "black",
+      "backgroundColor": "#03af49",
+      "isWholeLine": true,
+      "overviewRulerColor": "#transparent"
+    },
+    {
+      "text": "# -0",
+      "color": "black",
+      "backgroundColor": "#03af49",
+      "isWholeLine": true,
+      "overviewRulerColor": "#transparent"
+    },
+    {
+      "text": "// 0",
+      "color": "black",
+      "backgroundColor": "#9be55e",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 0",
+      "color": "black",
+      "backgroundColor": "#9be55e",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# -2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// 2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<!-- 2 -->",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "onMount(() => {",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "onMount",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "function handle",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "async function handle",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    //   "text": "<script context=",
+    //   "color": "white",
+    //   "backgroundColor": "red",
+    //   "isWholeLine": false,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "TODO - ",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<script",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</script",
+      "color": "black",
+      "backgroundColor": "mediumpurple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<style",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    //   "text": "</style>",
+    //   "color": "black",
+    //   "backgroundColor": "purple",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "// -3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# -3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// 3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/* 3 */",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<!-- 3 -->",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<Tailwind />",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<Auth />",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "https:",
+      "color": "#3890ff",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "http:",
+      "color": "#3890ff",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    }
+  ],
+  // "todohighlight.isEnable": true,
+  // "todohighlight.isCaseSensitive": true,
+  // -0
+  // -0 EDITOR
+  // -0
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["meta.object-literal.key.ts", "meta.object-literal.key.js"],
+        "settings": {
+          "fontStyle": "bold underline"
+        }
+      },
+      {
+        "scope": [
+          "comment.block.documentation",
+          "storage.type.class.jsdoc",
+          "comment.block.documentation.js",
+          "variable.other.jsdoc"
+        ],
+        "settings": {
+          "foreground": "#ff007f",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.type.class",
+          "keyword",
+          "storage.modifier",
+          "storage.type.class.js",
+          "storage.type.function.js",
+          "storage.type.js",
+          "keyword.control.import.js",
+          "keyword.control.from.js",
+          "keyword.control.flow.js",
+          "keyword.control.conditional.js",
+          "keyword.control.loop.js",
+          "keyword.operator.new.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.property.js",
+          "meta.import.js variable.other",
+          "variable.other.object.js",
+          "variable.other.constant",
+          "entity.name.function",
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "entity.name.type.class.js"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+
+  // -0
+  // -0 WORKBENCH
+  // -0
+  "workbench.colorCustomizations": {
+    // 1 rulers
+    "scrollbarSlider.background": "#ff000058",
+    "editorOverviewRuler.background": "#ffffff",
+    "editorLineNumber.foreground": "#7b7b7b",
+    "editorLineNumber.activeForeground": "#41f110",
+    // "editorOverviewRuler.errorForeground": "#0000",
+    // "editorOverviewRuler.warningForeground": "#0000",
+    // "editorOverviewRuler.infoForeground": "#0000",
+    // ruler end
+    // 1 git
+    "gitDecoration.stageModifiedResourceForeground": "#15d01579",
+    "gitDecoration.modifiedResourceForeground": "#2aa12a",
+    "gitDecoration.renamedResourceForeground": "#2aa12a",
+    "gitDecoration.addedResourceForeground": "#fdfdfd",
+    "gitDecoration.deletedResourceForeground": "#0000ff",
+    "gitDecoration.untrackedResourceForeground": "#ff0000",
+    "gitDecoration.ignoredResourceForeground": "#d691d8",
+    "gitDecoration.conflictingResourceForeground": "#00f7ff",
+
+    //
+    "editorGutter.modifiedBackground": "#00fd00",
+    "editorGutter.addedBackground": "#fdfdfd",
+    "editorGutter.deletedBackground": "#ff0000",
+
+    "editor.background": "#000000",
+    // git end
+    "editorOverviewRuler.bracketMatchForeground": "#01A0E4",
+    // 1 inlay hints S
+    "editorInlayHint.background": "#01A0E4",
+    "editorInlayHint.foreground": "#090300",
+    // inlay hints E
+    // 1 termnial start
+    "terminal.background": "#090300",
+    "terminal.foreground": "#A5A2A2",
+    "terminalCursor.background": "#A5A2A2",
+    // "terminalCursor.foreground": "#A5A2A2",
+    "terminal.ansiBlack": "#090300",
+    "terminal.ansiBlue": "#01A0E4",
+    "terminal.ansiBrightBlack": "#5C5855",
+    "terminal.ansiBrightBlue": "#01A0E4",
+    "terminal.ansiBrightCyan": "#B5E4F4",
+    "terminal.ansiBrightGreen": "#01A252",
+    "terminal.ansiBrightMagenta": "#A16A94",
+    "terminal.ansiBrightRed": "#DB2D20",
+    "terminal.ansiBrightWhite": "#F7F7F7",
+    "terminal.ansiBrightYellow": "#FDED02",
+    "terminal.ansiCyan": "#B5E4F4",
+    "terminal.ansiGreen": "#01A252",
+    "terminal.ansiMagenta": "#A16A94",
+    "terminal.ansiRed": "#DB2D20",
+    "terminal.ansiWhite": "#A5A2A2",
+    "terminal.ansiYellow": "#FDED02",
+    // ----------------------------------------
+    "tab.activeBorderTop": "#FFF",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#777777",
+    "tab.inactiveForeground": "#000000",
+    // ----------------------------------------
+    // "debugConsole.warningForeground": "#800",
+    // "debugConsole.errorForeground": "#f7b1b1",
+    // "debugConsole.sourceForeground": "#0c0",
+    // "debugConsole.infoForeground": "#f1dca6",
+    // ----------------------------------------
+    "editorError.foreground": "#00eaff",
+    "editorWarning.foreground": "#ff0",
+    "editorInfo.foreground": "#00f",
+    // ----------------------------------------
+    // "editorSuggestWidget.selectedBackground": "#ffee00",
+    // "editorSuggestWidget.selectedForeground": "#000000",
+    // "editorSuggestWidget.foreground": "#000000",
+    // "editorSuggestWidget.focusHighlightForeground": "#ffa202",
+    // "editorSuggestWidget.background": "#d6d6d6",
+    // ----------------------------------------
+    // termnial end
+    // 1 find
+    // "editor.findMatchBackground": "#bfa003",
+    // "editor.findMatchHighlightBorder": "#bfa003",
+    // "editor.wordHighlightBorder": "#ff0000",
+
+    // 1 blockman start
+    // "editor.lineHighlightBackground": "#1073cf2d",
+    // "editor.lineHighlightBorder": "#9fced11f",
+    // "activityBar.activeBackground": "#2f7c47",
+    // "activityBar.background": "#2f7c47",
+    // "activityBar.foreground": "#e7e7e7",
+    // "activityBar.inactiveForeground": "#e7e7e799",
+    // "activityBarBadge.background": "#422c74",
+    // "activityBarBadge.foreground": "#e7e7e7",
+    // "commandCenter.border": "#e7e7e799",
+    // "sash.hoverBorder": "#2f7c47",
+    // "statusBar.background": "#215732",
+    // "statusBar.foreground": "#e7e7e7",
+    // "statusBarItem.hoverBackground": "#2f7c47",
+    // "statusBarItem.remoteBackground": "#215732",
+    // "statusBarItem.remoteForeground": "#e7e7e7",
+    // "titleBar.activeBackground": "#215732",
+    // "titleBar.activeForeground": "#e7e7e7",
+    // "titleBar.inactiveBackground": "#21573299",
+    // "titleBar.inactiveForeground": "#e7e7e799",
+    // "tab.activeBackground": "#16a72e",
+    // "tab.activeForeground": "#000000",
+    // "tab.inactiveForeground": "#FFF",
+    // "activityBar.activeBorder": "#422c74",
+    // blockman end
+    // 1 explorer start
+    "list.errorForeground": "#ff0000",
+    "list.activeSelectionBackground": "#33c602",
+    "list.activeSelectionForeground": "#000",
+    "list.inactiveSelectionBackground": "#33c602",
+    "list.inactiveSelectionForeground": "#000",
+    "list.hoverForeground": "#000",
+    "list.hoverBackground": "#c6b602",
+    "sideBar.background": "#d5d5d5",
+    "sideBar.foreground": "#000000"
+    // explorer end
+  },
+  // -0
+  // -0 EXCLUDE
+  // -0
+  // 1
+  "files.exclude": {
+    // global
+    // "**/node_modules": true,
+    "**/yarn.lock": true,
+    "**/yarn-error.log": true,
+    "**/package-lock.json": true,
+    //     ".firebase"                                   : true,
+    "firebase-debug.log": true
+    //     ".editorconfig"                               : true,
+    //     "license.txt"                                 : true,
+    //     "favicon.ico"                                 : true,
+    //     // PERSO
+  },
+  // 1
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules/": true,
+    "**/public/": true,
+    "**/build/": true,
+    "**/.firebase/": true,
+    "**/.git/": true,
+    "**.lock": true,
+    "**lock.json": true
+  },
+  // -0
+  // -0 Z
+  // -0
+  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
+  // 1 Terminal S
+  // "terminal.integrated.fontFamily": "Cascadia Code",
+  // "terminal.integrated.fontFamily": "Firicico",
+  // "terminal.integrated.fontSize": 9,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.scrollback": 4000,
+  // terminal E
+  // 1 minimap S
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.side": "right",
+  "editor.minimap.maxColumn": 20,
+  "editor.minimap.scale": 3,
+  "editor.minimap.size": "fit",
+  // minimap E
+  // 1 editor start
+  "editor.tabSize": 2,
+  "editor.rulers": [60],
+  // ne pas afficher suggestion abc
+  "editor.suggest.showWords": false,
+  // 1 font start
+  // "editor.fontFamily": "Firicico",
+  "editor.fontLigatures": true,
+  // editor end
+  // font end
+  // 1 explorer start
+  "explorer.confirmDragAndDrop": false,
+  // 1 color directories
+  "material-icon-theme.folders.color": "#43a047",
+  "explorer.sortOrder": "filesFirst",
+  "workbench.tree.indent": 16,
+  "git.decorations.enabled": true,
+  // explorer end
+  // default end
+  // 1 svelte TS
+  "svelte.enable-ts-plugin": true,
+  //
+  // -1 FORMAT start
+  //
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.sortMembers": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  // "eslint.format.enable": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  // "[javascript]": {
+  // "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // "[typescript]": {
+  // BAD AX -   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  // GOOD SWX - "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[json]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+  // ------------------------------
+  // swx S
+  // ------------------------------
+  // "[html]": {
+  //   "editor.defaultFormatter": "vscode.html-language-features"
+  // },
+  // "[css]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "debug.allowBreakpointsEverywhere": true,
+  // "debug.showBreakpointsInOverviewRuler": true,
+  // "files.associations": {
+  //   "*.react": "javascript",
+  //   "*.svx": "markdown",
+  //   "*.svelte": "svelte",
+  //   "*.graphql": "graphql"
+  // },
+  // "javascript.updateImportsOnFileMove.enabled": "always",
+  // "tailwindCSS.includeLanguages": {
+  //   "svelte": "html"
+  // },
+  // "editor.showFoldingControls": "always",
+  // "editor.bracketPairColorization.enabled": true,
+  // "workbench.activityBar.visible": true,
+  // "workbench.statusBar.visible": true,
+  // swx E
+  // format end
+
+  // -1 inlay hints S
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  // inlay hints E
+  // 1 blockman start
+  // "editor.wordWrap": "off",
+  // "diffEditor.wordWrap": "off",
+  // "editor.guides.indentation": false,
+  // "editor.guides.bracketPairs": "active",
+  // "editor.inlayHints.enabled": "off",
+  // blockman end
+  "workbench.colorTheme": "Darkside (rainglow)",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.inlineSuggest.enabled": true,
+  "window.zoomLevel": 1
+}
