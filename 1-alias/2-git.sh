@@ -151,7 +151,7 @@ alias gcp='g cherry-pick' #git cherry -v master
 alias gl="ECHO CURRENT_BRANCH - ONE && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
 alias gll="ECHO CURRENT_BRANCH - ALL && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' --all; ECHOO"
 
-alias lg="ECHO TREE - ONE && g log -13 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an';  ECHOO"
+alias lg="ECHO TREE - ONE && g log -13 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n          🎤 %C(white)%s 🙊 %C(dim white)%an%n';  ECHOO"
 alias lgg="ECHO TREE - ALL && g log -13 --graph --show-linear-break --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an' --all;  ECHOO"
 
 # https://git-scm.com/docs/git-log

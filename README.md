@@ -1,3 +1,5 @@
+a
+
 <!-- https://dandavison.github.io/delta/tips-and-tricks/using-delta-with-vscode.html -->
 
 <!-- https://www.reddit.com/r/commandline/comments/x1pv3z/a_better_git_diff_with_delta/ -->
