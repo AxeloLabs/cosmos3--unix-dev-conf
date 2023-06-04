@@ -1,4 +1,11 @@
-a
+# VS-CODE extension
+
+# Choose `Shell Command: Install ‘code’ command in PATH
+
+# git config --global core.editor "code --wait"
+
+alias vscode--save-plugin="codi --list-extensions > extensions-cosmos3--4juin2023.list"
+alias vscode--load-plugin="cat extensions.list |% { codi --install-extension $\_}"
 
 <!-- https://dandavison.github.io/delta/tips-and-tricks/using-delta-with-vscode.html -->
 
