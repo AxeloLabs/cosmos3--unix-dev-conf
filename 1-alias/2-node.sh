@@ -1,16 +1,13 @@
 #!/bin/sh
-# -0
-# -0 Node
-# -0
 # $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
 alias nv='node -v' # nv-18='nvm use 18.4.0'
 alias upAll='ncu -u'
 alias n="pnpm" # "npm run"
 alias ni='n install'
 alias ppp='cat package.json | h scripts dependencies devDependencies name start build deploy init test'
-# -0
-# -0 OTHERS
-# -0
+# -1
+# -1 OTHERS
+# -1
 alias sass='n smui-prepare'
 # publish package
 alias spack='npm run package && cd package && npm publish --access public'
@@ -20,8 +17,8 @@ alias spack='npm run package && cd package && npm publish --access public'
 alias check="echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉' \
 && n megacheck | h -ni \
 'is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
-'/Users/0-minuit-ax/0-dev/master/axelo3/node_modules \
-'/Users/0-minuit-ax/0-dev/master/axelo3/src|Error: |.svelte:'\
+'/Users/0-minuit-ax/0-dev/master/axelo3/' \
+'/Users/0-minuit-ax/0-dev/master/axelo3/node_modules|Error: |.svelte:'\
 'routes|components|domain|stores|tecnology|themes'  \
 'TPL/blog|creation|realisation|Creation|Realisation|creation-realisation|CreationRealisationApp' \
 '/routes/|app/|(app)/' \
@@ -29,11 +26,11 @@ alias check="echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉�
 '/shared/' \
 'stdoc/|/0-config/|/debugUi/' \
 '\.svelte|\.config' \
-'\.js' \
+'\.js|\.json' \
 "
 export BOUCHON__CHECK='\
 "/tests-unit/scrapper/|has no effect on the type of this expression" \
-"\.ts|~/0HOME/0GARAGE/6-APP_TINAX" \
+"\.ts|/Users/0-minuit-ax/0-dev/master/axelo3/" \
 "/scrapper/src/" \
 "any|error|Cannot find module" \
 "====================================" \
@@ -51,12 +48,13 @@ alias checkk='clear \
 # -0
 BOUCHON__LINT='\
 "unexpected any warning" \
-"\.ts|~/0HOME/0GARAGE/6-APP_TINAX" \
+"/Users/0-minuit-ax/0-dev/master/axelo3" \
 "Unexpected any|error" \
 "warning|singleton" \
 "====================================" \
 "0 errors|0 warnings|0 hints" \
 "checking" \
+"\.ts" \
 '
 alias lintt="clear && n lint | h -ni $BOUCHON__LINT"
 # -0
@@ -70,31 +68,30 @@ alias nrb='n build'
 alias format='n format'
 alias formatt='clear && n format | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css" "\.js" "\.ts" "\.scss"  '
 
-# -0
-# -0 DEV
-# -0
+# -2
+# -2 DEV
+# -2
 alias nrdev='n dev'
 alias nrs="n start"
 # alias nrs="pnpm run dev -- --open"
 alias nrss='nrs | h   "\.svelte" "~/0HOME/GARAGE/INTRALINK/src/|/src/routes/|/src/lib/|/src/stores/" "\[0\]" "\[1\]" ".*:.*:.*" "A11y"'
-
-# -0
-# -0 DEBUG
-# -0
+# -2
+# -2 DEBUG
+# -2
 alias nrdeb="n debug"
-# -0
-# -0 EMU
-# -0
+# -3
+# -3 EMU
+# -3
 alias nre="n emu"
 alias emu='n emu'
 alias emu--kill='n emu--kill'
-# -0
-# -0 DEPLOY
-# -0
+# -3
+# -3 DEPLOY
+# -3
 alias nrdep='n deploy'
-# -0
-# -0 TEST
-# -0
+# -1
+# -1 TEST
+# -1
 # vitest
 alias nrt="n test"
 alias nrtt='n test | h -ni "test.ts:" "\-\-" ">>>" "tests/scrapper/" "apiChat" "apiMine" "apiShared" " # "'
