@@ -3,8 +3,8 @@
 alias tb="turbo build "
 alias tbb="turbo build --output-logs=errors-only | h -ni \
 'warning' error 'Rollup failed to resolve import|is not defined' \
-'Users/axelo/0gh/1-genesis/tinax4/node_modules/.pnpm/|\.js|\.svelte|\+page.svelte' '   at |<|\">|/>' 'src/|routes/|components/|tinax/' \
-'\.pnpm/|/Users/axelo/0gh/1-genesis/tinax4/apps/|Packages in scope'\
+'/Users/0-minuit-ax/0-dev/master/axelo3/node_modules/.pnpm/|\.js|\.svelte|\+page.svelte' '   at |<|\">|/>' 'src/|routes/|components/|tinax/' \
+'\.pnpm/|/Users/0-minuit-ax/0-dev/master/axelo3/tinax4/apps/|Packages in scope'\
 'wa-ui|wa-scrap|wa-tinax|wa-types|wa-utils|wa-firebase|tinax-view|tinax-scrap|demo-docs|demo-web'
 "
 alias td="turbo dev "

@@ -30,8 +30,7 @@ alias check="echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉�
 'stdoc/|/0-config/|/debugUi/' \
 '\.svelte|\.config' \
 '\.js' \
- "
-
+"
 export BOUCHON__CHECK='\
 "/tests-unit/scrapper/|has no effect on the type of this expression" \
 "\.ts|~/0HOME/0GARAGE/6-APP_TINAX" \
@@ -47,7 +46,6 @@ alias checkk='clear \
 && echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳" \
 && echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳" \
 && n check | h -ni  '"$BOUCHON__CHECK"
-
 # -0
 # -0 LINT
 # -0
@@ -61,7 +59,6 @@ BOUCHON__LINT='\
 "checking" \
 '
 alias lintt="clear && n lint | h -ni $BOUCHON__LINT"
-
 # -0
 # -0 BUILD
 # -0
