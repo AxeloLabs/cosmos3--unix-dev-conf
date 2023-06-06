@@ -56,12 +56,11 @@ BOUCHON__LINT='\
 "checking" \
 "\.ts" \
 '
-alias lintt="clear && n lint | h -ni $BOUCHON__LINT"
+alias lint="clear && n lint | h -ni $BOUCHON__LINT"
 # -0
 # -0 FORMAT
 # -0
-alias format='n format'
-alias formatt='clear && n format | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css" "\.js" "\.ts" "\.scss"  '
+alias format='clear && n format | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css" "\.js" "\.ts" "\.scss"  '
 # -0
 # -0 BUILD
 # -0
