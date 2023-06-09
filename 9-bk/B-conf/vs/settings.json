@@ -542,6 +542,9 @@
       }
     ]
   },
+  // -1
+  // -1 WORKBENCH
+  // -1
   "workbench.colorCustomizations": {
     "scrollbarSlider.background": "#ff000058",
     "editorLineNumber.activeForeground": "#41f110",
@@ -581,12 +584,17 @@
     "editorSuggestWidget.background": "#fff",
     "editorSuggestWidget.selectedForeground": "#fff",
     "editorSuggestWidget.focusHighlightForeground": "#ff0000",
-    "editorSuggestWidget.highlightForeground": "#ff0000"
+    "editorSuggestWidget.highlightForeground": "#ff0000",
+    "terminal.fontLigatures": true,
+    "terminal.fontFamily": "Victor Mono"
   },
+  // -0
+  // -0 BASE
+  // -0
   "window.zoomLevel": 2,
-  "terminal.fontLigatures": true,
+
   "editor.fontLigatures": true,
-  "terminal.fontFamily": "Victor Mono",
+
   "editor.fontFamily": "Victor Mono",
   // "editor.fontFamily": "Mononoki",
   // "editor.fontFamily": "Firicico",
@@ -615,9 +623,11 @@
   // "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
+  // -1 explorer ++
   "workbench.tree.indent": 16,
+  "material-icon-theme.folders.color": "#43a047",
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme"
-  // "workbench.iconTheme": "material-icon-theme"
+  // -3 Z
   // "tabnine.experimentalAutoImports": true,
 }

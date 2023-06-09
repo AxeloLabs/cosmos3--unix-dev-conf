@@ -20,6 +20,7 @@
 [core]
   # git config --global core.excludesfile ~/.gitignore_global
 	excludesfile = /Users/0-minuit-ax/.gitignore_global
+  # MUST USE IT -- no vim plz
   editor = code --wait
   # delta S
   pager = delta
