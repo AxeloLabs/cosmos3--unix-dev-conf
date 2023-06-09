@@ -1,7 +1,7 @@
 {
-  // -0
-  // -0 Todo Highlight (grosses barres)
-  // -0
+  // -2
+  // -2 Todo Highlight (grosses barres)
+  // -2
   "todohighlight.keywords": [
     {
       "text": "window.alert",
@@ -466,9 +466,9 @@
       "overviewRulerColor": "transparent"
     }
   ],
-  // -0
-  // -0 EDITOR
-  // -0
+  // -3
+  // -3 EDITOR
+  // -3
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -611,11 +611,13 @@
   "explorer.confirmDelete": false,
   "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
-
   // -2 minimap S
   // "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
-  "editor.minimap.showSlider": "always"
+  "editor.minimap.showSlider": "always",
+  "workbench.tree.indent": 16,
+  "material-icon-theme.folders.theme": "classic",
+  "workbench.iconTheme": "material-icon-theme"
   // "workbench.iconTheme": "material-icon-theme"
   // "tabnine.experimentalAutoImports": true,
 }

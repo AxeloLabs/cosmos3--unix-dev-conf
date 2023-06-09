@@ -1,4 +1,6 @@
-#!/bin/sh
+# -1
+# -1 BONUS
+# -1
 
 # spectacle
 
@@ -30,3 +32,24 @@ brew install go
 # cmd benchmarker
 brew install hyperfine
 brew install shellcheck
+
+# # brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+
+# PROMPT ++
+brew install starship
+
+# GLS / CD
+brew install zoxide #RUST -- https://github.com/ajeetdsouza/zoxide
+
+# GIT -- deps
+brew install git-fuzzy #RUST
+
+# -------------------------------------
+# NPM
+# -------------------------------------
+npm install -g firebase-tools
+# simplified man
+npm install -g tldr
+
+

@@ -1,13 +1,24 @@
-# GIT SSH
-# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-
-# brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
-
+# -------------------------------------
+# MAC
+# -------------------------------------
 # SHOW HIDCEN FILES
 # “Command” + “Shift” + “.”
 
-# START
+# -------------------------------------
+# BREW  [dependencies]
+# -------------------------------------
+# brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
+# brew list
+# brew doctor
+# brew info nvm             #avoir info install config PATH
+# brew outdated
+# brew update
+# brew upgrade
+# brew cleanup                #Remove outdated versions from the cellar.
+
+# -0
+# -0 START
+# -0
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/0-minuit-ax/.zprofile
@@ -38,8 +49,6 @@ brew install ack # mandatory to use 'h'
 # prompt
 brew install starship
 brew install --cask iterm2
-
-npm install -g npm-check-updates
 
 brew install tree
 
@@ -98,12 +107,28 @@ brew install --cask discord
 # https://github.com/tombonez/noTunes
 brew install --cask notunes
 
-# github CLI
-brew install gh
-brew install git-open
 
 brew install --cask vlc
 
 # does not work
 # brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
 # brew install --cask --no-quarantine syntax-highlight
+
+
+# -1
+# -1 GIT SSH
+# -1
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+brew install gh # github CLI
+brew install git-open
+
+# -3
+# -3 NODE
+# -3
+npm install -g npm-check-updates # # ncu -u (check latest deps)
+
+
+# -2
+# -2
+# -2

@@ -1,0 +1,448 @@
+{
+  // ----------------------------------------
+  // #  TAG--COSMOS
+  // ----------------------------------------
+  // $$$ 28 nov 2022
+  // ----------------------------------------
+  //
+  // (_)   (_)(______) (_____) (_____)
+  // (_)___(_)(_)__   (_)___(_)(_)  (_)
+  // (_______)(____)  (_______)(_)  (_)
+  // (_)   (_)(_)____ (_)   (_)(_)__(_)
+  // (_)   (_)(______)(_)   (_)(_____)
+  //
+  //
+  // ----------------------------------------
+  // TOKEN
+  // ----------------------------------------
+
+  //
+  // ----------------------------------------
+  //  [workbench--color]
+  // ----------------------------------------
+  "workbench.colorCustomizations": {
+    // ---------------------------------------- palette
+    "terminal.background": "#090300",
+    "terminal.foreground": "#A5A2A2",
+    "terminalCursor.background": "#A5A2A2",
+    // "terminalCursor.foreground": "#A5A2A2",
+    "terminal.ansiBlack": "#090300",
+    "terminal.ansiBlue": "#01A0E4",
+    "terminal.ansiBrightBlack": "#5C5855",
+    "terminal.ansiBrightBlue": "#01A0E4",
+    "terminal.ansiBrightCyan": "#B5E4F4",
+    "terminal.ansiBrightGreen": "#01A252",
+    "terminal.ansiBrightMagenta": "#A16A94",
+    "terminal.ansiBrightRed": "#DB2D20",
+    "terminal.ansiBrightWhite": "#F7F7F7",
+    "terminal.ansiBrightYellow": "#FDED02",
+    "terminal.ansiCyan": "#B5E4F4",
+    "terminal.ansiGreen": "#01A252",
+    "terminal.ansiMagenta": "#A16A94",
+    "terminal.ansiRed": "#DB2D20",
+    "terminal.ansiWhite": "#A5A2A2",
+    "terminal.ansiYellow": "#FDED02",
+    // ----------------------------------------
+    "debugConsole.warningForeground": "#800",
+    "debugConsole.errorForeground": "#f7b1b1",
+    "debugConsole.sourceForeground": "#0c0",
+    "debugConsole.infoForeground": "#f1dca6",
+    // ----------------------------------------
+    "editorError.foreground": "#00eaff",
+    "editorWarning.foreground": "#ff0",
+    "editorInfo.foreground": "#00f",
+    // ----------------------------------------
+    "tab.activeBorderTop": "#FFF",
+    "tab.activeForeground": "#FFF",
+    "tab.inactiveBackground": "#777777",
+    "tab.inactiveForeground": "#000000",
+    // ----------------------------------------
+    // "list.activeSelectionForeground": "#FFF",
+    // "list.highlightForeground": "#0ee065", // suggestions letter highlight
+    // background color of the entire focused line in the suggestion box, thanks to Raphael
+    "editorSuggestWidget.selectedBackground": "#ffee00",
+    "editorSuggestWidget.selectedForeground": "#000000",
+    "editorSuggestWidget.foreground": "#000000",
+    "editorSuggestWidget.focusHighlightForeground": "#ffa202",
+    "editorSuggestWidget.background": "#d6d6d6",
+    // ----------------------------------------
+    // "editorLineNumber.foreground": "#e1ff00",
+    // "editorLineNumber.activeForeground": "#e40db9",
+    "editorOverviewRuler.findMatchForeground": "#ffdd00",
+    "editor.findMatchBorder": "#ffdd00",
+    "editor.findMatchHighlightBackground": "#000000",
+    "editor.findMatchBackground": "#f4f7f4",
+    "editor.findMatchHighlightBorder": "#ffdd00",
+    "editor.wordHighlightBorder": "#ff0000",
+    // ----------------------------------------
+    // - line
+    //  tip -- this is current line (cf. voir avec plugin highlight--line)
+    // A REMETTRE
+    // "editor.lineHighlightBorder": "#dcec08",
+    "editor.lineHighlightBorder": "#b700ff",
+    // "editor.wordHighlightStrongBorder": "#8dfe64",
+    // "editor.lineHighlightBackground": "#133307",
+    // A REMETTRE
+    "editor.lineHighlightBackground": "#0a0a0a",
+    // "editor.lineHighlightBackground": "#ffffff",
+    // "editor.lineHighlightBorder": "#1c0270",
+    // "editor.lineHighlightBackground": "#1a0a48",
+    // "editor.lineHighlightBackground": "transparent",
+    // ----------------------------------------
+    // -- cursors
+    "editorCursor.foreground": "#ff0000",
+    "terminalCursor.foreground": "#ff0000",
+    // ----------------------------------------
+    // -- tab-active
+    "list.activeSelectionBackground": "#ff0000",
+    "list.inactiveSelectionBackground": "#ff0000",
+    "tab.activeBackground": "#ff0000",
+    // "tab.activeForeground": "#fafafa",
+    // ----------------------------------------
+    // -- z
+    "activityBar.activeBackground": "#ff0000",
+    "activityBar.activeBorder": "#25320e",
+    "activityBar.background": "#ff0000",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#ff0000",
+    "statusBar.background": "#ff0000",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ff0000",
+    "statusBarItem.remoteBackground": "#ff0000",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#ff0000",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#ff000099",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    // ----------------------------------------
+    // -- [start] OverviewRuler
+    "editorOverviewRuler.border": "#0000",
+    // ----------------------------------------
+    /// -- Search command
+    // "editorOverviewRuler.findMatchForeground": "#fff4",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    //"editorOverviewRuler.errorForeground": "#0000ff",
+    //"editorOverviewRuler.warningForeground": "#ff00ff",
+    //"editorOverviewRuler.infoForeground": "#00ff00",
+    "editorOverviewRuler.bracketMatchForeground": "#0000"
+    //  [end] desactivate-all-ruler
+  },
+  // ----------------------------------------
+  // LINE CURSOR
+  // ----------------------------------------
+  // -- cursor
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  // -- plugin: highlight--line
+  // "highlightLine.borderColor": "DeepSkyBlue",
+  // "highlightLine.borderWidth": "Opx",
+  // "highlightLine.borderStyle": "solid",
+  // ----------------------------------------
+  // -- plugin: PEACOCK
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#ff0000"
+    },
+    {
+      "name": "Svelte Bisque",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  // ----------------------------------------
+  //  -- FILES (visibility)
+  // ----------------------------------------
+  "files.exclude": {
+    // "**/node_modules": true,
+    // "**/.svelte-kit": true,
+    // "**/.scrapper-kit": true,
+    // -- si besoin, reactive
+    // "firebase-debug.log": true,
+    // "firestore-debug.log": true,
+    // "package-lock.json": true,
+    // "ui-debug.log": true,
+    // ".env.twitter": true,
+    // ".env": true,
+    // ".gitignore": true,
+    // ".prettierignore": true,
+    // ".eslintignore": true,
+    //
+    // "**/.git": true,
+    // "**/.svn": true,
+    // "**/.hg": true,
+    // "**/CVS": true,
+    // "**/.DS_Store": true,
+    // "**/Thumbs.db": true,
+    // "**/.env.example": true,
+    // "**/.npmrc": true
+  },
+  // ----------------------------------------
+  // -- SEARCH (visibility)
+  // ----------------------------------------
+  "search.showLineNumbers": true,
+  "search.exclude": {
+    "**/.svelte-kit": true,
+    "**/node_modules": true,
+    "**/*.log": true,
+    "**/*-lock*": true
+  },
+  // ----------------------------------------
+  // HINT
+  // ----------------------------------------
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+
+  // ----------------------------------------
+  // FORMAT
+  // ----------------------------------------
+  // https://github.com/sveltejs/prettier-plugin-svelte
+  // -- svelte
+  "svelte.enable-ts-plugin": true,
+  // ----------------------------------------
+  // -- save + format behavior
+  "editor.formatOnSave": true,
+  // ----------------------------------------
+  // -- scrapper
+  "files.autoSave": "off",
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  // ----------------------------------------
+  // -- viewer
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 500,
+  // ----------------------------------------
+  // FORMATER : esbenp.prettier-vscode
+  // ----------------------------------------
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    // "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[json]": {
+  //   // "editor.defaultFormatter": "vscode.typescript-language-features"
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[yaml]": {
+  //   // "editor.defaultFormatter": "vscode.typescript-language-features"
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // ----------------------------------------
+  // FORMATER : foxundermoon.shell-format
+  // ----------------------------------------
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  // "[gitconfig]": {
+  //   "editor.defaultFormatter": "yy0931.gitconfig-lsp"
+  // },
+
+  // ---
+  // ---
+  // ---
+  // ----------------------------------------
+  // -- [vs-natif]
+  // ----------------------------------------
+  "editor.fontFamily": "Firicico",
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    // "source.organizeImports": true // it can remove unuzesd imports
+  },
+  "editor.scrollBeyondLastLine": false,
+  "files.insertFinalNewline": false,
+  // ----------------------------------------
+  // -- z
+  // ----------------------------------------
+  "editor.stickyScroll.enabled": true,
+  "editor.renderLineHighlight": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "workbench.editor.labelFormat": "short",
+  "explorer.sortOrder": "filesFirst",
+  "explorer.compactFolders": false,
+  "material-icon-theme.folders.color": "#43a047",
+  "workbench.tree.indent": 16,
+  "editor.foldingImportsByDefault": true,
+  // -- nbre de ligne dans le terminal
+  "terminal.integrated.scrollback": 2000,
+  // "errorLens.enabled": true,
+  // ----------------------------------------
+  // -- git
+  // ----------------------------------------
+  "git.decorations.enabled": true,
+  // ----------------------------------------
+  // -- intellisense
+  // ----------------------------------------
+  // https://code.visualstudio.com/docs/editor/intellisense
+  // https://code.visualstudio.com/docs/editor/intellisense#_customizing-intellisense
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "bottom",
+  "editor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.wordWrap": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  // ----------------------------------------
+  // -- theme
+  // ----------------------------------------
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Rebellion (rainglow)",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.scale": 3,
+  // "editor.minimap.size": "fit",
+  // "editor.minimap.side": "right",
+  //   _____    _____   _____  _     _
+  //  (_____)  (_____) (_____)(_)   (_)
+  //  (_)__(_)(_)   (_)(_)  (_)(_)_(_)
+  //  (_____) (_)   (_)(_)  (_)  (_)
+  //  (_)__(_)(_)___(_)(_)__(_)  (_)
+  //  (_____)  (_____) (_____)   (_)
+  //
+  //   _____    _____   _____  _     _
+  //  (_____)  (_____) (_____)(_)   (_)
+  //  (_)__(_)(_)   (_)(_)  (_)(_)_(_)
+  //  (_____) (_)   (_)(_)  (_)  (_)
+  //  (_)__(_)(_)___(_)(_)__(_)  (_)
+  //  (_____)  (_____) (_____)   (_)
+  //
+  // ----------------------------------------
+  // -- plugin: highlight--matching-tag >> https://github.com/vincaslt/vscode-highlight-matching-tag#styling-options
+  // ----------------------------------------
+  // "highlight-matching-tag.highlightFromContent": true,
+  // "highlight-matching-tag.showRuler": false,
+  // "highlight-matching-tag.styles": {
+  //   "opening": {
+  //     "name": {
+  //       "highlight": "blue"
+  //     }
+  //   }
+  // },
+  // ----------------------------------------
+  // -- plugin: highlight--words
+  // ----------------------------------------
+  // "highlightwords.showSidebar": true,
+
+  // "highlightwords.box": {
+  //   "light": false,
+  //   "dark": false
+  // },
+  // ----------------------------------------
+  // -- plugin: highlight--todo
+  // ----------------------------------------
+  // "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+
+  "editor.cursorSmoothCaretAnimation": "on"
+
+  //  ______  _____    _____  _______
+  // (______)(_____)  (_____)(__ _ __)
+  // (_)__  (_)   (_)(_)   (_)  (_)
+  // (____) (_)   (_)(_)   (_)  (_)
+  // (_)    (_)___(_)(_)___(_)  (_)
+  // (_)     (_____)  (_____)   (_)
+  //  ______  _____    _____  _______
+  // (______)(_____)  (_____)(__ _ __)
+  // (_)__  (_)   (_)(_)   (_)  (_)
+  // (____) (_)   (_)(_)   (_)  (_)
+  // (_)    (_)___(_)(_)___(_)  (_)
+  // (_)     (_____)  (_____)   (_)
+  //  ______  _____    _____  _______
+  // (______)(_____)  (_____)(__ _ __)
+  // (_)__  (_)   (_)(_)   (_)  (_)
+  // (____) (_)   (_)(_)   (_)  (_)
+  // (_)    (_)___(_)(_)___(_)  (_)
+  // (_)     (_____)  (_____)   (_)
+}
+// ----------------------------------------
+// -- plugin: blockman
+// ----------------------------------------
+// "blockman.n04Sub02ColorComboPresetForLightTheme": "Classic Dark 1 (Super gradients)",
+// "blockman.n01LineHeight": 0,
+// ----------------------------------------
+// -- plugin: gitlens
+// ----------------------------------------
+// "gitlens.hovers.currentLine.over": "line"
+// ----------------------------------------
+//  z
+// ----------------------------------------
+// "tailwindCSS.includeLanguages": {
+//   "html": "html",
+//   "svelte": "svelte",
+//   "javascript": "javascript",
+//   "css": "css"
+// },
+// ----------------------------------------
+// "editor.quickSuggestions": {
+//   "strings": true
+// },
+// ----------------------------------------
+// "eslint.validate": ["typescript", "javascript"]
+// ----------------------------------------

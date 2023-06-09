@@ -1,0 +1,18 @@
+#!/bin/sh
+# €€€ TAG--COSMOS
+#
+# [ GLOBAL 23 dec 2021] [ INPUT-RC ]
+#
+
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# List all matches in case multiple possible completions are possible
+set show-all-if-ambiguous on
+
+# Flip through autocompletion matches with Shift-Tab.
+# "\e[Z": menu-complete
+
+# Filtered history search
+# "\e[A": history-search-backward
+# "\e[B": history-search-forward
