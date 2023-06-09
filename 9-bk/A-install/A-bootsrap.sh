@@ -14,6 +14,9 @@
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+brew tap homebrew/cask-fonts  
+brew install --cask font-mononoki
+
 brew install --cask google-chrome
 brew install git
 brew install --cask visual-studio-code

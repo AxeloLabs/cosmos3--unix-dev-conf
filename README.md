@@ -33,3 +33,7 @@ git log -p
 git stash show -p
 git reflog -p
 git add -p -->
+
+# shortcuts iterm
+
+# https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2
