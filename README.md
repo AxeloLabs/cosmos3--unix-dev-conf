@@ -21,6 +21,14 @@ I love building things for the web but also making it look great and accessible.
 
 ## 🔗 Links
 
+<a href="https://www.web-agency.app" title="Visit my Site">
+  <img
+    width="24"
+    alt="Visit my Site"
+    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/WebAgency.png"
+  /></a>
+&nbsp;
+
 <a href="https://twitter.com/nzaerox" title="Follow me on Twitter">
   <img
     width="24"
@@ -32,18 +40,15 @@ I love building things for the web but also making it look great and accessible.
   <img
     width="24"
     alt="Follow me on LinkedIn"
-    src="https://raw.githubusercontent.com/trekhleb/trekhleb/master/assets/icons/linkedin.svg"
+    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/LinkedIn.png"
   /></a>
 &nbsp;
-<a href="https://medium.com/@trekhleb" title="Follow me on Medium">
+<a href="https://www.youtube.com/@webagencyapp" title="Follow me on You Tube">
   <img
     width="24"
-    alt="Follow me on Medium"
-    src="https://raw.githubusercontent.com/trekhleb/trekhleb/master/assets/icons/medium.svg"
+    alt="Follow me on YouTube"
+    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Youtube.png"
   /></a>
-
-- 🖌️ [Web-Agency](https://www.web-agency.app/)
-- ▶️ [YouTube](https://www.youtube.com/@webagencyapp)
 
 ## Contents
 
