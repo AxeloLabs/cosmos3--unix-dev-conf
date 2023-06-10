@@ -4,7 +4,7 @@
 
 COSMOS 3
 
-![Lint](https://github.com/jthegedus/asdf-firebase/workflows/Lint/badge.svg)
+![Lint](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/badge-lint-passing.svg)
 
 </div>
 
@@ -36,6 +36,7 @@ I love building things for the web but also making it look great and accessible.
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Twitter.png"
   /></a>
 &nbsp;
+
 <a href="https://www.linkedin.com/in/regnou/" title="Follow me on LinkedIn">
   <img
     width="24"
