@@ -10,7 +10,10 @@ COSMOS 3
 
 # Hey friends! 👋
 
-I love building things for the web but also making it look great and accessible. I help others learn web development and web design through content on [Joy of Code](https://joyofcode.xyz/) and [YouTube](https://www.youtube.com/joyofcodedev). I love JavaScript and frameworks around it, so if you enjoy that type of content or need help navigating the confusing landscape of modern web develepment I'm here for you.
+I am looking for a job !
+
+- contact me via linkedIn
+- see my portfolio site
 
 ## ❤️ Love
 
@@ -57,7 +60,7 @@ I love building things for the web but also making it look great and accessible.
 
 ## Contents
 
-- [Other Useful Software](#other-useful-software)
+- [Softwares](#other-useful-software)
   - [Fonts](#fonts)
   - [Linux / Gnome stuff](#linux--gnome-stuff)
 - [TODO](#todo)
@@ -75,10 +78,6 @@ I love building things for the web but also making it look great and accessible.
 - [`zoxide`](https://github.com/ajeetdsouza/zoxide): A smarter cd command
 - [`bat`](https://github.com/sharkdp/bat): A cat(1) clone with wings
 - [`fd`](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
-
-### Pinned Version Software
-
-Naturally these should be managed per-project for which we have chosen [`asdf`](https://github.com/asdf-vm/asdf).
 
 ### Fonts
 
