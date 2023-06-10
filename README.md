@@ -1,4 +1,4 @@
-![Cosmos](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/8b02f6b9f1685de879f2af13d5627232370aed4d/8-doc/img/1cosmos.webp)
+![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
 
 <div align="center">
 
