@@ -28,6 +28,7 @@ I love building things for the web but also making it look great and accessible.
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/WebAgency.png"
   />My Site</a>
 &nbsp;
+<br/>
 
 <a href="https://twitter.com/nzaerox" title="Follow me on Twitter">
   <img
@@ -36,6 +37,7 @@ I love building things for the web but also making it look great and accessible.
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Twitter.png"
   />Twitter</a>
 &nbsp;
+<br/>
 
 <a href="https://www.linkedin.com/in/regnou/" title="Follow me on LinkedIn">
   <img
@@ -44,9 +46,11 @@ I love building things for the web but also making it look great and accessible.
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/LinkedIn.png"
   />LinkedIn</a>
 &nbsp;
+<br/>
+
 <a href="https://www.youtube.com/@webagencyapp" title="Follow me on You Tube">
   <img
-    width="24"
+    width="64"
     alt="Follow me on YouTube"
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Youtube.png"
   />YouTube</a>
