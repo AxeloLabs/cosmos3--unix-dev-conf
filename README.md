@@ -8,56 +8,6 @@ COSMOS 3
 
 </div>
 
-# Hey friends! 👋
-
-I am looking for a job !
-
-- contact me via linkedIn
-- see my portfolio site
-
-## ❤️ Enterprise Tec Stack
-
-- ☕️ JavaScript
-- 📜 TypeScript
-- ⚡️ Svelte
-- 🧑‍🎨 Figma
-
-## 🔗 Links
-
-<a href="https://www.web-agency.app" title="Visit my Site">
-  <img
-    width="64"
-    alt="Visit my Site"
-    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/WebAgency.png"
-  />My Site</a>
-&nbsp;
-<br/>
-
-<a href="https://twitter.com/nzaerox" title="Follow me on Twitter">
-  <img
-    width="64"
-    alt="Follow me on Twitter"
-    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Twitter.png"
-  />Twitter</a>
-&nbsp;
-<br/>
-
-<a href="https://www.linkedin.com/in/regnou/" title="Follow me on LinkedIn">
-  <img
-    width="64"
-    alt="Follow me on LinkedIn"
-    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/LinkedIn.png"
-  />LinkedIn</a>
-&nbsp;
-<br/>
-
-<a href="https://www.youtube.com/@webagencyapp" title="Follow me on You Tube">
-  <img
-    width="64"
-    alt="Follow me on YouTube"
-    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Youtube.png"
-  />YouTube</a>
-
 ## Contents
 
 - [Softwares](#other-useful-software)
@@ -66,9 +16,7 @@ I am looking for a job !
 - [TODO](#todo)
 - [License](#license)
 
-## Installled with script
-
-### Rolling Version Software
+### Softwares
 
 - [`nushell`](https://www.nushell.sh/): a new type of shell
 - [`starship`](https://starship.rs/): cross-shell theme
