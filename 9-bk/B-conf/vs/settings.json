@@ -648,7 +648,8 @@
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   // -0 Z
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "svelte.ask-to-enable-ts-plugin": false
   // "tabnine.experimentalAutoImports": true,
   // -0
   // -0 END
