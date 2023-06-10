@@ -6,9 +6,8 @@ COSMOS 3
 
 ![Lint](https://github.com/jthegedus/asdf-firebase/workflows/Lint/badge.svg)
 
+<br/>
 </div>
-
-![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
 
 # Hey friends! 👋
 
@@ -23,10 +22,29 @@ I love building things for the web but also making it look great and accessible.
 
 ## 🔗 Links
 
+<a href="https://twitter.com/nzaerox" title="Follow me on Twitter">
+  <img
+    width="24"
+    alt="Follow me on Twitter"
+    src="https://raw.githubusercontent.com/trekhleb/trekhleb/master/assets/icons/twitter.svg"
+  /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/regnou/" title="Follow me on LinkedIn">
+  <img
+    width="24"
+    alt="Follow me on LinkedIn"
+    src="https://raw.githubusercontent.com/trekhleb/trekhleb/master/assets/icons/linkedin.svg"
+  /></a>
+&nbsp;
+<a href="https://medium.com/@trekhleb" title="Follow me on Medium">
+  <img
+    width="24"
+    alt="Follow me on Medium"
+    src="https://raw.githubusercontent.com/trekhleb/trekhleb/master/assets/icons/medium.svg"
+  /></a>
+
 - 🖌️ [Web-Agency](https://www.web-agency.app/)
 - ▶️ [YouTube](https://www.youtube.com/@webagencyapp)
-- 🐦️ [Twitter](https://twitter.com/nzaerox)
-- 🐦️ [LinkedIn](https://www.linkedin.com/in/regnou/)
 
 ## Contents
 
@@ -63,3 +81,5 @@ Naturally these should be managed per-project for which we have chosen [`asdf`](
 
 -- 9 juin 2023
 -- Axel Regnoult
+
+![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
