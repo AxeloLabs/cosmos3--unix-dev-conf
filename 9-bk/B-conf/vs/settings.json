@@ -546,6 +546,9 @@
   // -1 WORKBENCH
   // -1
   "workbench.colorCustomizations": {
+    // "editorCursor.background": "#41f110",
+    "editorCursor.foreground": "#41f110",
+    // "terminalCursor.foreground": "#ffff00",
     "scrollbarSlider.background": "#ff000058",
     "editorLineNumber.activeForeground": "#41f110",
     // "editorOverviewRuler.background": "#ffffff",
@@ -577,6 +580,14 @@
     // "gitDecoration.untrackedResourceForeground": "#fdfdfd",
     // "gitDecoration.ignoredResourceForeground": "#ff0000",
     // "gitDecoration.conflictingResourceForeground": "#00e5ff"
+
+    // -1 ctrl + P
+    "quickInput.foreground": "#000",
+    "quickInput.background": "#fff",
+    "quickInputList.focusBackground": "#000",
+    // this color is the letter matched !
+    "list.highlightForeground": "#ff0000",
+
     // -1 suggest
     "editorSuggestWidget.selectedBackground": "#000",
     "editorSuggestWidget.border": "#fff",
@@ -585,13 +596,11 @@
     "editorSuggestWidget.selectedForeground": "#fff",
     "editorSuggestWidget.focusHighlightForeground": "#ff0000",
     "editorSuggestWidget.highlightForeground": "#ff0000",
+
+    // -1 terminal
     "terminal.fontLigatures": true,
     "terminal.fontFamily": "Victor Mono"
   },
-  // -0
-  // -0 BASE
-  // -0
-  "window.zoomLevel": 2,
 
   "editor.fontLigatures": true,
 
@@ -627,7 +636,9 @@
   "workbench.tree.indent": 16,
   "material-icon-theme.folders.color": "#43a047",
   "material-icon-theme.folders.theme": "classic",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "solid",
+  "workbench.colorTheme": "Visual Studio Dark"
   // -3 Z
   // "tabnine.experimentalAutoImports": true,
 }
