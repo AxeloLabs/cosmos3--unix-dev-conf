@@ -505,7 +505,7 @@
           "keyword.operator.new.js"
         ],
         "settings": {
-          // "fontStyle": "italic"
+          "fontStyle": "italic"
         }
       },
       {
@@ -585,6 +585,7 @@
     "quickInput.foreground": "#000",
     "quickInput.background": "#fff",
     "quickInputList.focusBackground": "#000",
+    "quickInputList.focusForeground": "#FFF",
     // this color is the letter matched !
     "list.highlightForeground": "#ff0000",
 
@@ -599,18 +600,21 @@
 
     // -1 terminal
     "terminal.fontLigatures": true,
-    "terminal.fontFamily": "Victor Mono"
+    "terminal.fontFamily": "Victor Mono",
+    // -1 Z
+    "editor.background": "#1a2801"
   },
-
+  // -0
+  // -0 Z
+  // -0
+  // -0 FONT
   "editor.fontLigatures": true,
-
   "editor.fontFamily": "Victor Mono",
   // "editor.fontFamily": "Mononoki",
   // "editor.fontFamily": "Firicico",
   // "editor.fontFamily": "Cascadia Code",
   // "editor.fontFamily": "FiraCode",
-  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
-  // this prettier default formater -> it will remove trailing space
+  // -0 FORMAT - this prettier default formater -> it will remove trailing space
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -618,6 +622,9 @@
     // "source.organizeImports": true,
     "source.sortMembers": true
   },
+  // "svelte.enable-ts-plugin": true
+  // -0 EDITOR
+  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
   "explorer.confirmDragAndDrop": false,
   "editor.suggest.showWords": false,
   "editor.tabSize": 2,
@@ -626,19 +633,24 @@
   "workbench.editor.labelFormat": "short",
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDelete": false,
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-  // -2 minimap S
-  // "editor.minimap.enabled": false,
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.showSlider": "always",
-  // -1 explorer ++
   "workbench.tree.indent": 16,
   "material-icon-theme.folders.color": "#43a047",
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorBlinking": "solid",
-  "workbench.colorTheme": "Visual Studio Dark"
-  // -3 Z
+  "workbench.colorTheme": "Darkside (rainglow)",
+  "window.zoomLevel": 2,
+  // -0 HINT
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  // -0 minimap S
+  // "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  // -0 Z
+  "tabnine.experimentalAutoImports": true
   // "tabnine.experimentalAutoImports": true,
+  // -0
+  // -0 END
+  // -0
 }
