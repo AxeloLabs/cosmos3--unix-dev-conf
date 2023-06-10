@@ -12,7 +12,6 @@ COSMOS 3
 
 - [Softwares](#other-useful-software)
   - [Fonts](#fonts)
-  - [Linux / Gnome stuff](#linux--gnome-stuff)
 - [TODO](#todo)
 - [License](#license)
 
