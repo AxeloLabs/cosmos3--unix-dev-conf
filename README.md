@@ -2,9 +2,9 @@
 
 # Dotfiles & Developer Environment
 
-![Lint](https://github.com/jthegedus/asdf-firebase/workflows/Lint/badge.svg)
-
 COSMOS 3
+
+![Lint](https://github.com/jthegedus/asdf-firebase/workflows/Lint/badge.svg)
 
 </div>
 
