@@ -6,7 +6,6 @@ COSMOS 3
 
 ![Lint](https://github.com/jthegedus/asdf-firebase/workflows/Lint/badge.svg)
 
-<br/>
 </div>
 
 # Hey friends! 👋
@@ -26,7 +25,7 @@ I love building things for the web but also making it look great and accessible.
   <img
     width="24"
     alt="Follow me on Twitter"
-    src="https://raw.githubusercontent.com/trekhleb/trekhleb/master/assets/icons/twitter.svg"
+    src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Twitter.png"
   /></a>
 &nbsp;
 <a href="https://www.linkedin.com/in/regnou/" title="Follow me on LinkedIn">
