@@ -8,7 +8,7 @@ COSMOS 3
 
 </div>
 
-## Contents
+## Summary
 
 - [Softwares](#other-useful-software)
   - [Fonts](#fonts)
