@@ -10,6 +10,24 @@ COSMOS 3
 
 ![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
 
+# Hey friends! 👋
+
+I love building things for the web but also making it look great and accessible. I help others learn web development and web design through content on [Joy of Code](https://joyofcode.xyz/) and [YouTube](https://www.youtube.com/joyofcodedev). I love JavaScript and frameworks around it, so if you enjoy that type of content or need help navigating the confusing landscape of modern web develepment I'm here for you.
+
+## ❤️ Love
+
+- ☕️ JavaScript
+- 📜 TypeScript
+- ⚡️ Svelte
+- 🧑‍🎨 Figma
+
+## 🔗 Links
+
+- 🖌️ [Web-Agency](https://www.web-agency.app/)
+- ▶️ [YouTube](https://www.youtube.com/@webagencyapp)
+- 🐦️ [Twitter](https://twitter.com/nzaerox)
+- 🐦️ [LinkedIn](https://www.linkedin.com/in/regnou/)
+
 ## Contents
 
 - [Other Useful Software](#other-useful-software)
