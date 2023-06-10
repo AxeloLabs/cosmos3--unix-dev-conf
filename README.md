@@ -15,7 +15,7 @@ I am looking for a job !
 - contact me via linkedIn
 - see my portfolio site
 
-## ❤️ Love
+## ❤️ Enterprise Tec Stack
 
 - ☕️ JavaScript
 - 📜 TypeScript
@@ -72,8 +72,6 @@ I am looking for a job !
 
 - [`nushell`](https://www.nushell.sh/): a new type of shell
 - [`starship`](https://starship.rs/): cross-shell theme
-- [`asdf`](https://asdf-vm.com): Manage multiple runtime versions with a single CLI tool
-- [`powerline fonts`](https://github.com/powerline/fonts)
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep): recursively search directories for a regex pattern while respecting your gitignore
 - [`zoxide`](https://github.com/ajeetdsouza/zoxide): A smarter cd command
 - [`bat`](https://github.com/sharkdp/bat): A cat(1) clone with wings
@@ -81,13 +79,11 @@ I am looking for a job !
 
 ### Fonts
 
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/#how-to-install): mono, ligatures, free
+- [Victor Mono](https://rubjo.github.io/victor-mono/): mono, ligatures, free
 - [Microsoft's Cascadia Code with Powerlines](https://github.com/microsoft/cascadia-code): mono, ligatures, free
 - [Fira Code](https://github.com/tonsky/FiraCode): mono, ligatures, free
-- [Dank Mono](https://dank.sh/): mono, ligatures, paid (although reasonable)
-- [Hack](https://github.com/source-foundry/Hack): mono, free
-
--- 9 juin 2023
--- Axel Regnoult
 
 ![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
+
+-- 9 juin 2023  
+-- Axel Regnoult
