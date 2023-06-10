@@ -31,7 +31,7 @@ I love building things for the web but also making it look great and accessible.
 
 <a href="https://twitter.com/nzaerox" title="Follow me on Twitter">
   <img
-    width="24"
+    width="64"
     alt="Follow me on Twitter"
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/Twitter.png"
   /></a>
@@ -39,7 +39,7 @@ I love building things for the web but also making it look great and accessible.
 
 <a href="https://www.linkedin.com/in/regnou/" title="Follow me on LinkedIn">
   <img
-    width="24"
+    width="32"
     alt="Follow me on LinkedIn"
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/LinkedIn.png"
   /></a>
