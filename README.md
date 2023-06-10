@@ -1,5 +1,3 @@
-![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
-
 <div align="center">
 
 # Dotfiles & Developer Environment ![Lint](https://github.com/jthegedus/asdf-firebase/workflows/Lint/badge.svg)
@@ -7,6 +5,8 @@
 COSMOS 3
 
 </div>
+
+![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
 
 ## Contents
 
