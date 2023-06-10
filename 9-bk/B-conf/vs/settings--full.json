@@ -1,0 +1,1421 @@
+{
+  // ----------------------------------------
+  // #  TAG--COSMOS
+  // ----------------------------------------
+  // $$$ 28 nov 2022
+  // ----------------------------------------
+  //
+  // (_)   (_)(______) (_____) (_____)
+  // (_)___(_)(_)__   (_)___(_)(_)  (_)
+  // (_______)(____)  (_______)(_)  (_)
+  // (_)   (_)(_)____ (_)   (_)(_)__(_)
+  // (_)   (_)(______)(_)   (_)(_____)
+  //
+  //
+  // ----------------------------------------
+  // TOKEN
+  // ----------------------------------------
+
+  //
+  // ----------------------------------------
+  //  [workbench--color]
+  // ----------------------------------------
+  "workbench.colorCustomizations": {
+    // ---------------------------------------- palette
+    "terminal.background": "#090300",
+    "terminal.foreground": "#A5A2A2",
+    "terminalCursor.background": "#A5A2A2",
+    // "terminalCursor.foreground": "#A5A2A2",
+    "terminal.ansiBlack": "#090300",
+    "terminal.ansiBlue": "#01A0E4",
+    "terminal.ansiBrightBlack": "#5C5855",
+    "terminal.ansiBrightBlue": "#01A0E4",
+    "terminal.ansiBrightCyan": "#B5E4F4",
+    "terminal.ansiBrightGreen": "#01A252",
+    "terminal.ansiBrightMagenta": "#A16A94",
+    "terminal.ansiBrightRed": "#DB2D20",
+    "terminal.ansiBrightWhite": "#F7F7F7",
+    "terminal.ansiBrightYellow": "#FDED02",
+    "terminal.ansiCyan": "#B5E4F4",
+    "terminal.ansiGreen": "#01A252",
+    "terminal.ansiMagenta": "#A16A94",
+    "terminal.ansiRed": "#DB2D20",
+    "terminal.ansiWhite": "#A5A2A2",
+    "terminal.ansiYellow": "#FDED02",
+    // ----------------------------------------
+    "debugConsole.warningForeground": "#800",
+    "debugConsole.errorForeground": "#f7b1b1",
+    "debugConsole.sourceForeground": "#0c0",
+    "debugConsole.infoForeground": "#f1dca6",
+    // ----------------------------------------
+    "editorError.foreground": "#00eaff",
+    "editorWarning.foreground": "#ff0",
+    "editorInfo.foreground": "#00f",
+    // ----------------------------------------
+    "tab.activeBorderTop": "#FFF",
+    "tab.activeForeground": "#FFF",
+    "tab.inactiveBackground": "#777777",
+    "tab.inactiveForeground": "#000000",
+    // ----------------------------------------
+    // "list.activeSelectionForeground": "#FFF",
+    // "list.highlightForeground": "#0ee065", // suggestions letter highlight
+    // background color of the entire focused line in the suggestion box, thanks to Raphael
+    "editorSuggestWidget.selectedBackground": "#ffee00",
+    "editorSuggestWidget.selectedForeground": "#000000",
+    "editorSuggestWidget.foreground": "#000000",
+    "editorSuggestWidget.focusHighlightForeground": "#ffa202",
+    "editorSuggestWidget.background": "#d6d6d6",
+    // ----------------------------------------
+    // "editorLineNumber.foreground": "#e1ff00",
+    // "editorLineNumber.activeForeground": "#e40db9",
+    "editorOverviewRuler.findMatchForeground": "#ffdd00",
+    "editor.findMatchBorder": "#ffdd00",
+    "editor.findMatchHighlightBackground": "#000000",
+    "editor.findMatchBackground": "#f4f7f4",
+    "editor.findMatchHighlightBorder": "#ffdd00",
+    "editor.wordHighlightBorder": "#ff0000",
+    // ----------------------------------------
+    // - line
+    //  tip -- this is current line (cf. voir avec plugin highlight--line)
+    // A REMETTRE
+    // "editor.lineHighlightBorder": "#dcec08",
+    "editor.lineHighlightBorder": "#b700ff",
+    // "editor.wordHighlightStrongBorder": "#8dfe64",
+    // "editor.lineHighlightBackground": "#133307",
+    // A REMETTRE
+    "editor.lineHighlightBackground": "#0a0a0a",
+    // "editor.lineHighlightBackground": "#ffffff",
+    // "editor.lineHighlightBorder": "#1c0270",
+    // "editor.lineHighlightBackground": "#1a0a48",
+    // "editor.lineHighlightBackground": "transparent",
+    // ----------------------------------------
+    // -- cursors
+    "editorCursor.foreground": "#ff0000",
+    "terminalCursor.foreground": "#ff0000",
+    // ----------------------------------------
+    // -- tab-active
+    "list.activeSelectionBackground": "#ff0000",
+    "list.inactiveSelectionBackground": "#ff0000",
+    "tab.activeBackground": "#ff0000",
+    // "tab.activeForeground": "#fafafa",
+    // ----------------------------------------
+    // -- z
+    "activityBar.activeBackground": "#ff0000",
+    "activityBar.activeBorder": "#25320e",
+    "activityBar.background": "#ff0000",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#ff0000",
+    "statusBar.background": "#ff0000",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ff0000",
+    "statusBarItem.remoteBackground": "#ff0000",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#ff0000",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#ff000099",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    // ----------------------------------------
+    // -- [start] OverviewRuler
+    "editorOverviewRuler.border": "#0000",
+    // ----------------------------------------
+    /// -- Search command
+    // "editorOverviewRuler.findMatchForeground": "#fff4",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    //"editorOverviewRuler.errorForeground": "#0000ff",
+    //"editorOverviewRuler.warningForeground": "#ff00ff",
+    //"editorOverviewRuler.infoForeground": "#00ff00",
+    "editorOverviewRuler.bracketMatchForeground": "#0000"
+    //  [end] desactivate-all-ruler
+  },
+  // ----------------------------------------
+  // LINE CURSOR
+  // ----------------------------------------
+  // -- cursor
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  // -- plugin: highlight--line
+  // "highlightLine.borderColor": "DeepSkyBlue",
+  // "highlightLine.borderWidth": "Opx",
+  // "highlightLine.borderStyle": "solid",
+  // ----------------------------------------
+  // -- plugin: PEACOCK
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#ff0000"
+    },
+    {
+      "name": "Svelte Bisque",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  // ----------------------------------------
+  //  -- FILES (visibility)
+  // ----------------------------------------
+  "files.exclude": {
+    // "**/node_modules": true,
+    // "**/.svelte-kit": true,
+    // "**/.scrapper-kit": true,
+    // -- si besoin, reactive
+    // "firebase-debug.log": true,
+    // "firestore-debug.log": true,
+    // "package-lock.json": true,
+    // "ui-debug.log": true,
+    // ".env.twitter": true,
+    // ".env": true,
+    // ".gitignore": true,
+    // ".prettierignore": true,
+    // ".eslintignore": true,
+    //
+    // "**/.git": true,
+    // "**/.svn": true,
+    // "**/.hg": true,
+    // "**/CVS": true,
+    // "**/.DS_Store": true,
+    // "**/Thumbs.db": true,
+    // "**/.env.example": true,
+    // "**/.npmrc": true
+  },
+  // ----------------------------------------
+  // -- SEARCH (visibility)
+  // ----------------------------------------
+  "search.showLineNumbers": true,
+  "search.exclude": {
+    "**/.svelte-kit": true,
+    "**/node_modules": true,
+    "**/*.log": true,
+    "**/*-lock*": true
+  },
+  // ----------------------------------------
+  // HINT
+  // ----------------------------------------
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+
+  // ----------------------------------------
+  // FORMAT
+  // ----------------------------------------
+  // https://github.com/sveltejs/prettier-plugin-svelte
+  // -- svelte
+  "svelte.enable-ts-plugin": true,
+  // ----------------------------------------
+  // -- save + format behavior
+  "editor.formatOnSave": true,
+  // ----------------------------------------
+  // -- scrapper
+  "files.autoSave": "off",
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  // ----------------------------------------
+  // -- viewer
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 500,
+  // ----------------------------------------
+  // FORMATER : esbenp.prettier-vscode
+  // ----------------------------------------
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    // "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[json]": {
+  //   // "editor.defaultFormatter": "vscode.typescript-language-features"
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[yaml]": {
+  //   // "editor.defaultFormatter": "vscode.typescript-language-features"
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // ----------------------------------------
+  // FORMATER : foxundermoon.shell-format
+  // ----------------------------------------
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  // "[gitconfig]": {
+  //   "editor.defaultFormatter": "yy0931.gitconfig-lsp"
+  // },
+
+  // ---
+  // ---
+  // ---
+  // ----------------------------------------
+  // -- [vs-natif]
+  // ----------------------------------------
+  "editor.fontFamily": "Firicico",
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    // "source.organizeImports": true // it can remove unuzesd imports
+  },
+  "editor.scrollBeyondLastLine": false,
+  "files.insertFinalNewline": false,
+  // ----------------------------------------
+  // -- z
+  // ----------------------------------------
+  "editor.stickyScroll.enabled": true,
+  "editor.renderLineHighlight": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "workbench.editor.labelFormat": "short",
+  "explorer.sortOrder": "filesFirst",
+  "explorer.compactFolders": false,
+  "material-icon-theme.folders.color": "#43a047",
+  "workbench.tree.indent": 16,
+  "editor.foldingImportsByDefault": true,
+  // -- nbre de ligne dans le terminal
+  "terminal.integrated.scrollback": 2000,
+  // "errorLens.enabled": true,
+  // ----------------------------------------
+  // -- git
+  // ----------------------------------------
+  "git.decorations.enabled": true,
+  // ----------------------------------------
+  // -- intellisense
+  // ----------------------------------------
+  // https://code.visualstudio.com/docs/editor/intellisense
+  // https://code.visualstudio.com/docs/editor/intellisense#_customizing-intellisense
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "bottom",
+  "editor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.wordWrap": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  // ----------------------------------------
+  // -- theme
+  // ----------------------------------------
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Rebellion (rainglow)",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.scale": 3,
+  // "editor.minimap.size": "fit",
+  // "editor.minimap.side": "right",
+  //   _____    _____   _____  _     _
+  //  (_____)  (_____) (_____)(_)   (_)
+  //  (_)__(_)(_)   (_)(_)  (_)(_)_(_)
+  //  (_____) (_)   (_)(_)  (_)  (_)
+  //  (_)__(_)(_)___(_)(_)__(_)  (_)
+  //  (_____)  (_____) (_____)   (_)
+  //
+  //   _____    _____   _____  _     _
+  //  (_____)  (_____) (_____)(_)   (_)
+  //  (_)__(_)(_)   (_)(_)  (_)(_)_(_)
+  //  (_____) (_)   (_)(_)  (_)  (_)
+  //  (_)__(_)(_)___(_)(_)__(_)  (_)
+  //  (_____)  (_____) (_____)   (_)
+  //
+  // ----------------------------------------
+  // -- plugin: highlight--matching-tag >> https://github.com/vincaslt/vscode-highlight-matching-tag#styling-options
+  // ----------------------------------------
+  // "highlight-matching-tag.highlightFromContent": true,
+  // "highlight-matching-tag.showRuler": false,
+  // "highlight-matching-tag.styles": {
+  //   "opening": {
+  //     "name": {
+  //       "highlight": "blue"
+  //     }
+  //   }
+  // },
+  // ----------------------------------------
+  // -- plugin: highlight--words
+  // ----------------------------------------
+  // "highlightwords.showSidebar": true,
+
+  // "highlightwords.box": {
+  //   "light": false,
+  //   "dark": false
+  // },
+  // ----------------------------------------
+  // -- plugin: highlight--todo
+  // ----------------------------------------
+  // "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+
+  "editor.cursorSmoothCaretAnimation": "on"
+
+  //  ______  _____    _____  _______
+  // (______)(_____)  (_____)(__ _ __)
+  // (_)__  (_)   (_)(_)   (_)  (_)
+  // (____) (_)   (_)(_)   (_)  (_)
+  // (_)    (_)___(_)(_)___(_)  (_)
+  // (_)     (_____)  (_____)   (_)
+  //  ______  _____    _____  _______
+  // (______)(_____)  (_____)(__ _ __)
+  // (_)__  (_)   (_)(_)   (_)  (_)
+  // (____) (_)   (_)(_)   (_)  (_)
+  // (_)    (_)___(_)(_)___(_)  (_)
+  // (_)     (_____)  (_____)   (_)
+  //  ______  _____    _____  _______
+  // (______)(_____)  (_____)(__ _ __)
+  // (_)__  (_)   (_)(_)   (_)  (_)
+  // (____) (_)   (_)(_)   (_)  (_)
+  // (_)    (_)___(_)(_)___(_)  (_)
+  // (_)     (_____)  (_____)   (_)
+}
+// ----------------------------------------
+// -- plugin: blockman
+// ----------------------------------------
+// "blockman.n04Sub02ColorComboPresetForLightTheme": "Classic Dark 1 (Super gradients)",
+// "blockman.n01LineHeight": 0,
+// ----------------------------------------
+// -- plugin: gitlens
+// ----------------------------------------
+// "gitlens.hovers.currentLine.over": "line"
+// ----------------------------------------
+//  z
+// ----------------------------------------
+// "tailwindCSS.includeLanguages": {
+//   "html": "html",
+//   "svelte": "svelte",
+//   "javascript": "javascript",
+//   "css": "css"
+// },
+// ----------------------------------------
+// "editor.quickSuggestions": {
+//   "strings": true
+// },
+// ----------------------------------------
+// "eslint.validate": ["typescript", "javascript"]
+// ----------------------------------------
+
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    // {
+    //   "scope": ["meta.brace.square.ts", "meta.array.literal.ts"],
+    //   "settings": {
+    //     "foreground": "#d08aea"
+    //   }
+    // },
+    //
+    {
+      "scope": [
+        "storage.modifier.async.ts",
+        "storage.modifier.async.js",
+        "keyword.control.import.js",
+        "keyword.control.import.ts",
+        "keyword.control.export.js",
+        "keyword.control.export.ts",
+        "keyword.control.from.js",
+        "keyword.control.from.ts",
+        "keyword.control.trycatch.js",
+        "variable.language.this.js",
+        "keyword.control.trycatch.ts",
+        "variable.language.this.ts",
+        "support.class.component.svelte",
+        "keyword.control.type.ts",
+        // "punctuation.terminator.statement.ts",
+        // "punctuation.terminator.statement.js",
+        "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.js",
+        "punctuation.definition.array.begin.json.comments",
+        "punctuation.definition.array.end.json.comments",
+        "meta.brace.square.ts",
+        "meta.array.literal.js meta.brace.square.js",
+        "meta.array.literal.ts meta.brace.square.ts",
+        "meta.function.js storage.type.function.js",
+        "meta.function.ts storage.type.function.ts",
+        "keyword.operator.assignment.js",
+        "keyword.operator.assignment.ts",
+        "variable.prop.css",
+        "keyword.other.unit.em.css",
+        "meta.block.ts meta.var.expr.ts keyword.control.flow.ts",
+        "meta.block.js meta.var.expr.js keyword.control.flow.js"
+      ],
+      "settings": {
+        "fontStyle": "italic "
+      }
+    },
+    // ----------------------------------------
+    {
+      "scope": [
+        "string.template.js variable.other.readwrite.js",
+        "string.template.ts variable.other.readwrite.ts",
+        "punctuation.definition.block.js",
+        "punctuation.definition.block.ts"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    // ----------------------------------------
+    {
+      "scope": [
+        "keyword.control.conditional.svelte",
+        "keyword.control.conditional.ts",
+        "keyword.control.flow.svelte",
+        "keyword.control.svelte",
+        "punctuation.separator.comma.js",
+        "punctuation.separator.comma.ts",
+        "support.type.property-name.json.comments",
+        "meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts",
+        "meta.objectliteral.js meta.object.member.js meta.object-literal.key.js",
+        // "meta.objectliteral.js",
+        // "meta.objectliteral.ts",
+        "meta.object.member.js variable.other.readwrite.js",
+        "meta.object.member.ts variable.other.readwrite.ts",
+        "meta.object-literal.key.js string.quoted.double.js",
+        "meta.object-literal.key.ts string.quoted.double.ts",
+        "meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts entity.name.function.ts",
+        "meta.objectliteral.js meta.object.member.js meta.object-literal.key.js entity.name.function.js",
+        "support.type.property-name.css",
+        "meta.objectliteral.js meta.object.member.js meta.object-literal.key.js string.quoted.single.js",
+        "meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts string.quoted.single.ts"
+      ],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#6cd800"
+      }
+    },
+    // ----------------------------------------
+    {
+      "scope": [
+        // "keyword.other.unit.em.css",
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    // ----------------------------------------
+    {
+      "scope": [
+        "meta.definition.function.ts entity.name.function.ts",
+        "meta.definition.function.js entity.name.function.js",
+        "variable.other.constant.ts entity.name.function.ts",
+        "variable.other.constant.js entity.name.function.js",
+        "meta.object-literal.key.ts entity.name.function.ts",
+        "meta.object-literal.key.ts entity.name.function.js"
+      ],
+      "settings": {
+        "fontStyle": " underline",
+        "foreground": "#ff0000"
+      }
+    },
+    // ----------------------------------------
+    //  color
+    {
+      "scope": [
+        "text.svelte",
+        "meta.block.js string.quoted.single.js",
+        "meta.block.js string.quoted.single.ts",
+        "meta.var.expr.js string.quoted.single.js",
+        "meta.var.expr.js string.quoted.single.ts",
+        "string.quoted.double.js",
+        "string.quoted.double.ts",
+        "string.quoted.single.js",
+        "string.quoted.single.ts",
+        "string.template.js",
+        "string.template.ts",
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.definition.string.template.begin.ts",
+        "punctuation.definition.string.template.end.js",
+        "punctuation.definition.string.template.end.ts",
+        "string.template.js ",
+        "string.template.ts",
+        "comment.block.js",
+        "comment.block.ts",
+        "comment.line.double-slash.ts",
+        "comment.line.double-slash.js",
+        "comment.block.svelte",
+        "comment.block.documentation.js",
+        "comment.block.documentation.ts",
+        "punctuation.separator.key-value.css",
+        "punctuation.terminator.rule.css"
+      ],
+      "settings": {
+        // TODO MODIF 2 (comment)
+        "foreground": "#4a4a4af7"
+      }
+    },
+    // ----------------------------------------
+    {
+      "scope": ["string.quoted.svelte"],
+      "settings": {
+        // TODO MODIF 3 (string)
+        "foreground": "#25fa00"
+        // "foreground": "#fa0000"
+      }
+    },
+    // ----------------------------------------
+    {
+      "scope": [
+        "storage.type.ts",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.js",
+        "punctuation.definition.string.end.ts",
+        "storage.modifier.async.ts",
+        "storage.modifier.async.js",
+        "variable.other.readwrite.ts",
+        "meta.definition.variable.ts variable.other.constant.ts",
+        "meta.definition.variable.js variable.other.constant.js",
+        "variable.other.object.ts",
+        "variable.other.object.js",
+        "entity.name.function.ts",
+        "entity.name.function.js",
+        "string.quoted.double.json.comments",
+        "meta.embedded.line.js variable.other.readwrite.js",
+        "meta.embedded.line.ts variable.other.readwrite.ts",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.ts",
+        "variable.other.property.ts",
+        "variable.other.property.js",
+        "entity.other.attribute-name.svelte",
+        "support.constant.property-value.css.postcss",
+        "entity.name.tag",
+        "support.constant.property-value.css",
+        "constant.numeric.css",
+        "variable.prop.css",
+        "keyword.other.unit.em.css"
+      ],
+      "settings": {
+        // MODIF 1
+        "foreground": "#b1b1b1"
+      }
+    }
+    // ----------------------------------------
+  ]
+},
+
+{
+  // 2 START
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": null,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.md": "vscode.markdown.preview.editor"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "zenMode.centerLayout": false,
+  "extensions.ignoreRecommendations": true,
+  // 3 EDITOR
+  "editor.accessibilitySupport": "off",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.suggest.showIcons": false,
+  "editor.hover.enabled": false,
+  // "editor.fontFamily"                                 : "Cascadia Code",
+  // "editor.fontFamily"                                 : "Dank Mono, FuraCode Nerd Font, Inconsolata",
+  // "editor.fontFamily"                                 : "flottflott",
+  // "editor.fontFamily"                                 : "FuraCode Nerd Font",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSurroundingLines": 5,
+
+  "editor.fontSize": 14,
+  "editor.cursorStyle": "line",
+  "editor.suggestSelection": "first",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.side": "right",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.scale": 3,
+  "editor.minimap.size": "fit",
+
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabCompletion": "on",
+  // "editor.autoIndent"                                 : "full",
+  // "editor.cursorBlinking"                             : "solid",
+  // "editor.cursorSmoothCaretAnimation"                 : true,
+  // "editor.cursorStyle"                                : "line",
+  // "editor.fontFamily"                                 : "Dank Mono, Fira Code  ,Inconsolata",
+  // "editor.formatOnPaste"                              : true,
+  // "editor.formatOnType"                               : false,
+  // "editor.letterSpacing"                              : 0.3,
+  // "editor.lineHeight"                                 : 25,
+  // "editor.wordWrap": "on",
+  // 3 EDITOR SUGGESTION
+  "editor.suggest.showConstants": false,
+  "editor.suggest.showEvents": false,
+  "editor.suggest.showIssues": false,
+  "editor.suggest.showKeywords": false,
+  "editor.suggest.showOperators": false,
+  "editor.suggest.showUsers": false,
+  // 2 TERMINAL
+  // "terminal.integrated.env.osx": {
+  //   "FIG_NEW_SESSION": "1"
+  // },
+  "terminal.integrated.fontFamily": "Firicico",
+  "terminal.integrated.fontSize": 14,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.scrollback": 4000,
+  // "terminal.integrated.shell.osx"                     : "/bin/zsh",
+  // "terminal.integrated.fontFamily"                    : "FuraCode Nerd Font",
+  // 2 search
+  // 2 TAILWIND LINT
+  // "files.associations": {
+  //   "*.svelte": "tailwindcss",
+  // },
+  // "tailwindCSS.includeLanguages": {
+  //   "svelte": "html",
+  // },
+  // "css.validate": false,
+  // "editor.quickSuggestions": {
+  // "other": true,
+  // "comments": false,
+  // "strings": true
+  // },
+  // -0 FORMAT // =>  I want to use elint formattter // => ESLINT CONFIG + format + autosave on save -> https://daveceddia.com/vscode-use-eslintrc/
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  // -0 SVELTE
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+
+  "todohighlight.isEnable": true,
+  "workbench.colorCustomizations": {
+    // -0 : https://code.visualstudio.com/api/references/theme-color
+    "editor.stackFrameHighlightBackground": "#00d9",
+    "editor.focusedStackFrameHighlightBackground": "#ff0000",
+    "debugToolBar.background": "#000",
+    "debugToolBar.border": "#ff0000",
+    // "editorError.border": "#ff0000",
+    "scrollbarSlider.background": "#eee4",
+    "editorError.background": "#ff0000",
+    // "editorError.foreground": "#000",
+    // 2 color: ruler
+    "editorOverviewRuler.errorForeground": "#ff0000",
+    "editorOverviewRuler.border": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.unicodeForeground": "#0000",
+    // 2 color:
+    "editorRuler.foreground": "#13cf13",
+    "editorOverviewRuler.background": "#fff",
+    // 2 color: git
+    // "gitDecoration.ignoredResourceForeground": "#0000",
+    // "gitDecoration.modifiedResourceForeground": "#e5f481",
+    // "gitDecoration.addedResourceForeground": "#13cf13",
+    // "gitDecoration.untrackedResourceForeground": "#13cf13",
+    // "gitDecoration.deletedResourceForeground": "#ff0000",
+    // "gitDecoration.conflictingResourceForeground": "#009adc",
+    // "breadcrumb.background"                           : "#ffffff",
+    // "breadcrumb.foreground"                           : "#000000",
+    // "breadcrumb.focusForeground"                      : "#818181",
+    // "breadcrumb.activeSelectionForeground"            : "#ff01dd",
+    // "breadcrumbPicker.background"                     : "#FFF",
+    // 2 color: panel
+    // "sideBar.background"                              : "#e1e1e1",
+    // "list.hoverBackground"                            : "#41a6d9",
+    // 2 color: ctrl + p => autocomplete CMD
+    // "list.focusBackground"                            : "#000",
+    // "list.focusForeground"                            : "#07cdff",
+    // "pickerGroup.border"                              : "#ff0000",
+    // "pickerGroup.foreground"                          : "#ffffff",
+    // "quickInput.background"                           : "#FAC03B", // ctrl + p
+    // "quickInput.foreground"                           : "#000",
+    // "quickInputTitle.background"                      : "#ff0000", // cmd palette
+    // 2 color: documentation popup
+    // "editorWidget.background"                         : "#334b67", // ctrl+F
+    // "editorWidget.foreground"                         : "#ffffff",
+    // "editorWidget.border"                             : "#000000",
+    // "editorHoverWidget.foreground"                    : "#e9e9e9",
+    // !! 2 color: Find
+    // "editor.findMatchBackground": "#ffd500",
+    "editor.findMatchBackground": "#fff",
+    "editor.findMatchHighlightBorder": "#ff0000",
+    "editor.wordHighlightBorder": "#ff0000",
+    // "editor.findMatchHighlightBackground": "#0000",
+    // "editor.findMatchBorder"                          : "#00d0ff",
+    // "editor.wordHighlightBackground": "#ffffff",
+    // "editor.renderLineHighlight"                      : "all",
+    // !!!! 2 color: SUGGGEST AUTOCOMPLETE (inside code)
+    // "editorSuggestWidget.selectedBackground"          : "#000",
+    // "editorSuggestWidget.highlightForeground"         : "#a601ff",
+    // "editorSuggestWidget.foreground"                  : "#000",
+    // "editorSuggestWidget.background"                  : "#FAC03B",
+    "editorCursor.foreground": "#ffffff",
+    // "editorCursor.foreground"                         : "#ff01dd",
+    // "editorGutter.foldingControlForeground"           : "#FFF",
+    // "editorGutter.background"                         : "#202020",
+    // "editorGutter.addedBackground"                    : "#0b831f",
+    // "editorGutter.deletedBackground"                  : "#e7eb16",
+    // "editorGutter.modifiedBackground"                 : "#008cff",
+    // "debugConsole.errorForeground"                 : "#FFF",
+    // "editorGroupHeader.tabsBackground"                : "#202020",
+    // "statusBar.debuggingBackground"                   : "#05e474",
+    // "statusBar.debuggingForeground"                   : "#000",
+    // "statusBar.background"                            : "#000",
+    // "statusBar.foreground"                            : "#818181",
+    // "badge.foreground"                                : "#000",
+    // "badge.background"                                : "#FAC03B",
+    // "activityBar.background"                          : "#202020",
+    // "activityBar.foreground"                          : "#05e474",
+    // "activityBar.inactiveForeground"                  : "#5e5e5e",
+    // "titleBar.activeBackground"                       : "#000",
+    // "titleBar.activeForeground"                       : "#737373",
+    // "sideBar.foreground"                              : "#FFF",
+    // "sideBar.background"                              : "#000000",
+    // "sideBarSectionHeader.background"                 : "#424242",
+    // "sideBarSectionHeader.foreground"                 : "#aeaeae",
+    // "scrollbarSlider.hoverBackground"              : "#e3e3e3",
+    // "tab.activeBackground"                            : "#0249cc",
+    // "tab.activeForeground"                            : "#FFF",
+    // "tab.inactiveForeground"                          : "#ffffff",
+    // "tab.inactiveBackground"                          : "#666878",
+    // "list.highlightForeground"                        : "#ff0000", // ctrl + p ==> match occ
+    // "list.activeSelectionForeground"                  : "#FFF",
+    "list.activeSelectionBackground": "#0249cc",
+    "list.inactiveSelectionBackground": "#0249cc",
+    "list.inactiveSelectionForeground": "#0249cc",
+    "list.hoverForeground": "#000",
+    "list.hoverBackground": "#004141",
+    // 2 color:
+    // "tree.indentGuidesStroke"                         : "#ff01dd",
+    // "list.invalidItemForeground"                      : "#ff01dd",
+    // "list.errorForeground"                            : "#ff7300",
+    // "list.warningForeground"                          : "#e5ff00",
+    // 2 color: terminal
+    // "terminal.foreground"                             : "#00FD61",
+    "terminal.background": "#2d2d2d"
+    // "terminal.selectionBackground"                    : "#ffee7f6e",
+    // "terminal.background"                             : "#1D2021",
+    // "terminal.foreground"                             : "#cabba5",
+    // "terminalCursor.background"                       : "#A89984",
+    // "terminalCursor.foreground"                       : "#A89984",
+    // "terminal.ansiBlack"                              : "#1D2021",
+    // "terminal.ansiBlue"                               : "#4096bb",
+    // "terminal.ansiBrightBlack"                        : "#665C54",
+    // "terminal.ansiBrightBlue"                         : "#12cdf2",
+    // "terminal.ansiBrightCyan"                         : "#90d5bb",
+    // "terminal.ansiBrightGreen"                        : "#95C085",
+    // "terminal.ansiBrightMagenta"                      : "#e361b1",
+    // "terminal.ansiBrightRed"                          : "#da6151",
+    // "terminal.ansiBrightWhite"                        : "#FDF4C1",
+    // "terminal.ansiBrightYellow"                       : "#FAC03B",
+    // "terminal.ansiCyan"                               : "#8BA59B",
+    // "terminal.ansiGreen"                              : "#95C085",
+    // "terminal.ansiMagenta"                            : "#fff70f",
+    // "terminal.ansiRed"                                : "#FB543F",
+    // "terminal.ansiWhite"                              : "#A89984",
+    // "terminal.ansiYellow"                             : "#FAC03B",
+  },
+  "editor.tokenColorCustomizations": {
+    // -0 : comment
+    "textMateRules": [
+      {
+        "scope": ["support.class.component.svelte"],
+        "settings": {
+          "foreground": "#ff007f",
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": ["string.quoted.single.js"],
+        "settings": {
+          "foreground": "#ff007f"
+        }
+      },
+      {
+        "scope": ["text.svelte"],
+        "settings": {
+          "foreground": "#ff007f",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          // "punctuation.definition.comment",
+          "comment.block.documentation",
+          "storage.type.class.jsdoc",
+          "comment.block.documentation.js",
+          "variable.other.jsdoc"
+        ],
+        "settings": {
+          "foreground": "#ff007f",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be in italics (=Pacifico)
+          // "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          //"support.class.builtin.js", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "storage.type.function.js", // function keyword
+          "storage.type.js", // Variable declarations
+          "keyword.control.import.js", // Imports
+          "keyword.control.from.js", // From-Keyword
+          //"entity.name.type.js", // new … Expression
+          "keyword.control.flow.js", // await
+          "keyword.control.conditional.js", // if
+          "keyword.control.loop.js", // for
+          "keyword.operator.new.js", // new
+          "entity.name.tag.svelte",
+          "punctuation.definition.parameters.begin.js",
+          "punctuation.definition.parameters.end.js"
+          // "entity.name.tag",
+          // "punctuation.definition.tag",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "variable.other.property.js",
+          "meta.import.js variable.other",
+          "variable.other.object.js",
+          "variable.other.constant",
+          "variable.other.readwrite.ts"
+        ],
+        "settings": {
+          "fontStyle": "underline",
+          "foreground": "#737373"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.tag.begin.svelte",
+          "punctuation.definition.tag.end.svelte"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#737373"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+          // "comment",
+          // "comment.block.documentation",
+          // "comment.block.documentation.js",
+          // "storage.type.class.jsdoc",
+          // "variable.other.jsdoc",
+          // "variable.other.property.js",
+          // "meta.import.js variable.other",
+          // "variable.other.object.js",
+          // "variable.other.constant",
+          // "variable.other.readwrite.ts",
+          "entity.name.function",
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "entity.name.type.class.js",
+          "meta.brace.round.js",
+          "punctuation.definition.block.js",
+          "entity.other.attribute-name.class.css"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["meta.object-literal.key"],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#008a00"
+        }
+      }
+    ]
+  }
+  // 2 END SETTINGS.JSON GLOBAL
+}
+
+
+{
+  // -0
+  // -0 24 dec 2021 / vs-search GLOBAL
+  // -0
+  // -0 Todo Highlight (grosses barres)
+
+  "todohighlight.isEnable": true,
+  // "todohighlight.isCaseSensitive": true,
+  // -0 TEXT MATE
+  // "tokenColors": [
+  //   {
+  //     "scope": [
+  //       "punctuation.definition.comment"
+  //     ],
+  //     "settings": {
+  //       "foreground": "#EEFFFF"
+  //     }
+  //   },
+  // ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          // "punctuation.definition.comment",
+          "comment.block.documentation",
+          "storage.type.class.jsdoc",
+          "comment.block.documentation.js",
+          "variable.other.jsdoc"
+        ],
+        "settings": {
+          "foreground": "#ff007f",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be in italics (=Pacifico)
+          // "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          //"support.class.builtin.js", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "storage.type.function.js", // function keyword
+          "storage.type.js", // Variable declarations
+          "keyword.control.import.js", // Imports
+          "keyword.control.from.js", // From-Keyword
+          //"entity.name.type.js", // new … Expression
+          "keyword.control.flow.js", // await
+          "keyword.control.conditional.js", // if
+          "keyword.control.loop.js", // for
+          "keyword.operator.new.js" // new
+          // "entity.name.tag",
+          // "punctuation.definition.tag",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+          // "comment",
+          "variable.other.property.js",
+          "meta.import.js variable.other",
+          "variable.other.object.js",
+          "variable.other.constant",
+          "entity.name.function",
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "entity.name.type.class.js"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  // -0 theme - https://code.visualstudio.com/api/references/theme-color
+  "workbench.colorCustomizations": {
+    // 0 git
+    "gitDecoration.ignoredResourceForeground": "#0000",
+    "gitDecoration.modifiedResourceForeground": "#e5f481",
+    //
+    "gitDecoration.addedResourceForeground": "#13cf13",
+    "gitDecoration.untrackedResourceForeground": "#13cf13",
+    //
+    "gitDecoration.deletedResourceForeground": "#ff0000",
+    "gitDecoration.conflictingResourceForeground": "#009adc",
+    //
+    // "editor.lineHighlightBorder": "#f4e7f6",
+    // "editor.lineHighlightBackground"                  : "#f4e7f6",
+    // ?
+    // "breadcrumb.background"                           : "#ffffff",
+    // "breadcrumb.foreground"                           : "#000000",
+    // 0 terminal
+    // "terminal.foreground"                             : "#00FD61",
+    "terminal.background": "#2d2d2d",
+    // panel
+    // "sideBar.background"                              : "#e1e1e1",
+    // "list.hoverBackground"                            : "#41a6d9",
+    // 0
+    // "breadcrumb.foreground"                           : "#b2ff00",
+    // "breadcrumb.background"                           : "#000",
+    // "breadcrumb.focusForeground"                      : "#818181",
+    // "breadcrumb.activeSelectionForeground"            : "#ff01dd",
+    // "breadcrumbPicker.background"                     : "#FFF",
+    // // ctrl + p => autocomplete CMD
+    // "list.focusBackground"                            : "#000",
+    // "list.focusForeground"                            : "#07cdff",
+    // "pickerGroup.border"                              : "#ff0000",
+    // "pickerGroup.foreground"                          : "#ffffff",
+    // "quickInput.background"                           : "#FAC03B", // ctrl + p
+    // "quickInput.foreground"                           : "#000",
+    // "quickInputTitle.background"                      : "#ff0000", // cmd palette
+    // // documentation popup
+    // "editorWidget.background"                         : "#334b67", // ctrl+F
+    // "editorWidget.foreground"                         : "#ffffff",
+    // "editorWidget.border"                             : "#000000",
+    // "editorHoverWidget.foreground"                    : "#e9e9e9",
+    // 2 Find
+    // "editor.findMatchBackground": "#ffd500",
+    "editor.findMatchBackground": "#bfa003",
+    "editor.findMatchHighlightBorder": "#bfa003",
+    "editor.wordHighlightBorder": "#ff0000",
+    // "editorOverviewRuler.findMatchForeground"         : "#ff0000",
+    // "editor.findMatchHighlightBackground"             : "#ff0000",
+    // "editor.findMatchBorder"                          : "#00d0ff",
+    // "editor.wordHighlightBackground"                  : "#ffffff",
+    // "editor.lineHighlightBorder"                      : "#000",
+    // "editor.renderLineHighlight"                      : "all",
+    // 0 SUGGGEST AUTOCOMPLETE (inside code)
+    // "editorSuggestWidget.selectedBackground"          : "#000",
+    // "editorSuggestWidget.highlightForeground"         : "#a601ff",
+    // "editorSuggestWidget.foreground"                  : "#000",
+    // "editorSuggestWidget.background"                  : "#FAC03B",
+    "editorCursor.foreground": "#9be55e",
+    // "editorCursor.foreground"                         : "#ff01dd",
+    // "editorGutter.foldingControlForeground"           : "#FFF",
+    // "editorGutter.background"                         : "#202020",
+    // "editorGutter.addedBackground"                    : "#0b831f",
+    // "editorGutter.deletedBackground"                  : "#e7eb16",
+    // "editorGutter.modifiedBackground"                 : "#008cff",
+    // // "debugConsole.errorForeground"                 : "#FFF",
+    // "editorOverviewRuler.border"                      : "#000",
+    // "editorGroupHeader.tabsBackground"                : "#202020",
+    // "statusBar.debuggingBackground"                   : "#05e474",
+    // "statusBar.debuggingForeground"                   : "#000",
+    // "statusBar.background"                            : "#000",
+    // "statusBar.foreground"                            : "#818181",
+    // "terminal.selectionBackground"                    : "#ffee7f6e",
+    // "terminal.background"                             : "#1D2021",
+    // "terminal.foreground"                             : "#cabba5",
+    // "terminalCursor.background"                       : "#A89984",
+    // "terminalCursor.foreground"                       : "#A89984",
+    // "terminal.ansiBlack"                              : "#1D2021",
+    // "terminal.ansiBlue"                               : "#4096bb",
+    // "terminal.ansiBrightBlack"                        : "#665C54",
+    // "terminal.ansiBrightBlue"                         : "#12cdf2",
+    // "terminal.ansiBrightCyan"                         : "#90d5bb",
+    // "terminal.ansiBrightGreen"                        : "#95C085",
+    // "terminal.ansiBrightMagenta"                      : "#e361b1",
+    // "terminal.ansiBrightRed"                          : "#da6151",
+    // "terminal.ansiBrightWhite"                        : "#FDF4C1",
+    // "terminal.ansiBrightYellow"                       : "#FAC03B",
+    // "terminal.ansiCyan"                               : "#8BA59B",
+    // "terminal.ansiGreen"                              : "#95C085",
+    // "terminal.ansiMagenta"                            : "#fff70f",
+    // "terminal.ansiRed"                                : "#FB543F",
+    // "terminal.ansiWhite"                              : "#A89984",
+    // "terminal.ansiYellow"                             : "#FAC03B",
+    // "badge.foreground"                                : "#000",
+    // "badge.background"                                : "#FAC03B",
+    // "activityBar.background"                          : "#202020",
+    // "activityBar.foreground"                          : "#05e474",
+    // "activityBar.inactiveForeground"                  : "#5e5e5e",
+    // "titleBar.activeBackground"                       : "#000",
+    // "titleBar.activeForeground"                       : "#737373",
+    // "sideBar.foreground"                              : "#FFF",
+    // "sideBar.background"                              : "#000000",
+    // "sideBarSectionHeader.background"                 : "#424242",
+    // "sideBarSectionHeader.foreground"                 : "#aeaeae",
+    // // "scrollbarSlider.hoverBackground"              : "#e3e3e3",
+    // "tab.activeBackground"                            : "#0249cc",
+    // "tab.activeForeground"                            : "#FFF",
+    // "tab.inactiveForeground"                          : "#ffffff",
+    // "tab.inactiveBackground"                          : "#666878",
+    // "list.highlightForeground"                        : "#ff0000", // ctrl + p ==> match occ
+    // "list.activeSelectionForeground"                  : "#FFF",
+    // "list.inactiveSelectionForeground"                : "#FFF",
+    "list.activeSelectionBackground": "#0249cc",
+    "list.inactiveSelectionBackground": "#0249cc",
+    "list.inactiveSelectionForeground": "#0249cc",
+    "list.hoverForeground": "#000",
+    "list.hoverBackground": "#ffea00"
+    // //
+    // "tree.indentGuidesStroke"                         : "#ff01dd",
+    // "list.invalidItemForeground"                      : "#ff01dd",
+    // "list.errorForeground"                            : "#ff7300",
+    // "list.warningForeground"                          : "#e5ff00",
+  },
+  // -2 file / explorer
+  "files.exclude": {
+    //     // global
+    //     "**/node_modules"                             : true,
+    //     "**/yarn.lock"                                : true,
+    //     "**/yarn-error.log"                           : true,
+    //     "**/package-lock.json"                        : true,
+    //     ".firebase"                                   : true,
+    //     "firebase-debug.log"                          : true,
+    //     ".editorconfig"                               : true,
+    //     "license.txt"                                 : true,
+    //     "favicon.ico"                                 : true,
+    //     // PERSO
+  },
+  // -2 search / exclude
+  "search.exclude": {
+    "**/node_modules/": true,
+    "**/public/": true,
+    "**/build/": true,
+    "**/.firebase/": true,
+    "**/.git/": true,
+    "**.lock": true,
+    "**lock.json": true
+  },
+  // -2 Bracket Pair - ceci met un trait bleu epais entre les acolades <-- CA marche plus ds svelte ?
+  "bracketPairColorizer.scopeLineCSS": [
+    "borderStyle                                         : solid",
+    "borderWidth                                         : 3px",
+    "backgroundColor                                     : #9be55e",
+    "borderColor                                         : #9be55e",
+    "color                                               : black"
+  ],
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "bracketPairColorizer.showBracketsInRuler": true,
+  "bracketPairColorizer.showHorizontalScopeLine": true,
+  "bracketPairColorizer.showVerticalScopeLine": true,
+  "bracketPairColorizer.scopeLineRelativePosition": false,
+  // "bracket-pair-colorizer-2.activeScopeCSS": [
+  //   "borderStyle                                         : solid",
+  //   "borderWidth                                         : 5px",
+  //   "borderColor                                         : #9be55e",
+  //   "opacity                                             : 1"
+  // ],
+  // -0
+  // -0
+  // -0
+  // -0 Highlight
+  "highlightwords.showSidebar": false,
+  // PLUG / HIGHLIGHT / TAG HTML
+  // "highlight-matching-tag.highlightSelfClosing"       : true,
+  // "highlight-matching-tag.highlightFromContent"       : true,
+  // "highlight-matching-tag.styles"                     : {
+  //     "opening"                                       : {
+  //         "full"                                      : {
+  //             "underline"                             : "blue",
+  //             "highlight"                             : "gainsboro",
+  //         },
+  //     }
+  // },
+  // 2
+  // 2
+  // 2
+  // "editor.autoIndent"                                 : "full",
+  // "editor.cursorBlinking"                             : "solid",
+  // "editor.cursorSmoothCaretAnimation"                 : true,
+  // "editor.cursorStyle"                                : "line",
+  // "editor.fontFamily"                                 : "Dank Mono, Fira Code  ,Inconsolata",
+  // "editor.formatOnPaste"                              : true,
+  // "editor.formatOnType"                               : false,
+  // "editor.letterSpacing"                              : 0.3,
+  // "editor.lineHeight"                                 : 25,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabCompletion": "on",
+  // "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "search.showLineNumbers": true,
+  "zenMode.centerLayout": false,
+  // -0 - FORMAT
+  // =>  I want to use elint formattter
+  // => ESLINT CONFIG + format + autosave on save - https://daveceddia.com/vscode-use-eslintrc/ooooooooooooooo
+  "eslint.alwaysShowStatus": true,
+  // "editor.defaultFormatter"                           : "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  // 1 SVELTE
+  // "svelte.enable-ts-plugin"                           : true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  // "liveServer.settings.port"                          : 5001,
+  // https                                               ://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#settings-options
+  // "eslint.workingDirectories"                         : [ "./functions" ],
+  // "eslint.validate"                                   : ["typescript", "typescriptreact"],
+  // "html.format.enable"                                : false,
+  // 1 TAILWIND
+  // unknow conf
+  // "tailwindCSS.colorDecorators"                       : true,
+  // "tailwindCSS.includeLanguages"                      : {
+  //     "plaintext"                                     : "html"
+  // },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // "css.validate"                                      : false,
+  // 1 EDITOR
+  // "editor.fontFamily"                                 : "Cascadia Code",
+  // "editor.fontFamily"                                 : "Dank Mono, FuraCode Nerd Font, Inconsolata",
+  // "editor.fontFamily"                                 : "flottflott",
+  // "editor.fontFamily"                                 : "FuraCode Nerd Font",
+  "editor.fontFamily": "Firicico",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.cursorSurroundingLines": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 3,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.cursorStyle": "line",
+  "editor.suggestSelection": "first",
+  //
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.side": "right",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.scale": 3,
+  "editor.minimap.size": "fit",
+  //
+  "editor.rulers": [80],
+  // -0 EDITOR SUGGESTION
+  "editor.suggest.showConstants": false,
+  "editor.suggest.showEvents": false,
+  "editor.suggest.showIssues": false,
+  "editor.suggest.showKeywords": false,
+  "editor.suggest.showOperators": false,
+  "editor.suggest.showUsers": false,
+  // -0 TERMINAL
+  // "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Firicico",
+  "terminal.integrated.fontSize": 14,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.scrollback": 4000,
+  // "terminal.integrated.shell.osx"                     : "/bin/zsh",
+  // "terminal.integrated.fontFamily"                    : "FuraCode Nerd Font",
+  // -0
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // -0 Default
+  // "window.restoreWindows"                             : "folders",
+  // "html.format.wrapAttributes"                        : "force-aligned", "force",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "extensions.ignoreRecommendations": true,
+  "editor.accessibilitySupport": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "svelte.enable-ts-plugin": true,
+  // "terminal.integrated.env.osx": {
+  //     "FIG_NEW_SESSION": "1"
+  // },
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "bracketPairColorizer.colorMode": "Independent",
+  "editor.suggest.showIcons": false,
+  "workbench.iconTheme": null,
+  "editor.renderWhitespace": "trailing",
+  "editor.trimAutoWhitespace": false,
+  "window.zoomLevel": -1
+}
