@@ -23,7 +23,7 @@ I love building things for the web but also making it look great and accessible.
 
 <a href="https://www.web-agency.app" title="Visit my Site">
   <img
-    width="24"
+    width="128"
     alt="Visit my Site"
     src="https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/8-doc/icon/WebAgency.png"
   /></a>
