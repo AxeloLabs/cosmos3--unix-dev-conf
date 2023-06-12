@@ -68,3 +68,6 @@ coverage/*
 # -2 cypress
 #  cypress/videos
 #  cypress/screenshots
+# -2 vite
+vite.config.js.timestamp.*
+# -2 

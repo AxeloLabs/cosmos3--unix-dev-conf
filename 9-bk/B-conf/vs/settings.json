@@ -649,8 +649,19 @@
   "editor.minimap.showSlider": "always",
   // -0 Z
   "tabnine.experimentalAutoImports": true,
-  "svelte.ask-to-enable-ts-plugin": false
+  "svelte.ask-to-enable-ts-plugin": false,
+  "search.showLineNumbers": true,
+  "search.sortOrder": "fileNames"
+  // "tailwindCSS.experimental.configFile": null
   // "tabnine.experimentalAutoImports": true,
+  // "tailwindCSS.includeLanguages": {
+  //   "html": "html",
+  //   "javascript": "javascript",
+  //   "css": "css"
+  // },
+  // "editor.quickSuggestions": {
+  //   "strings": true
+  // }
   // -0
   // -0 END
   // -0
