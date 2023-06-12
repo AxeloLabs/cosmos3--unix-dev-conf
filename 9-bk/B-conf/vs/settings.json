@@ -4,6 +4,570 @@
   // -2
   "todohighlight.keywords": [
     {
+      "text": "dotenv-cli\"",
+      "color": "black",
+      "backgroundColor": "orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@changesets/cli\"",
+      "color": "black",
+      "backgroundColor": "orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "turbo\"",
+      "color": "black",
+      "backgroundColor": "orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier-plugin-tailwindcss\"",
+      "color": "black",
+      "backgroundColor": "orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-axelox\"",
+      "color": "black",
+      "backgroundColor": "orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@fontsource/fira-mono\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@neoconfetti/svelte\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@playwright/test\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/kit\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/adapter-auto\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@types/cookie\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint/eslint-plugin\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint/parser\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-prettier\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-plugin-svelte\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier-plugin-svelte\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte-check\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tslib\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "typescript\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vite\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vitest\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "strict\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sourceMap\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "skipLibCheck\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "resolveJsonModule\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "forceConsistentCasingInFileNames\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "esModuleInterop\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "checkJs\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "allowJs\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "include: ['src/**/*.{test,spec}.{js,ts}']",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "plugins: [sveltekit()]",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "preprocess: vitePreprocess()",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "adapter: adapter()",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "root: true",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "useTabs\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "singleQuote\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "trailingComma\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "printWidth\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "plugins\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "pluginSearchDirs\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "overrides\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "resolution-mode=highest",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "engine-strict=true",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".DS_Store",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "node_modules",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/build",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/.svelte-kit",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/package",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".env",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".env.*",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "!.env.example",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "pnpm-lock.yaml",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "package-lock.json",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "yarn.lock",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'prettier'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'plugin:svelte/recommended'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'plugin:@typescript-eslint/recommended'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'eslint:recommended'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "parser: '@typescript-eslint/parser'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "files: ['*.svelte']",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "node: true",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es2017: true",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "browser: true",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "extraFileExtensions: ['.svelte']",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "parser: 'svelte-eslint-parser'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "ecmaVersion: 2020",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sourceType: 'module'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "plugins: ['@typescript-eslint']",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "parser: '@typescript-eslint/parser'",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "version\"",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "type\": \"module",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "main\"",
+      "color": "white",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "types\"",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "packageManager",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "scripts",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "devDependencies",
+      "color": "black",
+      "backgroundColor": "red",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "dependencies",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "window.alert",
       "color": "white",
       "backgroundColor": "transparent",
@@ -639,7 +1203,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorBlinking": "solid",
   "workbench.colorTheme": "Darkside (rainglow)",
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   // -0 HINT
   "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
