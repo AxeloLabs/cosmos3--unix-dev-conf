@@ -1,12 +1,14 @@
-# -------------------------------------
-# MAC
-# -------------------------------------
+# -2
+# -2 MAC
+# -2
 # SHOW HIDCEN FILES
 # “Command” + “Shift” + “.”
 
-# -------------------------------------
-# BREW  [dependencies]
-# -------------------------------------
+# brew install --cask android-file-transfer
+
+# -0
+# -0 BREW  [dependencies]
+# -0
 # brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
 # brew list
 # brew doctor
@@ -73,9 +75,9 @@ brew install fnm
 
 brew install git-delta
 
-# —————————————————————
-# useless
-# —————————————————————
+# -0
+# -0 useless
+# -0
 
 # ==> Caveats
 # ==> openjdk

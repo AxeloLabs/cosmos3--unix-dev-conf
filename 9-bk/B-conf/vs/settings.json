@@ -4,37 +4,191 @@
   // -2
   "todohighlight.keywords": [
     {
+      "text": "STORE_frame",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "../0-const",
+      "color": "black",
+      "backgroundColor": "LavenderBlush",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "../../index",
+      "color": "black",
+      "backgroundColor": "Beige",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "../B-atomic",
+      "color": "black",
+      "backgroundColor": "Beige",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"preinstall",
+      "color": "black",
+      "backgroundColor": "LimeGreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"postinstall",
+      "color": "black",
+      "backgroundColor": "LimeGreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tsconfig\"",
+      "color": "black",
+      "backgroundColor": "Cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@smui\"",
+      "color": "black",
+      "backgroundColor": "Khaki",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "chromatic\"",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-plugin-storybook\"",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "storybook\"",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@tailwindcss/typography",
+      "color": "white",
+      "backgroundColor": "MediumSlateBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tailwind-config",
+      "color": "white",
+      "backgroundColor": "MediumSlateBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "postcss",
+      "color": "white",
+      "backgroundColor": "MediumSlateBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "autoprefixer",
+      "color": "white",
+      "backgroundColor": "MediumSlateBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tailwindcss",
+      "color": "white",
+      "backgroundColor": "MediumSlateBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "dotenv-cli\"",
       "color": "black",
-      "backgroundColor": "orchid",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "@changesets/cli\"",
       "color": "black",
-      "backgroundColor": "orchid",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "turbo\"",
       "color": "black",
-      "backgroundColor": "orchid",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "prettier-plugin-tailwindcss\"",
       "color": "black",
-      "backgroundColor": "orchid",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "eslint-config-axelox\"",
       "color": "black",
-      "backgroundColor": "orchid",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-axelox\"",
+      "color": "black",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"dependsOn\": [\"^build\"],",
+      "color": "black",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"outputs\": [\".svelte-kit/**\", \".vercel/**\"]",
+      "color": "black",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"cache\": false,",
+      "color": "black",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"persistent\": true",
+      "color": "black",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -137,7 +291,28 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "@sveltejs/adapter-static\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "adapter-static\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "svelte-check\"",
+      "color": "black",
+      "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/vite-plugin-",
       "color": "black",
       "backgroundColor": "plum",
       "isWholeLine": false,
@@ -238,6 +413,20 @@
       "text": "plugins: [sveltekit()]",
       "color": "black",
       "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte-preprocess",
+      "color": "black",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "preprocess: preprocess()",
+      "color": "black",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -503,10 +692,215 @@
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
+
     {
       "text": "parser: '@typescript-eslint/parser'",
       "color": "black",
       "backgroundColor": "plum",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    // -0
+    // -0
+    // -0
+    // plum             -> npm create svelte@latest my-app
+    // DeepPink         -> with-svelte (turbo)
+    // MediumSlateBlue  -> with-tailwind (turbo)
+    // PowderBlue       -> smui
+    // orange           -> storybook
+    // Blue             -> playwright
+    // Cyan             -> tsconfig
+    // -0
+    // -0
+    // -0
+    {
+      "text": "\"dev\"",
+      "color": "black",
+      "backgroundColor": "Gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"build",
+      "color": "black",
+      "backgroundColor": "LightGray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"preview",
+      "color": "black",
+      "backgroundColor": "Silver",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"clean",
+      "color": "black",
+      "backgroundColor": "DarkGray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"deploy",
+      "color": "black",
+      "backgroundColor": "Gray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"check",
+      "color": "black",
+      "backgroundColor": "DimGray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"lint",
+      "color": "black",
+      "backgroundColor": "LightSlateGray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"format",
+      "color": "black",
+      "backgroundColor": "SlateGray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"test",
+      "color": "black",
+      "backgroundColor": "DarkSlateGray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    // -2
+    {
+      "text": "\"latest\"",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"next\"",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@playwright",
+      "color": "white",
+      "backgroundColor": "Blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "@mdi/js",
+      "color": "black",
+      "backgroundColor": "PowderBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sass",
+      "color": "black",
+      "backgroundColor": "PowderBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "smui-theme",
+      "color": "black",
+      "backgroundColor": "PowderBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@smui",
+      "color": "black",
+      "backgroundColor": "PowderBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte3",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.cjs",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte3/svelte3",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'turbo'",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'svelte3/typescript'",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "require('typescript')",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"access\": \"public\"",
+      "color": "white",
+      "backgroundColor": "DeepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"main\": \"index.js\"",
+      "color": "white",
+      "backgroundColor": "SaddleBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-plugin-svelte3\"",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-turbo\"",
+      "color": "white",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -515,6 +909,13 @@
       "text": "version\"",
       "color": "white",
       "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "source\"",
+      "color": "black",
+      "backgroundColor": "cyan",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -528,14 +929,28 @@
     {
       "text": "main\"",
       "color": "white",
-      "backgroundColor": "cyan",
+      "backgroundColor": "SaddleBrown",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "types\"",
       "color": "white",
-      "backgroundColor": "purple",
+      "backgroundColor": "SaddleBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "exports\"",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "module\"",
+      "color": "black",
+      "backgroundColor": "cyan",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -600,6 +1015,42 @@
       "overviewRulerColor": "transparent"
     },
 
+    {
+      "text": ": \"workspace:*\"",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "axelox",
+      "color": "DeepPink",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "@axelox/uiblog",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@axelox",
+      "color": "DeepPink",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "$ui",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "$ui/index",
       "color": "white",
@@ -1110,6 +1561,10 @@
   // -1 WORKBENCH
   // -1
   "workbench.colorCustomizations": {
+    "breadcrumb.background": "#FFF",
+    "breadcrumb.foreground": "#000",
+    "editorGroupHeader.tabsBackground": "#fff",
+
     // "editorCursor.background": "#41f110",
     "editorCursor.foreground": "#41f110",
     // "terminalCursor.foreground": "#ffff00",
@@ -1117,14 +1572,6 @@
     "editorLineNumber.activeForeground": "#41f110",
     // "editorOverviewRuler.background": "#ffffff",
     // "editorLineNumber.foreground": "#7b7b7b",
-    // -1 Gutter indicators (right)
-    // "editorOverviewRuler.addedForeground": "#00f",
-    // "editorOverviewRuler.modifiedForeground": "#30b930",
-    // "editorOverviewRuler.deletedForeground": "#fffb00"
-    // -1 git - gutter -- // Scrollbar indicators (left + right)
-    "editorGutter.modifiedBackground": "#00fd00",
-    // "editorGutter.addedBackground": "#fdfdfd",
-    // "editorGutter.deletedBackground": "#ff0000",
     // -1 tab
     "tab.activeBorderTop": "#FFF",
     "tab.activeForeground": "#ffffff",
@@ -1135,16 +1582,29 @@
     "editorInlayHint.background": "#01A0E4",
     "editorInlayHint.foreground": "#090300",
     "list.inactiveSelectionBackground": "#33c602",
+
+    // -1
+    // -1
     // -1 git - files
     // "gitDecoration.addedResourceForeground": "#00f",
     // "gitDecoration.stageModifiedResourceForeground": "#15d01579",
-    // "gitDecoration.modifiedResourceForeground": "#30b930",
+    "gitDecoration.modifiedResourceForeground": "#30b930",
     // "gitDecoration.renamedResourceForeground": "#269069",
     // "gitDecoration.deletedResourceForeground": "#fffb00",
     // "gitDecoration.untrackedResourceForeground": "#fdfdfd",
     // "gitDecoration.ignoredResourceForeground": "#ff0000",
     // "gitDecoration.conflictingResourceForeground": "#00e5ff"
+    // -1 Gutter indicators (right)
+    // "editorOverviewRuler.addedForeground": "#00f",
+    "editorOverviewRuler.modifiedForeground": "#30b930",
+    // "editorOverviewRuler.deletedForeground": "#fffb00"
+    // -1 git - gutter -- // Scrollbar indicators (left + right)
+    "editorGutter.modifiedBackground": "#00fd00",
+    // "editorGutter.addedBackground": "#fdfdfd",
+    // "editorGutter.deletedBackground": "#ff0000",
 
+    // -1
+    // -1
     // -1 ctrl + P
     "quickInput.foreground": "#000",
     "quickInput.background": "#fff",
@@ -1203,7 +1663,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorBlinking": "solid",
   "workbench.colorTheme": "Darkside (rainglow)",
-  "window.zoomLevel": 1,
   // -0 HINT
   "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
@@ -1215,7 +1674,10 @@
   "tabnine.experimentalAutoImports": true,
   "svelte.ask-to-enable-ts-plugin": false,
   "search.showLineNumbers": true,
-  "search.sortOrder": "fileNames"
+  "search.sortOrder": "fileNames",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1
   // "tailwindCSS.experimental.configFile": null
   // "tabnine.experimentalAutoImports": true,
   // "tailwindCSS.includeLanguages": {
