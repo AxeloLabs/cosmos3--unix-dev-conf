@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # secure zip
 # zip -er FILENAME-DEST.zip FILENAME-SRC.zip
 
@@ -27,7 +26,7 @@ alias cat='bat '
 
 # list
 # https://github.com/ogham/exa -- modern ls
-alias l='exa' 
+alias l='exa'
 alias tl='exa -Flah --git --tree --level=1 --group-directories-first'
 alias tll='exa -Flah --git --tree --level=2 --group-directories-first'
 alias tlll='exa -Flah --git --tree --level=3 --group-directories-first'
@@ -62,6 +61,17 @@ alias ECHO="echo '........................................' && echo && echo "
 alias ECHOO="echo && echo && echo '........................................'"
 
 # Process
+listening() {
+  if [ $# -eq 0 ]; then
+    sudo lsof -iTCP -sTCP:LISTEN -n -P
+  elif [ $# -eq 1 ]; then
+    sudo lsof -iTCP -sTCP:LISTEN -n -P | grep -i --color $1
+  else
+    echo "Usage: listening [pattern]"
+  fi
+}
+# sudo lsof -i -P | grep LISTEN | grep :$PORT
+# sudo kill -9 <PID>
 # ps -ef | grep chrome | grep -v grep | awk '{print $2}' | xargs kill -9
 # ps -ef | grep 8080 | grep -v grep | awk '{print $2}' | xargs kill -9
 # alias killl='kill-port --port 8000,9099,5001,8080,5033,9000,5000,8085,9199,4000,4400,4500'
@@ -77,10 +87,4 @@ alias ECHOO="echo && echo && echo '........................................'"
 # grep
 # grep -irl react * | fzf
 
-
-
 # z
-
-
-
-

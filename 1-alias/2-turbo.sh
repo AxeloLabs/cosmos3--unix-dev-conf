@@ -6,6 +6,16 @@ alias tbb="tb --output-logs=errors-only | h -ni \
 '/Users/0-minuit-ax/0-dev/master/axelo4/|\.js|\.svelte|\+page.svelte' ' in |   at |<|\">|/>' 'apps/blog--toucherterre|src/|routes/|components/' \
 'node_modules|\.pnpm/|Packages in scope' \
 "
+alias tdf="turbo dev --filter='blog--toucherterre'"
+alias tddf="tdf --output-logs=errors-only | h -ni \
+'warning|error|is not defined' \
+'/Users/0-minuit-ax/0-dev/master/axelo4/|\.js|\.svelte|\+page.svelte' ' from |Failed to load url|Does the file exist?|Failed to resolve import| in |   at |<|\">|/>' 'apps/blog--toucherterre|src/|routes/|components/' \
+'node_modules|\.pnpm/|Packages in scope' \
+'axelox-uiblog' \
+'apps' \
+'packages' \
+"
+
 alias td="turbo dev --filter='blog--toucherterre'"
 alias tdd="td --output-logs=errors-only | h -ni \
 'warning|error|is not defined' \
@@ -15,7 +25,6 @@ alias tdd="td --output-logs=errors-only | h -ni \
 'apps' \
 'packages' \
 "
-
 
 # pnpm add <package> --filter <workspace>
 # pnpm uninstall <package> --filter <workspace>

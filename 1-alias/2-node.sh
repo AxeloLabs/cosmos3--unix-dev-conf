@@ -60,7 +60,9 @@ alias lint="clear && n lint | h -ni $BOUCHON__LINT"
 # -0
 # -0 FORMAT
 # -0
-alias format='clear && n format | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css" "\.js" "\.ts" "\.scss"  '
+alias format='clear && n format \
+| h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css"  "\.json" "\.js" "\.md" "\.config"  "\.ts" "\.scss" | \
+ h -ni "index" "changelog"  "readme" "components" "package" "global" "\.cjs" "\.eslintrc"  '
 # -0
 # -0 BUILD
 # -0
@@ -118,4 +120,3 @@ alias nrpd="n play-debug"
 # -0
 # -0
 # -0
-

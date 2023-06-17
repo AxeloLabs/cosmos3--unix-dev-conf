@@ -22,7 +22,7 @@
   "peacock.color": "#42b883",
 
   "files.exclude": {
-    "0-shell/A-lib": true
+    // "0-shell/A-lib": true
   },
   // 1
   "search.exclude": {
