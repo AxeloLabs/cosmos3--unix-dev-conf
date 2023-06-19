@@ -12,57 +12,48 @@ alias sass='n smui-prepare'
 # publish package
 alias spack='npm run package && cd package && npm publish --access public'
 # -0
-# -0 CHECK
+# -0 CHECK (svelte only)
 # -0
-alias check="echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n' \
+alias check="clear && echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n' \
 && n megacheck | h -ni \
-'is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
-'/Users/0-minuit-ax/0-dev/master/axelo3/' \
-'/Users/0-minuit-ax/0-dev/master/axelo3/node_modules|Error: |.svelte:'\
+'0 errors|0 error|0 warnings|problems|0 hints|formatting|format|building|build|bundle|preview|svelte-check|megacheck|check|int|is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
+'/Users/0-minuit-ax/0-dev/master/axelo4/|warning' \
+'/Users/0-minuit-ax/0-dev/master/axelo4/node_modules|Error: |.svelte:'\
 'routes|components|domain|stores|tecnology|themes'  \
 'TPL/blog|creation|realisation|Creation|Realisation|creation-realisation|CreationRealisationApp' \
 '/routes/|app/|(app)/' \
-'cms/' \
-'/shared/' \
+'cms/|/tests-unit/scrapper/|has no effect on the type of this expression' \
+'/shared/|/Users/0-minuit-ax/0-dev/master/axelo4/' \
 'stdoc/|/0-config/|/debugUi/' \
-'\.svelte|\.config' \
-'\.js|\.json' \
+'\.svelte|\.ts|/scrapper/src/' \
+'\.json|\.js|any|error|Cannot find module' \
+'\.cjs | \.config' \
+'svelte-check --tsconfig|\.md|\.postcss|\.scss|\.css|\.html' \
+&& echo '🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳' \
+&& echo '🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳' \
+&& echo '🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳' \
 "
-export BOUCHON__CHECK='\
-"/tests-unit/scrapper/|has no effect on the type of this expression" \
-"\.ts|/Users/0-minuit-ax/0-dev/master/axelo3/" \
-"/scrapper/src/" \
-"any|error|Cannot find module" \
-"====================================" \
-"0 errors|0 warnings|0 hints" \
-"svelte-check --tsconfig" \
-'
-alias checkk='clear \
-&& echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳" \
-&& echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳" \
-&& echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳" \
-&& echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳" \
-&& n check | h -ni  '"$BOUCHON__CHECK"
 # -0
 # -0 LINT
 # -0
 BOUCHON__LINT='\
 "unexpected any warning" \
-"/Users/0-minuit-ax/0-dev/master/axelo3|no-non-null-assertion" \
+"/Users/0-minuit-ax/0-dev/master/axelo4|no-non-null-assertion" \
 "Unexpected any|error" \
 "warning|singleton|no-unused-vars" \
 "====================================" \
 "0 errors|0 warnings|0 hints" \
 "checking" \
 "\.ts|\.svelte" \
+"\.cjs" \
 '
 alias lint="clear && n lint | h -ni $BOUCHON__LINT"
 # -0
 # -0 FORMAT
 # -0
 alias format='clear && n format \
-| h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css"  "\.json" "\.js" "\.md" "\.config"  "\.ts" "\.scss" | \
- h -ni "index" "changelog"  "readme" "components" "package" "global" "\.cjs" "\.eslintrc"  '
+| h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css"  "\.json" "\.js" "\.md" "\.config"  "\.ts" "\.scss"  \
+| h -ni "index" "changelog"  "readme" "components" "package" "global" "\.cjs" "\.eslintrc"  '
 # -0
 # -0 BUILD
 # -0

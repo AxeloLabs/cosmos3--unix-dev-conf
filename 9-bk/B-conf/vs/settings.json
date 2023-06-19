@@ -3,6 +3,13 @@
   // -1 WORKBENCH
   // -1
   "workbench.colorCustomizations": {
+    // ---------------------------------------------------
+    // "editor.findMatchBorder": "#ffdd00",
+    // "editor.findMatchHighlightBackground": "#000000",
+    // "editor.findMatchBackground": "#f4f7f4",
+    // "editor.findMatchHighlightBorder": "#ffdd00",
+    "editor.wordHighlightBorder": "#fff",
+    // ---------------------------------------------------
     "editorCursor.foreground": "#41f110",
     "scrollbarSlider.background": "#ff000058",
     "editorLineNumber.activeForeground": "#41f110",
@@ -165,6 +172,35 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "todohighlight.keywords": [
+    // {
+    //   "text": "__",
+    //   "color": "deepPink",
+    //   "backgroundColor": "transparent",
+    //   "isWholeLine": false,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "export",
+      "color": "black",
+      "backgroundColor": "deepPink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"target\": \"esnext\"",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"module\": \"esnext\"",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
     {
       "text": "index",
       "color": "white",
@@ -181,7 +217,21 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "\"check",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "\"dev",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"format",
       "color": "black",
       "backgroundColor": "gainsboro",
       "isWholeLine": false,
@@ -426,6 +476,5 @@
       "overviewRulerColor": "transparent"
     }
   ],
-  "git.openRepositoryInParentFolders": "never",
-  "window.zoomLevel": 1
+  "git.openRepositoryInParentFolders": "never"
 }
