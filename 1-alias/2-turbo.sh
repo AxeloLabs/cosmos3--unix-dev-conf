@@ -16,7 +16,7 @@ alias tddf="tdf --output-logs=errors-only | h -ni \
 'packages' \
 "
 
-alias td="turbo dev --filter='blog--toucherterre'"
+alias td="turbo dev"
 alias tdd="td --output-logs=errors-only | h -ni \
 'warning|error|is not defined' \
 '/Users/0-minuit-ax/0-dev/master/axelo4/|\.js|\.svelte|\+page.svelte' ' from |Failed to load url|Does the file exist?|Failed to resolve import| in |   at |<|\">|/>' 'apps/blog--toucherterre|src/|routes/|components/' \

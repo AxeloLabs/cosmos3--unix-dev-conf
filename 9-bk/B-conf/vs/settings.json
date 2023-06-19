@@ -147,7 +147,9 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "files.associations": {
-    ".env*": "dotenv"
+    ".env*": "dotenv",
+    "libturbo.h": "c",
+    "turbo.json": "jsonc"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -162,8 +164,174 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "window.zoomLevel": 1,
   "todohighlight.keywords": [
+    {
+      "text": "index",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "tsc",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"dev",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"lint",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"build",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"clean",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "\"allowJs\": true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"checkJs\": true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "\"typings\": ",
+      "color": "deeppink",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"declaration\": true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": ".d.ts",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".ts",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".js",
+      "color": "greenyellow",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".cjs",
+      "color": "cyan",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "\"type\":",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"module\":",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"svelte\":",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "\"exports\": {",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"main\": ",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"types\": ",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".postcss",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".scss",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".css",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "-0",
       "color": "white",
@@ -171,7 +339,35 @@
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
+    {
+      "text": "\"preinstall\": \"pnpm exec inherit -u\"",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"@axelox/dependencies/",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
 
+    {
+      "text": "<script lang=\"ts\">",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "../0-config",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "\"@axelox/utils\": \"workspace:*\"",
       "color": "white",
@@ -221,6 +417,15 @@
       "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "export let CONST__UI_APP__baseDirMedia: string;",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
     }
-  ]
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "window.zoomLevel": 1
 }
