@@ -54,10 +54,6 @@ alias rose='echo -e "\033]6;1;bg;rose;brightness;255\a"'
 alias orange='echo -e "\033]6;1;bg;orange;brightness;255\a"'
 alias cyan='echo -e "\033]6;1;bg;cyan;brightness;255\a"'
 
-# Debug
-alias ECHO="echo '........................................' && echo && echo "
-alias ECHOO="echo && echo && echo '........................................'"
-
 # Process
 # ps -ef | grep chrome | grep -v grep | awk '{print $2}' | xargs kill -9
 # ps -ef | grep 8080 | grep -v grep | awk '{print $2}' | xargs kill -9

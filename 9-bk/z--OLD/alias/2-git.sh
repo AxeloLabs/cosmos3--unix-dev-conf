@@ -135,7 +135,7 @@ alias g-checkout-and-createBranch='g checkout -b'
 alias g-branch-a='g branch -a'               # list all branch
 alias g-branch-list-remote='g remote -v'     # list all remote URLs
 alias g-branch-list-upstream='g branch -vv ' # verbose list set-upstrzeam
-alias NEW_LINE='echo -----'                  ##
+alias NEW_LINE='echo 🦋 ----- 🦋'              #
 alias gbb='ECHO \
 && g-branch-a && NEW_LINE  \
 && g-branch-list-remote && NEW_LINE \
@@ -245,8 +245,6 @@ alias ggl="g log -30 \
 | h -ni $BOUCHON__GIT_HASH "
 alias gggl="g log --graph --abbrev-commit --date=relative"
 
-
-
 # UI: GRAPH
 alias lgg="g log -13 --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 alias lggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  \
@@ -254,7 +252,6 @@ alias lggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%
 | h -ni popo pipi pupu koko kiki kuku  '\[maven-release-plugin\] prepare for next development iteration|\[maven-release-plugin\] prepare release'  \
 | h -ni $BOUCHON__GIT_HASH "
 alias lgggg="g log -30 --graph --pretty=format:'  %C(yellow)%<(25)%d   %C(white)%<(100)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  "
-
 
 # DIFF + / -
 alias gl-1='g log -50 --stat'

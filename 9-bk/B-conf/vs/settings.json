@@ -1,4 +1,9 @@
 {
+  // -----------------------------------------------
+  // svelte inspector -- https://dev.to/mikehtmlallthethings/setting-up-svelte-inspector-with-vs-code-wsl-ao
+  "terminal.integrated.env.linux": {
+    "EDITOR": "code"
+  },
   // -1
   // -1 WORKBENCH
   // -1
@@ -97,7 +102,7 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     // "source.fixAll": true,
-    "source.organizeImports": true,
+    // "source.organizeImports": true,
     "source.sortMembers": true
   },
   // -- svelte for vscode plugin
@@ -159,14 +164,7 @@
     "turbo.json": "jsonc"
   },
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "keyword.other.dotenv",
-        "settings": {
-          "foreground": "#FF000000"
-        }
-      }
-    ]
+    "textMateRules": []
   },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -179,6 +177,107 @@
     //   "isWholeLine": false,
     //   "overviewRulerColor": "transparent"
     // },
+
+    {
+      "text": "@axelox/config-ts/base.json",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@axelox/config-ts/svelte.json",
+      "color": "black",
+      "backgroundColor": "yellowgreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "./.svelte-kit/tsconfig.json",
+      "color": "black",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "'eslint:recommended'",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'plugin:@typescript-eslint/recommended'",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'plugin:svelte/recommended'",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'prettier'",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "node: true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es2017: true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "browser: true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "engine-strict=true",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "resolution-mode=highest",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "import",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "require",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "export",
       "color": "black",
@@ -275,9 +374,24 @@
     },
 
     {
+      "text": "@axelox/uiblog",
+      "color": "green",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "\"typings\": ",
       "color": "deeppink",
       "backgroundColor": "transparent",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "moduleResolution",
+      "color": "black",
+      "backgroundColor": "gainsboro",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -319,9 +433,9 @@
     },
 
     {
-      "text": "\"type\":",
-      "color": "black",
-      "backgroundColor": "gainsboro",
+      "text": "\"type\": \"module\"",
+      "color": "white",
+      "backgroundColor": "blue",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -393,6 +507,13 @@
       "text": "\"preinstall\": \"pnpm exec inherit -u\"",
       "color": "white",
       "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "types",
+      "color": "black",
+      "backgroundColor": "yellowgreen",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -476,5 +597,11 @@
       "overviewRulerColor": "transparent"
     }
   ],
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "**/dist",
+    "**/build"
+  ],
+  "dotenv.enableAutocloaking": false,
+  "window.zoomLevel": 1
 }

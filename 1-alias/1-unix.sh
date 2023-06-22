@@ -57,10 +57,13 @@ alias rmf='rm -rf'
 # alias cyan='echo -e "\033]6;1;bg;cyan;brightness;255\a"'
 
 # Debug
-alias ECHO="echo '........................................' && echo && echo "
-alias ECHOO="echo && echo && echo '........................................'"
+alias ECHO="echo '🪼 ........................................ 🪼' && echo && echo "
+alias ECHOO="echo && echo && echo '🪸 ........................................ 🪸'"
 
-# Process
+# -0
+# -0 Process
+# -0
+# sudo killall node
 listening() {
   if [ $# -eq 0 ]; then
     sudo lsof -iTCP -sTCP:LISTEN -n -P

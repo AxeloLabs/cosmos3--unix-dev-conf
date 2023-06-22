@@ -14,9 +14,8 @@ alias spack='npm run package && cd package && npm publish --access public'
 # -0
 # -0 CHECK (svelte only)
 # -0
-alias check="clear && echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\n' \
-&& n megacheck | h -ni \
-'0 errors|0 error|0 warnings|problems|0 hints|formatting|format|building|build|bundle|preview|svelte-check|megacheck|check|int|is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
+alias check="clear && n megacheck | h -ni \
+'0 errors|0 error|0 warnings|problems|0 hints|formatting|format|building|build|bundle|preview|svelte-check|megacheck|check|lint|is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
 '/Users/0-minuit-ax/0-dev/master/axelo4/|warning' \
 '/Users/0-minuit-ax/0-dev/master/axelo4/node_modules|Error: |.svelte:'\
 'routes|components|domain|stores|tecnology|themes'  \
@@ -29,9 +28,6 @@ alias check="clear && echo '🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
 '\.json|\.js|any|error|Cannot find module' \
 '\.cjs | \.config' \
 'svelte-check --tsconfig|\.md|\.postcss|\.scss|\.css|\.html' \
-&& echo '🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳' \
-&& echo '🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳' \
-&& echo '🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳' \
 "
 # -0
 # -0 LINT
@@ -57,37 +53,36 @@ alias format='clear && n format \
 # -0
 # -0 BUILD
 # -0
-alias nrb='n build'
+alias nb='n build'
 # -2
 # -2 DEV
 # -2
-alias nrdev='n dev'
-alias nrs="n start"
+alias nd='n dev'
+alias ndf="n dev-force- ignore-cache-re-bundle"
 # alias nrs="pnpm run dev -- --open"
-alias nrss='nrs | h   "\.svelte" "~/0HOME/GARAGE/INTRALINK/src/|/src/routes/|/src/lib/|/src/stores/" "\[0\]" "\[1\]" ".*:.*:.*" "A11y"'
+alias ndd='nrs | h   "\.svelte" "~/0HOME/GARAGE/INTRALINK/src/|/src/routes/|/src/lib/|/src/stores/" "\[0\]" "\[1\]" ".*:.*:.*" "A11y"'
 # -2
 # -2 DEBUG
 # -2
-alias nrdeb="n debug"
+alias ndeb="n debug"
 # -3
 # -3 EMU
 # -3
-alias nre="n emu"
-alias emu='n emu'
-alias emu--kill='n emu--kill'
+alias ne="n emu"
+alias ne--kill='n emu--kill'
 # -3
 # -3 DEPLOY
 # -3
-alias nrdep='n deploy'
+alias ndep='n deploy'
 # -1
 # -1 TEST
 # -1
-# vitest
-alias nrt="n test"
-alias nrtt='n test | h -ni "test.ts:" "\-\-" ">>>" "tests/scrapper/" "apiChat" "apiMine" "apiShared" " # "'
+alias nc="n coverage"
+alias nt="n test"
+alias ntt='n test | h -ni "test.ts:" "\-\-" ">>>" "tests/scrapper/" "apiChat" "apiMine" "apiShared" " # "'
 # playwright
-alias nrp="n play"
-alias nrpd="n play-debug"
+alias np="n play"
+alias np--deb="n play-debug"
 # -0
 # -0 YARN
 # -0

@@ -1,22 +1,23 @@
 #!/bin/sh
-# -0 
-# -0 
-# -0 
+# -0
+# -0
+# -0
 alias g='git'
 alias g-open='g-open'
 alias g-clone='g clone'
 
-# -0 
+# -0
 # -0 branch details
-# -0 
+# -0
 alias g-branch-a='g branch -a'               # list all branch
 alias g-branch-list-remote='g remote -v'     # list all remote URLs
 alias g-branch-list-upstream='g branch -vv ' # verbose list set-upstrzeam
-alias NEW_LINE='echo -----'                  ##
-alias gbb='ECHO \
-&& g-branch-a && NEW_LINE  \
-&& g-branch-list-remote && NEW_LINE \
-&& g-branch-list-upstream ; ECHO'
+alias NEW_LINE='echo 🦠 ----- 🦠'              ##
+alias gbb='ECHO  \
+&& NEW_LINE && echo "::g-branch-a:" && g-branch-a    \
+&& NEW_LINE && echo "::g-branch-list-remote:" && g-branch-list-remote  \
+&& NEW_LINE && echo "::g-branch-list-upstream:" && g-branch-list-upstream \
+&& ECHOO'
 # -- remote
 alias g-remote-v='g remote -v'
 alias g-remote-add-origin='g remote add origin'
@@ -24,9 +25,9 @@ alias g-remote-add-origin='g remote add origin'
 # create remote branch
 alias g-push--set-upstream='g push --set-upstream origin main'
 
-# -0 
+# -0
 # -0 USE
-# -0 
+# -0
 # -- add
 alias ga='g add '
 alias gaa='g add --all .'
@@ -143,9 +144,9 @@ alias gcp='g cherry-pick' #git cherry -v master
 
 # GIT LOG - git log --oneline (stack view) - https://g-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-Cred
 
-# -2 
+# -2
 # -2 TOUTES LES BRANCHES
-# -2 
+# -2
 # You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
 # alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
 alias gl="ECHO CURRENT_BRANCH - ONE && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
@@ -183,7 +184,6 @@ alias lgg="ECHO TREE - ALL && g log -13 --graph --show-linear-break --abbrev-com
 # Colors may also be given as numbers between 0 and 255; these use ANSI 256-color mode (but note that not all terminals may support this). If your terminal supports it, you may also specify 24-bit RGB values as hex, like #ff0ab3.
 # The accepted attributes are bold, dim, ul, blink, reverse, italic, and strike (for crossed-out or "strikethrough" letters). The position of any attributes with respect to the colors (before, after, or in between), doesn’t matter. Specific attributes may be turned off by prefixing them with no or no- (e.g., noreverse, no-ul, etc).
 # The pseudo-attribute reset resets all colors and attributes before applying the specified coloring. For example, reset green will result in a green foreground and default background without any active attributes.
-
 
 # // -3 UNE SEULE BRANCHE
 alias lggg='g log --graph --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'

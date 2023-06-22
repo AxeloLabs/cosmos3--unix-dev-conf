@@ -3,64 +3,63 @@
 # -0
 
 [user]
-  # axel-cmd S
-	name = axel
-	email = regnoupro@gmail.com
-  # axel-cmd E
+# axel-cmd S
+name = axel
+email = regnoupro@gmail.com
+# axel-cmd E
 
 [init]
-  # git config --global init.defaultBranch main
-	defaultBranch = main
+# git config --global init.defaultBranch main
+defaultBranch = main
 
 [alias]
-  lgp = log –-oneline –-graph –-decorate -–pretty=format:"%C(auto)%d%C(reset) %s %C(magenta)(%ar)%C(reset) %C(cyan)%h%C(reset) %C(red)[%cn]%C(reset)"
-  # lg = log --color --graph --date=format:'%Y-%m-%d %H:%M:%S' -–pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset"
-  # lg = log --graph -–pretty=format: %C(yellow)%s
+lgp = log –-oneline –-graph –-decorate -–pretty=format:"%C(auto)%d%C(reset) %s %C(magenta)(%ar)%C(reset) %C(cyan)%h%C(reset) %C(red)[%cn]%C(reset)"
+# lg = log --color --graph --date=format:'%Y-%m-%d %H:%M:%S' -–pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset"
+# lg = log --graph -–pretty=format: %C(yellow)%s
 
 [core]
-  # git config --global core.excludesfile ~/.gitignore_global
-	excludesfile = /Users/0-minuit-ax/.gitignore_global
-  # MUST USE IT -- no vim plz
-  editor = code --wait
-  # delta S
-  pager = delta
-  # delta E
+# git config --global core.excludesfile ~/.gitignore_global
+# excludesfile = /Users/0-minuit-ax/.gitignore_global # I do not want it agin
+
+# MUST USE IT -- no vim plz
+editor = code --wait
+# delta S
+pager = delta
+# delta E
 
 [interactive]
-  # delta S
-  diffFilter = delta --color-only
-  # delta E
+# delta S
+diffFilter = delta --color-only
+# delta E
 
 [delta]
-  # S1
-  # https://dandavison.github.io/delta/configuration.html?highlight=--show-syntax-themes%20--light#git-config-file
-  # https://dandavison.github.io/delta/tips-and-tricks/using-delta-with-vscode.html
-  hyperlinks = true
-  hyperlinks-file-link-format = "vscode://file/{path}:{line}"
-  # E1
-  # delta S
-  navigate = true    # use n and N to move between diff sections
-  light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
-  # delta E
-  side-by-side = true
+# S1
+# https://dandavison.github.io/delta/configuration.html?highlight=--show-syntax-themes%20--light#git-config-file
+# https://dandavison.github.io/delta/tips-and-tricks/using-delta-with-vscode.html
+hyperlinks = true
+hyperlinks-file-link-format = "vscode://file/{path}:{line}"
+# E1
+# delta S
+navigate = true # use n and N to move between diff sections
+light = false   # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+# delta E
+side-by-side = true
 
 [merge]
-  # delta S
-  conflictstyle = diff3
-	tool = vscode
-  # delta E
+# delta S
+conflictstyle = diff3
+tool = vscode
+# delta E
 
 [diff]
-  # delta S
-  colorMoved = default
-  # delta E
-  tool = vscode
+# delta S
+colorMoved = default
+# delta E
+tool = vscode
 
 [mergetool "vscode"]
-	cmd = "code --wait "
+cmd = "code --wait "
 
 [difftool "vscode"]
-  # https://stackoverflow.com/questions/51316233/how-can-i-see-git-diff-on-the-visual-studio-code-side-by-side-file
-  cmd = code --wait --diff $LOCAL $REMOTE
-
-
+# https://stackoverflow.com/questions/51316233/how-can-i-see-git-diff-on-the-visual-studio-code-side-by-side-file
+cmd = code --wait --diff $LOCAL $REMOTE
