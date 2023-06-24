@@ -23,7 +23,8 @@ alias g-remote-v='g remote -v'
 alias g-remote-add-origin='g remote add origin'
 # git remote add origin https://github.com/nzaero/cosmos-2023.git
 # create remote branch
-alias g-push--set-upstream='g push --set-upstream origin main'
+alias g-push--set-upstream='g push --set-upstream origin '
+alias gpu='g push --set-upstream origin '
 
 # -0
 # -0 USE
@@ -32,12 +33,14 @@ alias g-push--set-upstream='g push --set-upstream origin main'
 alias ga='g add '
 alias gaa='g add --all .'
 # -- commit
-alias ggm='gaa && g commit -m '
 alias gm='g commit -m '
-alias gmm='g commit -m "⬛ --"'
+alias gmm='g commit -m "⬛ -- [[`date`]]"'
 # -- push
 alias gp='g push'
 alias gpp='gaa && gmm && gp '
+
+alias gmg='g merge '
+
 # -- stash
 # alias gtt='g stash'
 # alias gtp='g stash pop'
@@ -78,10 +81,16 @@ ECHO"
 # -0
 # -0
 # alias gb='g branch' # used by fuzzy
+alias gfp='g pull'
+alias gf='g fetch'
 alias gc='g checkout'
 alias gcb='g checkout -b'
 alias g-checkout='g checkout'
 alias g-checkout-and-createBranch='g checkout -b'
+
+# update remote brnahc
+# alias g-switch='git switch -c'
+# git switch -c test origin/test
 
 # -- branch deletions
 # git delete branch
@@ -149,11 +158,11 @@ alias gcp='g cherry-pick' #git cherry -v master
 # -2
 # You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
 # alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
-alias gl="ECHO CURRENT_BRANCH - ONE && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
-alias gll="ECHO CURRENT_BRANCH - ALL && g log -25 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' --all; ECHOO"
+alias gl="ECHO CURRENT_BRANCH - ONE && g log -6 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
+alias gll="ECHO CURRENT_BRANCH - ALL && g log -6 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' --all; ECHOO"
 
-alias lg="ECHO TREE - ONE && g log -13 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n          🎤 %C(white)%s 🙊 %C(dim white)%an%n';  ECHOO"
-alias lgg="ECHO TREE - ALL && g log -13 --graph --show-linear-break --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an' --all;  ECHOO"
+alias lg="ECHO TREE - ONE && g log -6 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n          🎤 %C(white)%s 🙊 %C(dim white)%an%n';  ECHOO"
+alias lgg="ECHO TREE - ALL && g log -6 --graph --show-linear-break --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an' --all;  ECHOO"
 
 # https://git-scm.com/docs/git-log
 # https://git-scm.com/docs/pretty-formats

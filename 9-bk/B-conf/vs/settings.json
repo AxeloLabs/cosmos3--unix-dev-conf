@@ -122,7 +122,7 @@
   "explorer.confirmDragAndDrop": false,
   "editor.suggest.showWords": false, // ne pas afficher suggestion abc
   "editor.tabSize": 2,
-  "editor.rulers": [60],
+  "editor.rulers": [100],
   "workbench.list.horizontalScrolling": true,
   "workbench.editor.labelFormat": "short",
   "security.workspace.trust.untrustedFiles": "open",
@@ -142,7 +142,14 @@
   "editor.minimap.showSlider": "always",
   // -0 Z
   // "tabnine.experimentalAutoImports": true,
-
+  "git.openRepositoryInParentFolders": "never",
+  // do not import if I wont use it
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "**/dist",
+    "**/build"
+  ],
+  "dotenv.enableAutocloaking": false,
+  "window.zoomLevel": 1,
   "search.showLineNumbers": true,
   "search.sortOrder": "fileNames",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -161,14 +168,35 @@
   "files.associations": {
     ".env*": "dotenv",
     "libturbo.h": "c",
+    "*.json": "jsonc",
+    ".prettierrc": "jsonc",
     "turbo.json": "jsonc"
-  },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": []
   },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
+  // -0
+  // -0 EDITOR
+  // -0
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment.block.documentation",
+          "storage.type.class.jsdoc",
+          "comment.block.documentation.js",
+          "variable.other.jsdoc"
+        ],
+        "settings": {
+          "foreground": "#f63e9a",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // -0
+  // -0 HIGHLIGHT
+  // -0
   "todohighlight.keywords": [
     // {
     //   "text": "__",
@@ -178,6 +206,163 @@
     //   "overviewRulerColor": "transparent"
     // },
 
+    // https://code.visualstudio.com/docs/languages/jsconfig
+    {
+      "text": "prettier",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "-plugin-",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"lib\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"baseUrl\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"allowSyntheticDefaultImports\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "ecmaVersion",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"experimentalDecorators\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"checkJs\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"moduleResolution\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"target\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"target\":",
+      "color": "black",
+      "backgroundColor": "Gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "none",
+      "color": "white",
+      "backgroundColor": "Crimson",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "commonjs",
+      "color": "black",
+      "backgroundColor": "Crimson",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es5",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es2015",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es6",
+      "color": "black",
+      "backgroundColor": "Orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es2016",
+      "color": "black",
+      "backgroundColor": "Orchid",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "es2020",
+      "color": "black",
+      "backgroundColor": "BlueViolet",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "esnext",
+      "color": "white",
+      "backgroundColor": "Indigo",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "\"scripts\": {",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "import.meta.env.",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "@axelox/config-ts/base.json",
       "color": "black",
@@ -322,6 +507,91 @@
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
+
+    {
+      "text": "  \"packageManager",
+      "color": "black",
+      "backgroundColor": "seagreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "  \"private\": true",
+      "color": "black",
+      "backgroundColor": "seagreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"version",
+      "color": "black",
+      "backgroundColor": "Lime",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"name",
+      "color": "black",
+      "backgroundColor": "Lime",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "root: true",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"devDependencies",
+      "color": "black",
+      "backgroundColor": "Crimson",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"dependencies",
+      "color": "black",
+      "backgroundColor": "Crimson",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "extends: [",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "rules: {",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "env: {",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "parserOptions: {",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sourceType",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "\"dev",
       "color": "black",
@@ -436,13 +706,20 @@
       "text": "\"type\": \"module\"",
       "color": "white",
       "backgroundColor": "blue",
-      "isWholeLine": false,
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"files\":",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"module\":",
       "color": "black",
-      "backgroundColor": "gainsboro",
+      "backgroundColor": "orange",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -456,8 +733,29 @@
 
     {
       "text": "\"exports\": {",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"outDir\":",
       "color": "black",
-      "backgroundColor": "cyan",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"rootDir\":",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"paths\": {",
+      "color": "black",
+      "backgroundColor": "gainsboro",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -465,13 +763,34 @@
       "text": "\"main\": ",
       "color": "white",
       "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"default\": ",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"browser\": {",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\".\": {",
+      "color": "white",
+      "backgroundColor": "green",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"types\": ",
-      "color": "white",
-      "backgroundColor": "green",
+      "color": "black",
+      "backgroundColor": "orange",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -590,18 +909,271 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "export let CONST__UI_APP__baseDirMedia: string;",
+      "text": "export let CONST__UI_APP__baseDirMedia;",
       "color": "black",
       "backgroundColor": "gainsboro",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": ".DB_LOCAL",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "!packages/zlibsminify/*/dist/",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "!packages/zlibsinherit/*/dist/",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CHANGELOG.md",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "public",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "static",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".turbo",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "node_modules",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".svelte-kit",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".firebase",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "dist",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "build",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.log",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# firestore-debug.log",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# ui-debug.log",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*-lock",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*-lock.*",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".env",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".env.*",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "!.env.example",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "coverage",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "storybook-static",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "playwright-report",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "playwright/.cache",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# misc",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".DS_Store",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# nowhere lands",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.suo",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.ntvs*",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.njsproj",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.sln",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.sw?",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".idea",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "dist-ssr",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "*.local",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "**/",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"$schema\"",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
     }
-  ],
-  "git.openRepositoryInParentFolders": "never",
-  "typescript.preferences.autoImportFileExcludePatterns": [
-    "**/dist",
-    "**/build"
-  ],
-  "dotenv.enableAutocloaking": false,
-  "window.zoomLevel": 1
+  ]
 }

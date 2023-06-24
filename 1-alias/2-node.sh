@@ -5,15 +5,11 @@ alias upAll='ncu -u'
 alias n="pnpm" # "npm run"
 alias ni='n install'
 alias ppp='cat package.json | h scripts dependencies devDependencies name start build deploy init test'
-# -1
-# -1 OTHERS
-# -1
+# -0 OTHERS
 alias sass='n smui-prepare'
 # publish package
 alias spack='npm run package && cd package && npm publish --access public'
-# -0
 # -0 CHECK (svelte only)
-# -0
 alias check="clear && n megacheck | h -ni \
 '0 errors|0 error|0 warnings|problems|0 hints|formatting|format|building|build|bundle|preview|svelte-check|megacheck|check|lint|is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
 '/Users/0-minuit-ax/0-dev/master/axelo4/|warning' \
@@ -29,9 +25,7 @@ alias check="clear && n megacheck | h -ni \
 '\.cjs | \.config' \
 'svelte-check --tsconfig|\.md|\.postcss|\.scss|\.css|\.html' \
 "
-# -0
 # -0 LINT
-# -0
 BOUCHON__LINT='\
 "unexpected any warning" \
 "/Users/0-minuit-ax/0-dev/master/axelo4|no-non-null-assertion" \
@@ -44,65 +38,34 @@ BOUCHON__LINT='\
 "\.cjs" \
 '
 alias lint="clear && n lint | h -ni $BOUCHON__LINT"
-# -0
 # -0 FORMAT
-# -0
 alias format='clear && n format \
 | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css"  "\.json" "\.js" "\.md" "\.config"  "\.ts" "\.scss"  \
 | h -ni "index" "changelog"  "readme" "components" "package" "global" "\.cjs" "\.eslintrc"  '
-# -0
 # -0 BUILD
-# -0
 alias nb='n build'
-# -2
-# -2 DEV
-# -2
+# -0 DEV
 alias nd='n dev'
 alias ndf="n dev-force- ignore-cache-re-bundle"
 # alias nrs="pnpm run dev -- --open"
 alias ndd='nrs | h   "\.svelte" "~/0HOME/GARAGE/INTRALINK/src/|/src/routes/|/src/lib/|/src/stores/" "\[0\]" "\[1\]" ".*:.*:.*" "A11y"'
-# -2
-# -2 DEBUG
-# -2
+# -0 DEBUG
 alias ndeb="n debug"
-# -3
-# -3 EMU
-# -3
+# -0 EMU
 alias ne="n emu"
 alias ne--kill='n emu--kill'
-# -3
-# -3 DEPLOY
-# -3
+# -0 DEPLOY
 alias ndep='n deploy'
-# -1
-# -1 TEST
-# -1
-alias nc="n coverage"
-alias nt="n test"
-alias ntt='n test | h -ni "test.ts:" "\-\-" ">>>" "tests/scrapper/" "apiChat" "apiMine" "apiShared" " # "'
+# -0 TEST
+alias nc="n test-vitest--coverage"
+alias ntui="n test-vitest--ui"
+alias nt="n test-vitest"
+alias ntt='nt | h -ni "test.ts:" "\-\-" ">>>" "tests/scrapper/" "apiChat" "apiMine" "apiShared" " # "'
+alias ns="n serve"
 # playwright
 alias np="n play"
 alias np--deb="n play-debug"
-# -0
-# -0 YARN
-# -0
-# alias y='yarn'
-# alias yb='y build'
-# alias y-build='y build'
-# alias yd='ECHOO && y dev; ECHO'
-# alias y-dev='y dev'
-# alias y-emu='y emu'
-# alias y-emu--import-prod='y emu--import-prod'
-# alias ys='y start'
-# alias y-start='y start'
-# alias y-deploy='y deploy'
-# alias ya='y add'
-# alias y-add='y add'
-# alias y-global-add='y global add'
-# alias y-add-dependency='y add -D'
-# alias y-install='yarn install'
-# alias y-upgrade-interactive--latest='yarn upgrade-interactive --latest'
-# alias y-global-list='yarn global list'
+
 # -0
 # -0
 # -0
