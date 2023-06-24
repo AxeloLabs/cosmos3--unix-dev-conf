@@ -2,6 +2,9 @@
 # -0 ZSH-RC -- 15 may 2023 - COSMOS
 # -0
 
+# reccursive search git repo
+# find . -name .git -type d -prune
+
 # -1 zsh history
 # https://www.soberkoder.com/better-zsh-history/
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh

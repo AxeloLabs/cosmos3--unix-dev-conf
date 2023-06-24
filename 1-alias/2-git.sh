@@ -5,7 +5,6 @@
 alias g='git'
 alias g-open='g-open'
 alias g-clone='g clone'
-
 # -0
 # -0 branch details
 # -0
@@ -14,18 +13,17 @@ alias g-branch-list-remote='g remote -v'     # list all remote URLs
 alias g-branch-list-upstream='g branch -vv ' # verbose list set-upstrzeam
 alias NEW_LINE='echo 🦠 ----- 🦠'              ##
 alias gbb='ECHO  \
-&& NEW_LINE && echo "::g-branch-a:" && g-branch-a    \
-&& NEW_LINE && echo "::g-branch-list-remote:" && g-branch-list-remote  \
+&& NEW_LINE && echo "::LOCAL:" && g-branch-a    \
+&& NEW_LINE && echo "::REMOTE:" && g-branch-list-remote  \
 && NEW_LINE && echo "::g-branch-list-upstream:" && g-branch-list-upstream \
 && ECHOO'
 # -- remote
 alias g-remote-v='g remote -v'
 alias g-remote-add-origin='g remote add origin'
 # git remote add origin https://github.com/nzaero/cosmos-2023.git
-# create remote branch
-alias g-push--set-upstream='g push --set-upstream origin '
+# -- create remote branch
 alias gpu='g push --set-upstream origin '
-
+alias g-push--set-upstream='g push --set-upstream origin '
 # -0
 # -0 USE
 # -0
@@ -38,22 +36,22 @@ alias gmm='g commit -m "⬛ -- [[`date`]]"'
 # -- push
 alias gp='g push'
 alias gpp='gaa && gmm && gp '
-
-alias gmg='g merge '
-
 # -- stash
-# alias gtt='g stash'
-# alias gtp='g stash pop'
-# alias gtl='g stash list '
+alias gs='g stash'
+alias gsp='g stash pop'
+alias gsl='g stash list '
+alias gsld='g stash list --date=local'
 alias g-stash='g stash'
 alias g-stash-pop='g stash pop'
 alias g-stash-list='g stash list '
 alias g-stash-list--date='g stash list --date=local'
 # -- show
 alias g-show-axel='g show $(g stash list | cut -d":" -f 1)'
-# tag
+# -- tag
 alias g-tag='g tag | h -ni 2.2.3 2.2.4 2.2.5'
-# STATUS
+# -0
+# -0 STATUS
+# -0
 # hash
 BOUCHON__GIT_HASH="'ad2e172|e869510' 21068 22606 '615d7ff|ec4667e|ad2e172'"
 # files
@@ -78,8 +76,10 @@ alias a="ECHO && g status \
 | h $BOUCHON__GIT_STATUS ; \
 ECHO"
 # -0
+# -0 BRANCH
 # -0
-# -0
+# -- merge
+alias gmg='g merge '
 # alias gb='g branch' # used by fuzzy
 alias gfp='g pull'
 alias gf='g fetch'
@@ -153,9 +153,9 @@ alias gcp='g cherry-pick' #git cherry -v master
 
 # GIT LOG - git log --oneline (stack view) - https://g-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-Cred
 
-# -2
-# -2 TOUTES LES BRANCHES
-# -2
+# -0
+# -0 LOG
+# -0
 # You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
 # alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
 alias gl="ECHO CURRENT_BRANCH - ONE && g log -6 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
@@ -223,6 +223,6 @@ alias gl-5='g log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s <%ad>"
 alias gl-6='g log -50 --author="axel" --stat'
 alias gl-7='g log --author="axel" --stat'
 
-# -2
-# -2 END
-# -2
+# -0
+# -0 END
+# -0

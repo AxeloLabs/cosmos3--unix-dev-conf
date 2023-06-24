@@ -122,7 +122,7 @@
   "explorer.confirmDragAndDrop": false,
   "editor.suggest.showWords": false, // ne pas afficher suggestion abc
   "editor.tabSize": 2,
-  "editor.rulers": [100],
+  "editor.rulers": [60, 100],
   "workbench.list.horizontalScrolling": true,
   "workbench.editor.labelFormat": "short",
   "security.workspace.trust.untrustedFiles": "open",
@@ -348,6 +348,13 @@
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
+    {
+      "text": "ESNext",
+      "color": "white",
+      "backgroundColor": "Indigo",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
 
     {
       "text": "\"scripts\": {",
@@ -363,6 +370,28 @@
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
+    {
+      "text": "\"include\"",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"compilerOptions\"",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"exclude\"",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+
     {
       "text": "@axelox/config-ts/base.json",
       "color": "black",
@@ -738,6 +767,65 @@
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
+
+    {
+      "text": "\"strict\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"sourceMap\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"skipLibCheck\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "\"verbatimModuleSyntax\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"isolatedModules\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"resolveJsonModule\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"forceConsistentCasingInFileNames\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"esModuleInterop\":",
+      "color": "black",
+      "backgroundColor": "DeepSkyBlue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
     {
       "text": "\"outDir\":",
       "color": "black",
