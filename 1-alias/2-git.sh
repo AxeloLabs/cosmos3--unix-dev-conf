@@ -224,5 +224,71 @@ alias gl-6='g log -50 --author="axel" --stat'
 alias gl-7='g log --author="axel" --stat'
 
 # -0
+# -0 Z
+# -0
+
+# %%% GIT FUZZY (==> puissant mais CTRL+P ne marche pas)
+# BASIC FZF
+alias gfa='g fuzzy status'  #---
+alias gfgl='g fuzzy log'    #
+alias gfcb='g fuzzy branch' #
+alias gfgt='g fuzzy stash'
+alias gfgr='g fuzzy reflog'
+alias gfgpr='g fuzzy pr'
+alias gfgd='g fuzzy diff'
+
+# ADVANCED FZF -- FZF guy
+alias pwb='g rev-parse --abbrev-ref HEAD'
+
+# -----------------------------------------------------
+# MERGE HELP
+# -----------------------------------------------------
+# -e "added by us:"
+alias g-checkout--theirs="g checkout --theirs $(g status | grep -e 'both added' -e 'both modified' -e 'both deleted:' | awk '{print $NF}')"
+alias g-commit--theirs='g commit `g status | grep "both added:" | awk "{print $NF}"`'
+# Warning: If your .env is already part of your Git repository, adding it to .gitignore will not remove it. In this case, you’ll also need to tell Git to stop tracking .env, which you can do with
+# This will delete .env from your repo, but leave it on your local machine (and now your .gitignore will cause it to be ignored).
+# git rm --cached .env
+# create an orphan virgin branch
+# git switch --orphan <new branch>
+# git config --global init.defaultBranch
+
+# -0
+# -0 FUNC
+# -0
+# useful for daily stand-up
+git_standup() {
+  AUTHOR=${AUTHOR:="$(g config user.name)"}
+  since=yesterday
+  if [[ $(date +%u) == 1 ]]; then
+    since="2 days ago"
+  fi
+  g log --all --since "$since" --oneline --author="$AUTHOR"
+}
+# diff ce qui est commit (repo distant)
+git__voir_fichiers() {
+  gsf_ "$1"
+  git show "$1" | $BOUCHON__GIT_DDD | h -i "popo" "lolo" "lili" "$1"
+  gsf_ "$1"
+}
+
+# permet de lister JUSTE NOM + HASH -> et de grep sur un sha
+git__voir_fichiers_simple() {
+  # FAIRE JUSTE git l
+  git show --oneline --decorate --stat "$1"
+  git show --oneline --decorate --stat "$1" | h -ni "$1" \\.java \\.ui\\.xml '/services/|/dao/' /dto/ '/client/|/ui/|ui/|/views/|/pdd/|list/pddcreator/' /java/com/groupemre/atnv2 | h -i 'dao|service' presenter 'popup|editor' module 'validator|filter|Validation' bulksend create 'files changed' insertions deletions \\- \\+ '/combo.*'
+  #git show  --oneline --decorate --stat --graph $1
+  # git show  --oneline --decorate --stat --graph $1 | h -ni $1   \\.java \\.ui\\.xml '/services/|/dao/' /dto/ '/client/|/ui/|ui/|/views/|/pdd/|list/pddcreator/'  /java/com/groupemre/atnv2    | h -i 'dao|service' presenter 'popup|editor' module 'validator|filter|Validation' bulksend  create 'files changed' insertions deletions  \\- \\+ '/combo.*'
+  #git show  --oneline --decorate --stat --graph $1 | h -i $1 'java\/com'  \\.java \\.ui\\.xml \\+ \\- 'files changed' insertions deletions
+  #'\/java\/com\/groupemre\/atnv2\/'
+}
+
+# --
+git__sshow() {
+  ##git show  --oneline --decorate --stat --graph $1 | h -ni $1  '\/java\/com\/groupemre\/atnv2\/'  'files changed' insertions deletions  \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create  \\+ \\-
+  git show --oneline --decorate --stat "$1" | h -ni "$1" '\/java\/com\/groupemre\/atnv2\/' 'files changed' insertions deletions \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create \\+ \\-
+}
+
+# -0
 # -0 END
 # -0
