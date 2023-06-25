@@ -190,7 +190,6 @@
         ],
         "settings": {
           "foreground": "#f63e9a"
-          // "fontStyle": "italic"
         }
       },
       {
@@ -203,7 +202,6 @@
           "punctuation.definition.block.js"
         ],
         "settings": {
-          // "foreground": "#f63e9a"
           "fontStyle": "italic"
         }
       }
