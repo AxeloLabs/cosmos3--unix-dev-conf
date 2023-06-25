@@ -1263,7 +1263,7 @@
     //   "overviewRulerColor": "transparent"
     // },
     {
-      "text": "# -1",
+      "text": "# -0",
       "color": "black",
       "backgroundColor": "#8eb7e4",
       "isWholeLine": true,
@@ -1347,7 +1347,7 @@
       "overviewRulerColor": "#transparent"
     },
     {
-      "text": "# -2",
+      "text": "# -0",
       "color": "white",
       "backgroundColor": "red",
       "isWholeLine": true,
@@ -1489,7 +1489,7 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "# -3",
+      "text": "# -0",
       "color": "black",
       "backgroundColor": "#e4e455",
       "isWholeLine": true,

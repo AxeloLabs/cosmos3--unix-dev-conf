@@ -1,23 +1,21 @@
 # -0
 # -0 ZSH-RC -- 15 may 2023 - COSMOS
 # -0
-
 # reccursive search git repo
 # find . -name .git -type d -prune
-
-# -1 zsh history
+# -0 zsh history
 # https://www.soberkoder.com/better-zsh-history/
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh
 export HISTFILE=~/.zsh_history # HISTSIZE - Refers to the number of commands that are loaded into memory from the history file
 export HISTSIZE=100000000      # HISTFILE - Refers to the path/location of the history file
 export SAVEHIST=100000000      # SAVEHIST - Refers to the number of commands that are stored in the zsh history file
 export HISTTIMEFORMAT="[%F %T] "
-# -1 z
+# -0 z
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" # use bat in man
-# -1 cosmos
+# -0 cosmos
 export COSMOS_RC=~/"0-dev/master/0-cosmos"
 export COSMOS_LIB=~/"0-dev/master/0-cosmos/0-shell/A-lib"
-# -3 alias - base
+# -0 alias - base
 . "$COSMOS_RC/1-alias/1-unix.sh"
 . "$COSMOS_RC/1-alias/2-firebase.sh"
 . "$COSMOS_RC/1-alias/2-git.sh"
@@ -50,24 +48,23 @@ zstyle ':completion:*:exa' sort false
 # export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#000000,bg:#000000,hl:#ff0000 --color=fg+:#fff700,bg+:#000000,hl+:#ff0000 --color=info:#f05de4,prompt:#ff006f,pointer:#ff0000 --color=marker:#000000,spinner:#000000,header:#f05de4'
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#00b524,bg:#000000,hl:#ff0000 --color=fg+:#fff700,bg+:#000000,hl+:#ff0000 --color=info:#f05de4,prompt:#ff006f,pointer:#ff0000 --color=marker:#000000,spinner:#000000,header:#f05de4'
 # useless finalement (deps fzf-tab ?)
-
-# -1 helpers
+# -0 helpers
 pathadd() {
     if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
         PATH="${PATH:+"$PATH:"}$1"
     fi
 }
-# -2 lib
+# -0 lib
 # export GAWK_BIN="/opt/homebrew/opt/gawk/libexec/gnubin"
 # pathadd $GAWK_BIN
-# -2
+# -0
 # fzf (tab ++)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source "$COSMOS_RC/0-shell/A-lib/fzf-tab/fzf-tab.plugin.zsh"
-# -2
+# -0
 # lib -- higlighter -- > echo "rvjbovRGYBOV" | h   r v j b o v R G Y B O V
 source "$COSMOS_LIB/h/h.sh"
-# -2
+# -0
 export JAVA_HOME="/opt/homebrew/opt/openjdk"
 export JAVA_BIN="/opt/homebrew/opt/openjdk/bin"
 pathadd $JAVA_BIN
@@ -79,28 +76,23 @@ pathadd $PNPM_HOME
 #   *) export PATH="$PNPM_HOME:$PATH" ;;
 # esac
 # pnpm end
-
 # ls color - https://github.com/xPMo/zsh-ls-colors/
 # ${prefix}::fmt [ -f $format | -F $format ] [ -o | -0 | -a | -A ] $context $files[@]
 # load function as my-lscolors::fmt
 # The remaining arguments to source determines which lib/ files you want to load.
 # If no arguments are provided, then all lib/*.zsh are loaded.
 # source ${0:h}/ls-colors/ls-colors.zsh my-lscolors fmt
-
 # -0 syntax hilight (fzf-tab must be before)
 source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-
 # -0 pimp-my-prompt
 eval "$(starship init zsh)"
-
 FZF_TAB_GROUP_COLORS=(
     $'\033[94m' $'\033[32m' $'\033[33m' $'\033[35m' $'\033[31m' $'\033[38;5;27m' $'\033[36m' \
     $'\033[38;5;100m' $'\033[38;5;98m' $'\033[91m' $'\033[38;5;80m' $'\033[92m' \
     $'\033[38;5;214m' $'\033[38;5;165m' $'\033[38;5;124m' $'\033[38;5;120m'
 )
 zstyle ':fzf-tab:*' group-colors $FZF_TAB_GROUP_COLORS
-
-# -1 Usage: palette
+# -0 Usage: palette
 palette() {
     local -a colors
     for i in {000..255}; do
@@ -108,15 +100,16 @@ palette() {
     done
     print -cP $colors
 }
-
-# -1 Usage: printc COLOR_CODE
+# -0 Usage: printc COLOR_CODE
 printc() {
     local color="%F{$1}"
     echo -E ${(qqqq)${(%)color}}
 }
-
 #  BUGS
 #-----------------------------------------------------------
 # fnm (better nvm - node version manager)
 eval "$(fnm env --use-on-cd)"
 #-----------------------------------------------------------
+# -1
+# -1
+# -1

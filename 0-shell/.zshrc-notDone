@@ -1,5 +1,3 @@
-
-
 # -------------------------------------------------
 # FZF
 # -------------------------------------------------
@@ -16,8 +14,6 @@ source "$COSMOS_RC/0-shell/A-lib/fzf-tab/fzf-tab.plugin.zsh"
 
 # source "$COSMOS_RC/0-shell/A-lib/fzf-tab-completion/zsh/fzf-zsh-completion.sh"
 # bindkey '^I' fzf_completion
-
-
 
 # fatigue l oeil
 # source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

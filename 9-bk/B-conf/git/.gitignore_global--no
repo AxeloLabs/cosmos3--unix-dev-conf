@@ -1,63 +1,63 @@
 # -0
-# -0 GIT CONFIG - Axel Regnoult - 9 juin 2023
+# -0 GIT CONFIG - 9 juin 2023
 # -0
 .DS_Store
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
 .DS_Store?
-# -2 OS generated files #
+# -0 OS generated files #
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
-# -2 env
+# -0 env
 .env
 .env.*
 .env.local
 .env.*.local
 !.env.example
-# -2 Firebase cache
+# -0 Firebase cache
 .firebase/
-# -2 sveltekit
+# -0 sveltekit
 .svelte
 .svelte-kit
 package
-# -2 deps
+# -0 deps
 node_modules
-# -2 log (debug)
+# -0 log (debug)
 logs
 *.log
-# npm-debug.log* 
-# yarn-debug.log* 
+# npm-debug.log*
+# yarn-debug.log*
 # yarn-error.log*
-# -2 playwright
+# -0 playwright
 test-results
 playwright-report
 playwright/.cache
-# -2 [lock]
+# -0 [lock]
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
-# -2 Storybook
+# -0 Storybook
 storybook-static
 storybook-static/*
-# -2 vercel
+# -0 vercel
 .vercel_build_output
 .vercel
-# -2 jest
+# -0 jest
 coverage
 coverage/*
-# -2 KDE/Linux generated files
-# -2 .directory
-# -2 *.eslintcache
-# -2 Runtime data
-# -2 pids
+# -0 KDE/Linux generated files
+# -0 .directory
+# -0 *.eslintcache
+# -0 Runtime data
+# -0 pids
 #  *.pid
 #  *.seed
 #  *.pid.lock
-# -2 yarn
+# -0 yarn
 #  .yarn/*
 #  .yarn/cache
 #  .yarn/patches
@@ -65,9 +65,9 @@ coverage/*
 #  .yarn/releases
 #  .yarn/sdks
 #  .yarn/versions
-# -2 cypress
+# -0 cypress
 #  cypress/videos
 #  cypress/screenshots
-# -2 vite
+# -0 vite
 vite.config.js.timestamp.*
-# -2 
+# -0

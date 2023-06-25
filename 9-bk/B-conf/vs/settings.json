@@ -132,7 +132,7 @@
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorBlinking": "solid",
-  "workbench.colorTheme": "Darkside (rainglow)",
+  "workbench.colorTheme": "Rainbow Contrast (rainglow)",
   // -0 HINT
   "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
@@ -149,7 +149,6 @@
     "**/build"
   ],
   "dotenv.enableAutocloaking": false,
-  "window.zoomLevel": 1,
   "search.showLineNumbers": true,
   "search.sortOrder": "fileNames",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -182,13 +181,28 @@
     "textMateRules": [
       {
         "scope": [
+          "comment.line.number-sign.shell",
           "comment.block.documentation",
           "storage.type.class.jsdoc",
           "comment.block.documentation.js",
           "variable.other.jsdoc"
         ],
         "settings": {
-          "foreground": "#f63e9a",
+          "foreground": "#f63e9a"
+          // "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.js",
+          "keyword.control.conditional.js",
+          "keyword.control.export.js",
+          "keyword.control.import.js",
+          "meta.brace.round.js",
+          "punctuation.definition.block.js"
+        ],
+        "settings": {
+          // "foreground": "#f63e9a"
           "fontStyle": "italic"
         }
       }
@@ -272,13 +286,6 @@
     },
     {
       "text": "\"moduleResolution\":",
-      "color": "black",
-      "backgroundColor": "Gold",
-      "isWholeLine": false,
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "\"target\":",
       "color": "black",
       "backgroundColor": "Gold",
       "isWholeLine": false,
@@ -496,20 +503,6 @@
       "text": "export",
       "color": "black",
       "backgroundColor": "deepPink",
-      "isWholeLine": false,
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "\"target\": \"esnext\"",
-      "color": "white",
-      "backgroundColor": "green",
-      "isWholeLine": false,
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "\"module\": \"esnext\"",
-      "color": "white",
-      "backgroundColor": "green",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -904,6 +897,13 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "-1",
+      "color": "black",
+      "backgroundColor": "SlateGray",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "-0",
       "color": "white",
       "backgroundColor": "green",
@@ -1262,6 +1262,49 @@
       "backgroundColor": "blue",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"--GO",
+      "color": "black",
+      "backgroundColor": "gray",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"--ROBUST",
+      "color": "black",
+      "backgroundColor": "gray",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"--RELEASE",
+      "color": "black",
+      "backgroundColor": "gray",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"--END",
+      "color": "black",
+      "backgroundColor": "gray",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"--QUALITY",
+      "color": "black",
+      "backgroundColor": "gray",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "defineConfig",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
     }
-  ]
+  ],
+  "window.zoomLevel": 1
 }

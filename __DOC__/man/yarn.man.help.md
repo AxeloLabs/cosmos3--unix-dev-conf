@@ -59,3 +59,39 @@ yarn add puppeteer@5.0.0
 
 yarn add [package]@[tag]
 ```
+
+# -0 YARN
+
+# alias y='yarn'
+
+# alias yb='y build'
+
+# alias y-build='y build'
+
+# alias yd='ECHOO && y dev; ECHO'
+
+# alias y-dev='y dev'
+
+# alias y-emu='y emu'
+
+# alias y-emu--import-prod='y emu--import-prod'
+
+# alias ys='y start'
+
+# alias y-start='y start'
+
+# alias y-deploy='y deploy'
+
+# alias ya='y add'
+
+# alias y-add='y add'
+
+# alias y-global-add='y global add'
+
+# alias y-add-dependency='y add -D'
+
+# alias y-install='yarn install'
+
+# alias y-upgrade-interactive--latest='yarn upgrade-interactive --latest'
+
+# alias y-global-list='yarn global list'
