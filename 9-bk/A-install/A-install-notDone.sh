@@ -1,7 +1,3 @@
-# -0
-# -0 BONUS
-# -0
-
 # bin GCLOUD
 brew install --cask google-cloud-sdk
 # SYS-ADMIN

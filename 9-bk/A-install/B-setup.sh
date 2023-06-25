@@ -22,7 +22,7 @@ git config --global init.defaultBranch main
 # -0 FIRST: the first file in cosmos MUST be created
 # -0 SECOND: it will copy the first file to the second (so it does not copy the existing conf to yours : WARN !!!)
 # -0
-# -0 ln -s /path/to/target.js linked-target.js
+# -0 ln -s /path/to/target.js (true file) linked-target.js (sym)
 # -0
 # zsh
 ln -Ff "$COSMOS_RC/0-shell/.zshrc" ~/.zshrc
