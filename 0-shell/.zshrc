@@ -1,8 +1,14 @@
+#!/bin/zsh
 # -0
 # -0 ZSH-RC -- 15 may 2023 - COSMOS
 # -0
-# reccursive search git repo
+# > reccursive search git repo
 # find . -name .git -type d -prune
+
+# VS CODE BK
+alias vscode--save-plugin="codi --list-extensions > extensions-cosmos3--4juin2023.list"
+alias vscode--load-plugin="cat extensions.list |% { codi --install-extension $\_}"
+
 # -0 zsh history
 # https://www.soberkoder.com/better-zsh-history/
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh
@@ -57,11 +63,11 @@ pathadd() {
 # -0 lib
 # export GAWK_BIN="/opt/homebrew/opt/gawk/libexec/gnubin"
 # pathadd $GAWK_BIN
-# -0
+
 # fzf (tab ++)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source "$COSMOS_RC/0-shell/A-lib/fzf-tab/fzf-tab.plugin.zsh"
-# -0
+
 # lib -- higlighter -- > echo "rvjbovRGYBOV" | h   r v j b o v R G Y B O V
 source "$COSMOS_LIB/h/h.sh"
 # -0
@@ -105,6 +111,7 @@ printc() {
     local color="%F{$1}"
     echo -E ${(qqqq)${(%)color}}
 }
+#-----------------------------------------------------------
 #  BUGS
 #-----------------------------------------------------------
 # fnm (better nvm - node version manager)

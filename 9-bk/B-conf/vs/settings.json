@@ -181,6 +181,7 @@
     "textMateRules": [
       {
         "scope": [
+          "comment.block.html",
           "comment.line.number-sign.shell",
           "comment.block.documentation",
           "storage.type.class.jsdoc",
