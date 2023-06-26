@@ -1264,36 +1264,43 @@
     },
     {
       "text": "\"--GO",
-      "color": "black",
-      "backgroundColor": "gray",
+      "color": "white",
+      "backgroundColor": "black",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"--ROBUST",
-      "color": "black",
-      "backgroundColor": "gray",
+      "color": "white",
+      "backgroundColor": "black",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"--RELEASE",
-      "color": "black",
-      "backgroundColor": "gray",
+      "color": "white",
+      "backgroundColor": "black",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"--END",
-      "color": "black",
-      "backgroundColor": "gray",
+      "color": "white",
+      "backgroundColor": "black",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"--QUALITY",
-      "color": "black",
-      "backgroundColor": "gray",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"--EMU",
+      "color": "white",
+      "backgroundColor": "black",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
