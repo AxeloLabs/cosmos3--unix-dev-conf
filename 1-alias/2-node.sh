@@ -1,9 +1,26 @@
 #!/bin/sh
+
+# npm list -g
+# brew list
+
 # $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
 alias nv='node -v' # nv-18='nvm use 18.4.0'
-alias upAll='ncu -u'
+alias upall='pnpm up --latest'
+# alias upall='ncu -u'
 alias n="pnpm" # "npm run"
-alias ni='n install'
+
+PROJECT="Done|Nothing|pnpm|apps|packages|preinstall|postinstall"
+
+# pnpm|exec \
+# axelox- \
+# zlib-test \
+# apps|packages \
+# postinstall|preinstall \
+# \
+# done|'pnpm exec'
+
+alias ni='n install | h -i $PROJECT'
+
 alias ppp='cat package.json | h scripts dependencies devDependencies name start build deploy init test'
 # OTHERS
 alias sass='n smui-prepare'
@@ -65,6 +82,6 @@ alias ns="n serve"
 # playwright
 alias np="n play"
 alias np--deb="n play-debug"
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

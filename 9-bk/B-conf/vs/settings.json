@@ -4,9 +4,9 @@
   "terminal.integrated.env.linux": {
     "EDITOR": "code"
   },
-  // -1
-  // -1 WORKBENCH
-  // -1
+  // -9
+  // -9 WORKBENCH
+  // -9
   "workbench.colorCustomizations": {
     // ---------------------------------------------------
     // "editor.findMatchBorder": "#ffdd00",
@@ -19,7 +19,7 @@
     "scrollbarSlider.background": "#ff000058",
     "editorLineNumber.activeForeground": "#41f110",
 
-    // -1 tab
+    // -9 tab
     "breadcrumb.background": "#FFF",
     "breadcrumb.foreground": "#000",
     // "editorGroupHeader.tabsBackground": "#fff",
@@ -28,6 +28,7 @@
     "tab.activeBackground": "#fff",
     // "tab.inactiveBackground": "#fff",
     // "tab.inactiveForeground": "#000",
+    "terminal.ansiRed": "#88dc97",
     // "terminal.background": "#090300",
     // "terminal.foreground": "#A5A2A2",
     // "editorInlayHint.background": "#01A0E4",
@@ -38,9 +39,9 @@
     "list.hoverForeground": "#000000",
     "list.errorForeground": "#ff0000",
     "list.warningForeground": "#c5be05",
-    // -1
-    // -1
-    // -1 git - files
+    // -9
+    // -9
+    // -9 git - files
     // "gitDecoration.addedResourceForeground": "#00f",
     // "gitDecoration.stageModifiedResourceForeground": "#15d01579",
     "gitDecoration.modifiedResourceForeground": "#30b930",
@@ -49,18 +50,18 @@
     // "gitDecoration.untrackedResourceForeground": "#fdfdfd",
     // "gitDecoration.ignoredResourceForeground": "#ff0000",
     // "gitDecoration.conflictingResourceForeground": "#00e5ff"
-    // -1 Gutter indicators (right)
+    // -9 Gutter indicators (right)
     // "editorOverviewRuler.addedForeground": "#00f",
     "editorOverviewRuler.modifiedForeground": "#30b930",
     "editorOverviewRuler.deletedForeground": "#0040ff",
-    // -1 git - gutter -- // Scrollbar indicators (left + right)
+    // -9 git - gutter -- // Scrollbar indicators (left + right)
     "editorGutter.modifiedBackground": "#00fd00",
     // "editorGutter.addedBackground": "#fdfdfd",
     "editorGutter.deletedBackground": "#0040ff",
 
-    // -1
-    // -1
-    // -1 ctrl + P
+    // -9
+    // -9
+    // -9 ctrl + P
     "quickInput.foreground": "#000",
     "quickInput.background": "#fff",
     "quickInputList.focusBackground": "#000",
@@ -68,7 +69,7 @@
     // this color is the letter matched !
     "list.highlightForeground": "#ff0000",
 
-    // -1 suggest
+    // -9 suggest
     "editorSuggestWidget.selectedBackground": "#000",
     "editorSuggestWidget.border": "#fff",
     "editorSuggestWidget.foreground": "#000",
@@ -77,10 +78,11 @@
     "editorSuggestWidget.focusHighlightForeground": "#ff0000",
     "editorSuggestWidget.highlightForeground": "#ff0000",
 
-    // -1 terminal
-    "terminal.fontLigatures": true
-    // "terminal.fontFamily": "Victor Mono",
-    // -1 Z
+    // -9 terminal
+    "terminal.fontLigatures": true,
+    "terminal.fontFamily": "Victor Mono"
+    // "terminal.integrated.fontSize": 30
+    // -9 Z
     // "editor.background": "#1a2801"
   },
   // -0
@@ -120,7 +122,7 @@
   // -0 EDITOR
   "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
   "explorer.confirmDragAndDrop": false,
-  "editor.suggest.showWords": false, // ne pas afficher suggestion abc
+
   "editor.tabSize": 2,
   "editor.rulers": [60, 100],
   "workbench.list.horizontalScrolling": true,
@@ -128,7 +130,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDelete": false,
   "workbench.tree.indent": 16,
-  "material-icon-theme.folders.color": "#43a047",
+  "material-icon-theme.folders.color": "#000",
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorBlinking": "solid",
@@ -136,6 +138,13 @@
   // -0 HINT
   "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
+  "editor.suggest.showWords": true, // ne pas afficher suggestion abc => but mANDATORY FOR JSDOC
+  // "[javascript]": {
+  //   "editor.autoClosingBrackets": "languageDefined"
+  // },
+  // "[typescript]": {
+  //   "editor.autoClosingBrackets": "languageDefined"
+  // },
   // -0 minimap S
   // "editor.minimap.enabled": false,
   "editor.minimap.renderCharacters": false,
@@ -199,10 +208,62 @@
           "keyword.control.export.js",
           "keyword.control.import.js",
           "meta.brace.round.js",
-          "punctuation.definition.block.js"
+          "punctuation.definition.block.js",
+          "keyword.operator.assignment.js",
+          "punctuation.separator.key-value.js",
+          "keyword.operator.spread.js",
+          "keyword.control.flow.js",
+          "keyword.control.from.js",
+          "storage.modifier.async.js",
+          "punctuation.definition.template-expression.begin.js",
+          "entity.other.attribute-name.svelte",
+          "variable.other.readwrite.alias.js",
+          "meta.import.js",
+          "meta.import.ts",
+          "meta.script.svelte entity.name.tag.svelte"
         ],
         "settings": {
           "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["support.type.property-name.css.postcss"],
+        "settings": {
+          "foreground": "#d3b416"
+        }
+      },
+      {
+        "scope": [
+          "support.class.component.svelte",
+          "entity.other.attribute-name.class.css.postcss",
+          "entity.name.type.class.ts",
+          "entity.name.type.class.js"
+        ],
+        "settings": {
+          "foreground": "#01c4da"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.js",
+          "storage.type.ts",
+          "support.type.property-name.css.postcss",
+          "entity.name.tag.svelte"
+        ],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.js",
+          "entity.other.attribute-name.class.css.postcss",
+          "entity.name.type.class.ts",
+          "entity.name.type.class.js",
+          "support.class.component.svelte"
+        ],
+        "settings": {
+          "fontStyle": "bold"
         }
       }
     ]
@@ -211,6 +272,105 @@
   // -0 HIGHLIGHT
   // -0
   "todohighlight.keywords": [
+    {
+      "text": "@material",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "mdi",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "smui-theme",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "smui",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "storybook",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "playwright",
+      "color": "black",
+      "backgroundColor": "Cornsilk",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sveltejs",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "typescript",
+      "color": "white",
+      "backgroundColor": "SandyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vite",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vitest",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "autoprefixer",
+      "color": "white",
+      "backgroundColor": "SaddleBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "postcss",
+      "color": "white",
+      "backgroundColor": "SaddleBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tailwindcss",
+      "color": "white",
+      "backgroundColor": "SaddleBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "firebase",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "Maroon"
+    },
+
     // {
     //   "text": "__",
     //   "color": "deepPink",
@@ -486,8 +646,8 @@
     },
     {
       "text": "import",
-      "color": "black",
-      "backgroundColor": "gainsboro",
+      "color": "purple",
+      "backgroundColor": "transparent",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -500,8 +660,8 @@
     },
     {
       "text": "export",
-      "color": "black",
-      "backgroundColor": "deepPink",
+      "color": "deepPink",
+      "backgroundColor": "transparent",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -544,10 +704,17 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "\"inherits\"",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "\"version",
       "color": "black",
       "backgroundColor": "Lime",
-      "isWholeLine": true,
+      "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
@@ -557,6 +724,7 @@
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
+
     {
       "text": "root: true",
       "color": "white",
@@ -864,14 +1032,14 @@
       "text": "\".\": {",
       "color": "white",
       "backgroundColor": "green",
-      "isWholeLine": false,
+      "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
       "text": "\"types\": ",
       "color": "black",
       "backgroundColor": "orange",
-      "isWholeLine": false,
+      "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
     {
@@ -896,7 +1064,7 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "-1",
+      "text": "-9",
       "color": "black",
       "backgroundColor": "SlateGray",
       "isWholeLine": true,
@@ -942,6 +1110,13 @@
       "text": "../0-config",
       "color": "white",
       "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"workspace:*\"",
+      "color": "white",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -1305,12 +1480,23 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "reference",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "defineConfig",
       "color": "black",
-      "backgroundColor": "gainsboro",
+      "backgroundColor": "yellowgreen",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     }
   ],
-  "window.zoomLevel": 1
+  "vitest.enable": true,
+  "material-icon-theme.saturation": 0,
+  "material-icon-theme.opacity": 0.5,
+  "material-icon-theme.files.color": "#7cb342",
+  "window.zoomLevel": 2
 }

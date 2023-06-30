@@ -38,6 +38,6 @@ alias f-4-serve='f serve'
 alias f-4-serve--only-hosting='f serve --only hosting'
 # alias f-emu-exec--only-firestore="f emulators:exec --only firestore 'yarn test-firestore'"
 # f emulators:exec --only database "npm run test-database"
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

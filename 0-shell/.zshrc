@@ -4,6 +4,7 @@
 # -0
 # > reccursive search git repo
 # find . -name .git -type d -prune
+# fnm default 20.2.0
 
 # VS CODE BK
 alias vscode--save-plugin="codi --list-extensions > extensions-cosmos3--4juin2023.list"
@@ -117,6 +118,6 @@ printc() {
 # fnm (better nvm - node version manager)
 eval "$(fnm env --use-on-cd)"
 #-----------------------------------------------------------
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

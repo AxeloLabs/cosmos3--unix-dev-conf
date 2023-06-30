@@ -28,6 +28,6 @@ alias tdd="td --output-logs=errors-only | h -ni \
 # turbo run dev --filter docs
 # pnpm install turbo --global
 # pnpm add turbo --global
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

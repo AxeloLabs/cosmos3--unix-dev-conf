@@ -47,6 +47,8 @@ brew install yarn
 # -0
 # -0
 # -0
+# dev
+npm install --global kill-port
 # font
 brew tap homebrew/cask-fonts
 brew install --cask font-mononoki
@@ -105,6 +107,6 @@ brew install --cask vlc
 # For compilers to find openjdk you may need to set:
 #   export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 # —————————————————————
-# -1
-# -1 END
-# -1
+# -9
+# -9 END
+# -9

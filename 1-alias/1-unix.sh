@@ -50,7 +50,7 @@ alias ECHOO="echo && echo && echo '🪸 ........................................
 # -0
 # -0 Process
 # -0
-# sudo killall node
+alias killnode="sudo killall node"
 listening() {
   if [ $# -eq 0 ]; then
     sudo lsof -iTCP -sTCP:LISTEN -n -P
@@ -75,6 +75,6 @@ listening() {
 # grep -irl react * | fzf
 # z
 
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

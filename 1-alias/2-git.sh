@@ -269,6 +269,6 @@ git__sshow() {
   ##git show  --oneline --decorate --stat --graph $1 | h -ni $1  '\/java\/com\/groupemre\/atnv2\/'  'files changed' insertions deletions  \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create  \\+ \\-
   git show --oneline --decorate --stat "$1" | h -ni "$1" '\/java\/com\/groupemre\/atnv2\/' 'files changed' insertions deletions \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create \\+ \\-
 }
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

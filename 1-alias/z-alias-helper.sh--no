@@ -1,9 +1,3 @@
-#
-# comment
-#
-
-npm install --global kill-port
-
 # ----------------------------------------------------
 # history > history.js
 # GET USER'S ACCOUNT NAME: id -un
@@ -49,6 +43,6 @@ which zsh
 
 # ! End
 
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9

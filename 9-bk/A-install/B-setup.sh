@@ -66,6 +66,6 @@ ln -Ff "$COSMOS_RC/9-bk/B-conf/vs/settings.json" ~/Library/Application\ Support/
 ln -Ff "$COSMOS_RC/9-bk/B-conf/git/.gitignore_global" ~/.gitignore_global
 ln -Ff "$COSMOS_RC/9-bk/B-conf/git/.gitconfig" ~/.gitconfig
 ln -Ff "$COSMOS_RC/9-bk/B-conf/git/.gitmessage" ~/.gitmessage
-# -1
-# -1
-# -1
+# -9
+# -9
+# -9
