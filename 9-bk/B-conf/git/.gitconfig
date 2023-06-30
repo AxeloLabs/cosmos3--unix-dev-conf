@@ -20,7 +20,6 @@ lgp = log –-oneline –-graph –-decorate -–pretty=format:"%C(auto)%d%C(res
 [core]
 # git config --global core.excludesfile ~/.gitignore_global
 # excludesfile = /Users/0-minuit-ax/.gitignore_global # I do not want it agin
-
 # MUST USE IT -- no vim plz
 editor = code --wait
 # delta S
@@ -44,6 +43,15 @@ navigate = true # use n and N to move between diff sections
 light = false   # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
 # delta E
 side-by-side = true
+# TEST
+# features = side-by-side line-numbers decorations
+# whitespace-error-style = 22 reverse
+
+# TEST
+# [delta "decorations"]
+# commit-decoration-style = bold yellow box ul
+# file-style = bold yellow ul
+# file-decoration-style = none
 
 [merge]
 # delta S

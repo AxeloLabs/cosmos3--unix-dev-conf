@@ -2,33 +2,66 @@
 # -0
 # -0 ZSH-RC -- 15 may 2023 - COSMOS
 # -0
+# -9
+# -9
+# -9
 # > reccursive search git repo
 # find . -name .git -type d -prune
 # fnm default 20.2.0
-
+# ----------------------------------------------------------
+# set default SHELL
+# chsh -s "$(which zsh)"
+# ----------------------------------------------------------
 # VS CODE BK
-alias vscode--save-plugin="codi --list-extensions > extensions-cosmos3--4juin2023.list"
-alias vscode--load-plugin="cat extensions.list |% { codi --install-extension $\_}"
+# alias vscode--save-plugin="codi --list-extensions > extensions-cosmos3--4juin2023.list"
+# alias vscode--load-plugin="cat extensions.list |% { codi --install-extension $\_}"
 
-# -0 zsh history
+# -0
+# -0 UNIX SETUP
+# -0
+# -- zsh history
 # https://www.soberkoder.com/better-zsh-history/
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh
 export HISTFILE=~/.zsh_history # HISTSIZE - Refers to the number of commands that are loaded into memory from the history file
 export HISTSIZE=100000000      # HISTFILE - Refers to the path/location of the history file
 export SAVEHIST=100000000      # SAVEHIST - Refers to the number of commands that are stored in the zsh history file
 export HISTTIMEFORMAT="[%F %T] "
-# -0 z
+
+# -- ZSH-MAN zshoptions
+# setopt autocd # don't not type CD to go inside
+# setopt INC_APPEND_HISTORY
+# setopt HIST_FIND_NO_DUPS
+# setopt HIST_IGNORE_DUPS
+# setopt INC_APPEND_HISTORY
+# setopt EXTENDED_HISTORY
+# setopt HIST_IGNORE_ALL_DUPS
+
+# -- ZSH-CORRECT-SPELL
+# zstyle ':completion:*:git-checkout:*' sort false
+# zstyle ':completion:*:descriptions' format '[%d]'
+# zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# https://superuser.com/questions/1092033/how-can-i-make-zsh-tab-completion-fix-capitalization-errors-for-directories-and
+# zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+# fpath=(/usr/local/share/zsh-completions $fpath)
+
+# -- Z
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" # use bat in man
-# -0 cosmos
+
+# -0
+# -0 cosmos VARIABLEs
+# -0
 export COSMOS_RC=~/"0-dev/master/0-cosmos"
 export COSMOS_LIB=~/"0-dev/master/0-cosmos/0-shell/A-lib"
-# -0 alias - base
+# -- alias - base
 . "$COSMOS_RC/1-alias/1-unix.sh"
 . "$COSMOS_RC/1-alias/2-firebase.sh"
 . "$COSMOS_RC/1-alias/2-git.sh"
 . "$COSMOS_RC/1-alias/2-node.sh"
 . "$COSMOS_RC/1-alias/2-turbo.sh"
+
+# -0
 # -0 auto-complete
+# -0
 # autoload -U compinit
 # compinit
 # setopt  autocd autopushd \ pushdignoredups
@@ -61,20 +94,23 @@ pathadd() {
         PATH="${PATH:+"$PATH:"}$1"
     fi
 }
+
+# -0
 # -0 lib
+# -0
 # export GAWK_BIN="/opt/homebrew/opt/gawk/libexec/gnubin"
 # pathadd $GAWK_BIN
-
 # fzf (tab ++)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source "$COSMOS_RC/0-shell/A-lib/fzf-tab/fzf-tab.plugin.zsh"
-
+# ----------------------------------------------------------
 # lib -- higlighter -- > echo "rvjbovRGYBOV" | h   r v j b o v R G Y B O V
 source "$COSMOS_LIB/h/h.sh"
-# -0
+# ----------------------------------------------------------
 export JAVA_HOME="/opt/homebrew/opt/openjdk"
 export JAVA_BIN="/opt/homebrew/opt/openjdk/bin"
 pathadd $JAVA_BIN
+# ----------------------------------------------------------
 export PNPM_HOME="/opt/homebrew/opt/pnpm"
 pathadd $PNPM_HOME
 # export PNPM_HOME="/Users/0-minuit-ax/Library/pnpm"
@@ -83,15 +119,20 @@ pathadd $PNPM_HOME
 #   *) export PATH="$PNPM_HOME:$PATH" ;;
 # esac
 # pnpm end
+# ----------------------------------------------------------
 # ls color - https://github.com/xPMo/zsh-ls-colors/
 # ${prefix}::fmt [ -f $format | -F $format ] [ -o | -0 | -a | -A ] $context $files[@]
 # load function as my-lscolors::fmt
 # The remaining arguments to source determines which lib/ files you want to load.
 # If no arguments are provided, then all lib/*.zsh are loaded.
 # source ${0:h}/ls-colors/ls-colors.zsh my-lscolors fmt
-# -0 syntax hilight (fzf-tab must be before)
+# ----------------------------------------------------------
+# syntax highlight (fzf-tab must be before)
 source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+
+# -0
 # -0 pimp-my-prompt
+# -0
 eval "$(starship init zsh)"
 FZF_TAB_GROUP_COLORS=(
     $'\033[94m' $'\033[32m' $'\033[33m' $'\033[35m' $'\033[31m' $'\033[38;5;27m' $'\033[36m' \
@@ -99,7 +140,11 @@ FZF_TAB_GROUP_COLORS=(
     $'\033[38;5;214m' $'\033[38;5;165m' $'\033[38;5;124m' $'\033[38;5;120m'
 )
 zstyle ':fzf-tab:*' group-colors $FZF_TAB_GROUP_COLORS
-# -0 Usage: palette
+
+# -0
+# -0 FUNCTIONS HELPERS
+# -0
+# Usage: palette
 palette() {
     local -a colors
     for i in {000..255}; do
@@ -107,17 +152,16 @@ palette() {
     done
     print -cP $colors
 }
-# -0 Usage: printc COLOR_CODE
+# Usage: printc COLOR_CODE
 printc() {
     local color="%F{$1}"
     echo -E ${(qqqq)${(%)color}}
 }
-#-----------------------------------------------------------
-#  BUGS
-#-----------------------------------------------------------
+# -9
+# -9 BUGS
+# -9
 # fnm (better nvm - node version manager)
 eval "$(fnm env --use-on-cd)"
-#-----------------------------------------------------------
 # -9
-# -9
+# -9 END
 # -9

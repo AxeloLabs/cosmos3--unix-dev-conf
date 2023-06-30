@@ -1,8 +1,6 @@
 #!/bin/sh
-# €€€ TAG--COSMOS
-#
-# [ GLOBAL 23 dec 2021] [ INPUT-RC ]
-#
+
+# IT DOES NOT WORK
 
 # Make Tab autocomplete regardless of filename case
 set completion-ignore-case on

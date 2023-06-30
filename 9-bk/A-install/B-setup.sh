@@ -57,6 +57,8 @@ git add -p
 # -0
 # zsh
 ln -Ff "$COSMOS_RC/0-shell/.zshrc" ~/.zshrc
+# unix
+ln -Ff "$COSMOS_RC/9-bk/B-conf/unix/.inputrc" ~/.inputrc
 # starship
 ln -Ff "$COSMOS_RC/0-shell/starship.toml" ~/.config/starship.toml
 # vs-code
