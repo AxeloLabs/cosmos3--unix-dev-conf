@@ -3,6 +3,7 @@
 # -0
 # -0 CONFIGURATION SETUP
 # -0
+# ----------------------------------------------------------
 # ITERM config
 # https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2
 # ----------------------------------------------------------
@@ -10,6 +11,7 @@
 defaults write com.apple.Finder AppleShowAllFiles YES
 # refresh finder to activate effects
 killall Finder
+# ----------------------------------------------------------
 
 # -0
 # -0 GIT SETUP

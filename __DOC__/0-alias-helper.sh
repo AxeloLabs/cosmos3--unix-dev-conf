@@ -1,3 +1,25 @@
+# $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
+# ----------------------------------------------------------
+# alias mann='tldr'
+# ----------------------------------------------------------
+# sudo lsof -i -P | grep LISTEN | grep :$PORT
+# ----------------------------------------------------------
+# sudo kill -9 <PID>
+# ps -ef | grep chrome | grep -v grep | awk '{print $2}' | xargs kill -9
+# ps -ef | grep 8080 | grep -v grep | awk '{print $2}' | xargs kill -9
+# alias killl='kill-port --port 8000,9099,5001,8080,5033,9000,5000,8085,9199,4000,4400,4500'
+# ----------------------------------------------------------
+# Npm
+# alias Z='| fzf'
+# npm search react Z
+# ----------------------------------------------------------
+# FZF
+# npm search
+# npm search react | fzf
+# ----------------------------------------------------------
+# grep
+# grep -irl react * | fzf
+# ----------------------------------------------------------
 
 # https://www.swyx.io/new-mac-setup
 # git config --global init.defaultBranch main
@@ -67,7 +89,6 @@
 alias vscode--save-plugin="code --list-extensions > extensions-VS-28nov2022.list"
 alias vscode--load-plugin="cat extensions.list |% { code --install-extension $_}"
 
-
 # ----------------------------------------------------------
 # ls color - https://github.com/xPMo/zsh-ls-colors/
 # ${prefix}::fmt [ -f $format | -F $format ] [ -o | -0 | -a | -A ] $context $files[@]
@@ -87,7 +108,7 @@ defaults write com.apple.finder AppleShowAllFiles -bool YES
 chmod go-w /Users/x/2-mac/2-com/
 brew cask list
 brew list
-brew install < list.txt
+brew install <list.txt
 # ----------------------------------------------------------
 # RESTORE
 # RESTORE MAC=http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
@@ -100,12 +121,12 @@ brew install < list.txt
 # ----------------------------------------------------------
 # STD-ALIAS
 # File search functions
-function f() { find . -iname "*$1*" ${@:2} }
-function r() { grep "$1" ${@:2} -R . }
+# function f() { find . -iname "*$1*" ${@:2} }
+# function r() { grep "$1" ${@:2} -R . }
 # ----------------------------------------------------------
 # .ZSHRC (orig)
 # If you come from bash you might have to change your $PATH.
-export  PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 PATH="/usr/local/bin:$PATH"
 # ----------------------------------------------------------
 # Add commonly used folders to $PATH
@@ -140,3 +161,19 @@ which zsh
 # export GAWK_BIN="/opt/homebrew/opt/gawk/libexec/gnubin"
 # pathadd $GAWK_BIN
 # ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# clear history
+# history -c (bash)
+# history -p (zsh)
+# history -E -10
+# alias cc="history -p"
+# ----------------------------------------------------------
+# bgImgIterm -- change quickly color of the term
+# alias red='echo -e "\033]6;1;bg;red;brightness;255\a"'
+# alias blue='echo -e "\033]6;1;bg;blue;brightness;255\a"'
+# alias green='echo -e "\033]6;1;bg;green;brightness;255\a"'
+# alias purple='echo -e "\033]6;1;bg;purple;brightness;255\a"'
+# alias rose='echo -e "\033]6;1;bg;rose;brightness;255\a"'
+# alias orange='echo -e "\033]6;1;bg;orange;brightness;255\a"'
+# alias cyan='echo -e "\033]6;1;bg;cyan;brightness;255\a"'

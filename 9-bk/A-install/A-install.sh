@@ -7,8 +7,9 @@
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
 ) >>/Users/0-minuit-ax/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
+# ----------------------------------------------------------
 # -0 MOST USED GLOBAL CMD
+# ----------------------------------------------------------
 # dev
 brew install git
 brew install --cask visual-studio-code
@@ -18,6 +19,7 @@ brew install git-delta
 brew install gh # github CLI
 brew install git-open
 npm install -g degit
+# ----------------------------------------------------------
 # js
 brew install node
 npm install -g npm-check-updates # # ncu -u (check latest deps)
@@ -27,10 +29,12 @@ brew install typescript
 brew install java
 brew install pnpm
 brew install yarn
-
+# ----------------------------------------------------------
 # -0
+# ----------------------------------------------------------
 # dev
 npm install --global kill-port
+# ----------------------------------------------------------
 # font
 brew tap homebrew/cask-fonts
 brew install --cask font-mononoki
@@ -38,15 +42,18 @@ brew install --cask google-chrome
 # https://github.com/tonsky/FiraCode
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+# ----------------------------------------------------------
 # advanced brew
 brew install bat
 brew install fd
 brew install exa
 brew install fzf
 brew install ack # mandatory to use 'h'
+# ----------------------------------------------------------
 # prompt
 brew install starship
 brew install --cask iterm2
+# ----------------------------------------------------------
 # unix
 brew install tree
 brew install tldr
@@ -60,9 +67,14 @@ brew install zsh-fast-syntax-highlighting
 # i do not like it !
 # brew install zsh-autocomplete
 # gawk is dep of fzf-tab
+# ----------------------------------------------------------
 brew install gawk
 # nvm in rust
 brew install fnm
+
+# ----------------------------------------------------------
+# FUN
+# ----------------------------------------------------------
 # https://hovancik.net/stretchly/downloads/
 brew update && brew install --cask stretchly
 brew install --cask notion
@@ -70,12 +82,17 @@ brew install --cask discord
 # https://github.com/tombonez/noTunes
 brew install --cask notunes
 brew install --cask vlc
+
+# ----------------------------------------------------------
 # does not work
+# ----------------------------------------------------------
 # brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
 # brew install --cask --no-quarantine syntax-highlight
+# ----------------------------------------------------------
 
-# -9 useless
+# ----------------------------------------------------------
 # ==> Caveats
+# ----------------------------------------------------------
 # ==> openjdk
 # For the system Java wrappers to find this JDK, symlink it with
 #   sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
@@ -86,8 +103,10 @@ brew install --cask vlc
 #   echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
 # For compilers to find openjdk you may need to set:
 #   export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
-# ----------------------------------------------------------
 
+# ----------------------------------------------------------
+# BACKLOG
+# ----------------------------------------------------------
 # # bin GCLOUD
 # brew install --cask google-cloud-sdk
 # # SYS-ADMIN
@@ -115,6 +134,7 @@ brew install --cask vlc
 # brew install zoxide #RUST -- https://github.com/ajeetdsouza/zoxide
 # # GIT -- deps
 # brew install git-fuzzy #RUST
+
 # # -------------------------------------
 # # NPM
 # # -------------------------------------

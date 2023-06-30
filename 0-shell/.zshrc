@@ -3,9 +3,9 @@
 # -0 ZSH-RC -- 15 may 2023 - COSMOS
 # -0
 
-# -9
-# -9 UNIX SETUP
-# -9
+# ----------------------------------------------------------
+# UNIX SETUP
+# ----------------------------------------------------------
 # -- zsh history
 # https://www.soberkoder.com/better-zsh-history/
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh
@@ -13,16 +13,20 @@ export HISTFILE=~/.zsh_history # HISTSIZE - Refers to the number of commands tha
 export HISTSIZE=100000000      # HISTFILE - Refers to the path/location of the history file
 export SAVEHIST=100000000      # SAVEHIST - Refers to the number of commands that are stored in the zsh history file
 export HISTTIMEFORMAT="[%F %T] "
+
 # ----------------------------------------------------------
 # -- Z
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" # use bat in man
+# ----------------------------------------------------------
 
 # -0
 # -0 cosmos VARIABLEs
 # -0
+# ----------------------------------------------------------
 # -- variables
 export COSMOS_RC=~/"0-dev/master/0-cosmos"
 export COSMOS_LIB=~/"0-dev/master/0-cosmos/0-shell/A-lib"
+
 # ----------------------------------------------------------
 # -- alias
 . "$COSMOS_RC/1-alias/1-unix.sh"
@@ -30,16 +34,19 @@ export COSMOS_LIB=~/"0-dev/master/0-cosmos/0-shell/A-lib"
 . "$COSMOS_RC/1-alias/2-git.sh"
 . "$COSMOS_RC/1-alias/2-node.sh"
 . "$COSMOS_RC/1-alias/2-turbo.sh"
+# ----------------------------------------------------------
 
 # -0
 # -0 auto-complete
 # -0
+# ----------------------------------------------------------
 # autoload -U compinit
 # compinit
 # setopt  autocd autopushd \ pushdignoredups
 # menu navigation start
 autoload -Uz compinit
 compinit
+
 # ----------------------------------------------------------
 # zstyle ':completion:*' menu select
 # menu navigation end
@@ -57,11 +64,13 @@ zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
 zstyle ":completion:*:git-checkout:*" sort false
 zstyle ':completion:*:exa' file-sort modification
 zstyle ':completion:*:exa' sort false
+
 # ----------------------------------------------------------
 # https://minsw.github.io/fzf-color-picker/
 # export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#000000,bg:#000000,hl:#ff0000 --color=fg+:#fff700,bg+:#000000,hl+:#ff0000 --color=info:#f05de4,prompt:#ff006f,pointer:#ff0000 --color=marker:#000000,spinner:#000000,header:#f05de4'
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#00b524,bg:#000000,hl:#ff0000 --color=fg+:#fff700,bg+:#000000,hl+:#ff0000 --color=info:#f05de4,prompt:#ff006f,pointer:#ff0000 --color=marker:#000000,spinner:#000000,header:#f05de4'
 # useless finalement (deps fzf-tab ?)
+# ----------------------------------------------------------
 
 # -0
 # -0 lib
@@ -71,6 +80,7 @@ pathadd() {
         PATH="${PATH:+"$PATH:"}$1"
     fi
 }
+
 # ==========================================================
 # UNIX
 # ==========================================================
@@ -93,7 +103,7 @@ export JAVA_BIN="/opt/homebrew/opt/openjdk/bin"
 pathadd $JAVA_BIN
 # ----------------------------------------------------------
 # -- PNPM
-export PNPM_HOME="/opt/homebrew/opt/pnpm"
+export PNPM_HOME="/opt/homebrew/Cellar/pnpm/8.6.5/global/5/.pnpm"
 pathadd $PNPM_HOME
 # export PNPM_HOME="/Users/0-minuit-ax/Library/pnpm"
 # case ":$PATH:" in
