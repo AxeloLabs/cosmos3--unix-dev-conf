@@ -17,7 +17,7 @@ alias n="pnpm" # "npm run"
 # ----------------------------------------------------------
 
 # ----------------------------------------------------------
-PROJECT="Done|updated|pnpm|apps|packages|preinstall|postinstall"
+PROJECT="Done|updated|apps/|packages/|preinstall|postinstall|../"
 # pnpm|exec \
 # axelox- \
 # zlib-test \
@@ -45,6 +45,7 @@ alias spack='npm run package && cd package && npm publish --access public'
 # ----------------------------------------------------------
 # CHECK (svelte only)
 # ----------------------------------------------------------
+alias nc="n check"
 alias check="clear && n megacheck | h -ni \
 '0 errors|0 error|0 warnings|problems|0 hints|formatting|format|building|build|bundle|preview|svelte-check|megacheck|check|lint|is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \
 '/Users/0-minuit-ax/0-dev/master/axelo4/|warning' \
@@ -116,7 +117,9 @@ alias ndep='n deploy'
 # ----------------------------------------------------------
 # TEST
 # ----------------------------------------------------------
-alias nc="n test:unit--coverage"
+alias nstory="n build-storybook"
+alias nsb="n storybook"
+alias ncov="n test:unit--coverage"
 alias ntui="n test:unit--ui"
 alias nt="n test:unit"
 alias ntt='nt | h -ni "test.ts:" "\-\-" ">>>" "tests/scrapper/" "apiChat" "apiMine" "apiShared" " # "'
