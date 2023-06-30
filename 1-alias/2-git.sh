@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # -0 rebase + squash
 # https://www.w3docs.com/snippets/git/how-to-combine-multiple-commits-into-one-with-3-steps.html
 # git rebase -i HEAD~3
@@ -12,12 +13,14 @@
 # git push -u <remote_name> <local_branch_name> to set the default upstream.
 # -- remove remote
 # git remote rm <remote-name>
+
 # -0
 # -0
 # -0
 alias g='git'
 alias g-open='g-open'
 alias g-clone='g clone'
+
 # -0
 # -0 branch details
 # -0
@@ -37,6 +40,7 @@ alias g-remote-add-origin='g remote add origin'
 # -- create remote branch
 alias gpu='g push --set-upstream origin '
 alias g-push--set-upstream='g push --set-upstream origin '
+
 # -0
 # -0 USE
 # -0
@@ -62,6 +66,7 @@ alias g-stash-list--date='g stash list --date=local'
 alias g-show-axel='g show $(g stash list | cut -d":" -f 1)'
 # -- tag
 alias g-tag='g tag | h -ni 2.2.3 2.2.4 2.2.5'
+
 # -0
 # -0 STATUS
 # -0
@@ -88,6 +93,7 @@ alias a="ECHO && g status \
 | h $BOUCHON__GIT_FILES \
 | h $BOUCHON__GIT_STATUS ; \
 ECHO"
+
 # -0
 # -0 BRANCH
 # -0
@@ -148,6 +154,7 @@ alias gcp='g cherry-pick' #git cherry -v master
 # git log --graph --left-right --cherry-pick --oneline wa-4...wa-4-bis
 # BASICS
 # GIT LOG - git log --oneline (stack view) - https://g-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-Cred
+
 # -0
 # -0 LOG
 # -0
@@ -187,7 +194,7 @@ alias lgg="ECHO TREE - ALL && g log -36 --graph --show-linear-break --abbrev-com
 # // -3 UNE SEULE BRANCHE
 alias lggg='g log --graph --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
 # alias gll='g lg'
-# // -0 UI: GRAPH
+# // -9 UI: GRAPH
 alias lgggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all  \
 | h -i  $BOUCHON__GIT_LOG \
 | h -ni popo pipi pupu koko kiki kuku  '\[maven-release-plugin\] prepare for next development iteration|\[maven-release-plugin\] prepare release'  \
@@ -196,13 +203,13 @@ alias lggggg="g log -30 --graph --pretty=format:'  %C(yellow)%<(25)%d   %C(white
 # Z
 alias lgggggg="g log -13 --graph --pretty=format:'  %C(yellow)%<(30)%d   %C(white)%<(50)%s  %C(cyan)%h   %C(bold blue)%<(12)%cr  ' --abbrev-commit --date=short --all "
 # alias lggg="g log -13 --graph -–pretty=format:' %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset ' --abbrev-commit --date=short --all "
-# // -0 UI: hash-list
+# // -9 UI: hash-list
 alias ggl="g log -30 \
 | h -i  $BOUCHON__GIT_LOG \
 | h -ni popo pipi pupu koko kiki kuku  '\[maven-release-plugin\] prepare for next development iterationgi|\[maven-release-plugin\] prepare release'  \
 | h -ni $BOUCHON__GIT_HASH "
 alias gggl="g log --graph --abbrev-commit --date=relative"
-# // -0 DIFF + / -
+# // -9 DIFF + / -
 alias gl-1='g log -50 --stat'
 alias gl-2='g log -10 --graph --oneline --decorate --all --name-status --stat' # WARN: je n ai pas le nom des personnes
 alias gl-3='g log -20 --stat  --oneline --pretty=format:"%Cred%h%Creset %C\(yellow\)%d%Creset %C\(yellow\)%s %Cgreen\(%cr\) %C\(bold blue\)<%an>%Creset" --abbrev-commit | grep -E "/|$"'
@@ -210,6 +217,7 @@ alias gl-4='g log -20 --author="axel" --stat  --oneline --pretty=format:"%Cred%h
 alias gl-5='g log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s <%ad>" --abbrev-commit --date=relative --name-status their = log --all --graph --decorate --oneline --simplify-by-decoration'
 alias gl-6='g log -50 --author="axel" --stat'
 alias gl-7='g log --author="axel" --stat'
+
 # -0
 # -0 Z
 # -0
@@ -236,6 +244,7 @@ alias g-commit--theirs='g commit `g status | grep "both added:" | awk "{print $N
 # create an orphan virgin branch
 # git switch --orphan <new branch>
 # git config --global init.defaultBranch
+
 # -0
 # -0 FUNC
 # -0
@@ -269,6 +278,3 @@ git__sshow() {
   ##git show  --oneline --decorate --stat --graph $1 | h -ni $1  '\/java\/com\/groupemre\/atnv2\/'  'files changed' insertions deletions  \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create  \\+ \\-
   git show --oneline --decorate --stat "$1" | h -ni "$1" '\/java\/com\/groupemre\/atnv2\/' 'files changed' insertions deletions \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create \\+ \\-
 }
-# -9
-# -9
-# -9

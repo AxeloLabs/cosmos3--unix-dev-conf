@@ -1,31 +1,14 @@
-# -0
-# -0 MAC
-# -0
-# -0 pnpm list -g
-# -0 npm list -g
-# -0
-# SHOW HIDCEN FILES: “Command” + “Shift” + “.”
-# brew install --cask android-file-transfer
-# brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
-# brew list
-# brew doctor
-# brew info nvm             #avoir info install config PATH
-# brew outdated
-# brew update
-# brew upgrade
-# brew cleanup                #Remove outdated versions from the cellar.
-# -0
+#!/bin/sh
+
 # -0 START
-# -0
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (
   echo
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
 ) >>/Users/0-minuit-ax/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
-# -0
+
 # -0 MOST USED GLOBAL CMD
-# -0
 # dev
 brew install git
 brew install --cask visual-studio-code
@@ -44,8 +27,7 @@ brew install typescript
 brew install java
 brew install pnpm
 brew install yarn
-# -0
-# -0
+
 # -0
 # dev
 npm install --global kill-port
@@ -91,10 +73,8 @@ brew install --cask vlc
 # does not work
 # brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
 # brew install --cask --no-quarantine syntax-highlight
-# -0
-# -0 useless
-# -0
-# —————————————————————
+
+# -9 useless
 # ==> Caveats
 # ==> openjdk
 # For the system Java wrappers to find this JDK, symlink it with
@@ -106,7 +86,38 @@ brew install --cask vlc
 #   echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
 # For compilers to find openjdk you may need to set:
 #   export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
-# —————————————————————
-# -9
-# -9 END
-# -9
+# ----------------------------------------------------------
+
+# # bin GCLOUD
+# brew install --cask google-cloud-sdk
+# # SYS-ADMIN
+# brew install procs    # RUST
+# brew tap cjbassi/ytop # RUST
+# brew install ytop     # RUST
+# # Z
+# brew install dust
+# # DEV
+# brew install jq # json processor
+# # NETWORK
+# brew install tokei # RUST
+# brew install wifi-password
+# brew install bandwhich
+# brew install ripgrep # A super-fast search tool that recursively searches directories for a regex pattern. EX: rg node
+# brew install grex
+# # RUNTIMES
+# brew install go
+# # cmd benchmarker
+# brew install hyperfine
+# brew install shellcheck
+# # # brew install zsh-syntax-highlighting
+# brew install zsh-autosuggestions
+# # GLS / CD
+# brew install zoxide #RUST -- https://github.com/ajeetdsouza/zoxide
+# # GIT -- deps
+# brew install git-fuzzy #RUST
+# # -------------------------------------
+# # NPM
+# # -------------------------------------
+# npm install -g firebase-tools
+# # simplified man
+# npm install -g tldr

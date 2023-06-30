@@ -1,10 +1,19 @@
 #!/bin/sh
+
+# ----------------------------------------------------------
+# pnpm add <package> --filter <workspace>
+# pnpm uninstall <package> --filter <workspace>
+# turbo run dev --filter docs
+# pnpm install turbo --global
+# pnpm add turbo --global
+# ----------------------------------------------------------
 alias tb="turbo build "
 alias tbb="tb --output-logs=errors-only | h -ni \
 'warning|error|is not defined' \
 '/Users/0-minuit-ax/0-dev/master/axelo4/|\.js|\.svelte|\+page.svelte' ' in |   at |<|\">|/>' 'apps/blog--toucherterre|src/|routes/|components/' \
 'node_modules|\.pnpm/|Packages in scope|app-blog--toucherterre' \
 'axelox-uiblog'"
+# ----------------------------------------------------------
 alias tdf="turbo dev --filter='blog--toucherterre'"
 alias tddf="tdf --output-logs=errors-only | h -ni \
 'warning|error|is not defined' \
@@ -23,11 +32,4 @@ alias tdd="td --output-logs=errors-only | h -ni \
 'apps|/dist/' \
 'packages' \
 "
-# pnpm add <package> --filter <workspace>
-# pnpm uninstall <package> --filter <workspace>
-# turbo run dev --filter docs
-# pnpm install turbo --global
-# pnpm add turbo --global
-# -9
-# -9
-# -9
+# ----------------------------------------------------------
