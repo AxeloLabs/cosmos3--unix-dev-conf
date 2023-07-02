@@ -103,13 +103,16 @@ export JAVA_BIN="/opt/homebrew/opt/openjdk/bin"
 pathadd $JAVA_BIN
 # ----------------------------------------------------------
 # -- PNPM
-export PNPM_HOME="/opt/homebrew/Cellar/pnpm/8.6.5/global/5/.pnpm"
+# curl -fsSL https://get.pnpm.io/install.sh | sh -
+export PNPM_HOME="/Users/0-minuit-ax/Library/pnpm"
 pathadd $PNPM_HOME
-# export PNPM_HOME="/Users/0-minuit-ax/Library/pnpm"
 # case ":$PATH:" in
-#   *":$PNPM_HOME:"*) ;;
-#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# *":$PNPM_HOME:"*) ;;
+# *) export PATH="$PNPM_HOME:$PATH" ;;
 # esac
+#   Content-addressable store is at: /Users/0-minuit-ax/Library/pnpm/store/v3
+#   Virtual store is at:             .pnpm
+
 # ----------------------------------------------------------
 
 # -0

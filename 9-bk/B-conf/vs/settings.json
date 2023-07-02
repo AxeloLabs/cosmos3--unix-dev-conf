@@ -183,6 +183,7 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
+  // "terminal.integrated.cwd": "/Users/0-minuit-ax/0-dev/1-genesis/axelo5",
   // -0
   // -0 EDITOR
   // -0
@@ -227,7 +228,9 @@
         }
       },
       {
-        "scope": ["support.type.property-name.css.postcss"],
+        "scope": [
+          "support.type.property-name.css.postcss"
+        ],
         "settings": {
           "foreground": "#d3b416"
         }
@@ -280,6 +283,20 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "@splidejs/svelte-splide",
+      "color": "yellow",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@mdi/js",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "mdi",
       "color": "white",
       "backgroundColor": "purple",
@@ -294,9 +311,16 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "smui",
+      "text": "@smui",
       "color": "white",
       "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/",
+      "color": "black",
+      "backgroundColor": "yellow",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -315,6 +339,62 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "@sveltejs/adapter-static",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/kit",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/package",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/vite-plugin-svelte",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/adapter-auto",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte-preprocess",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sveltekit",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte-check",
+      "color": "white",
+      "backgroundColor": "RosyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "sveltejs",
       "color": "white",
       "backgroundColor": "RosyBrown",
@@ -322,9 +402,45 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "tslib",
+      "color": "white",
+      "backgroundColor": "SandyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "typescript",
       "color": "white",
       "backgroundColor": "SandyBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "vite-plugin-dts",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@vitest/coverage-v8",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@vitest",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vitest",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -336,7 +452,36 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "vitest",
+      "text": "publint",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "rimraf",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "happy-dom",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "rollup-plugin-visualizer",
+      "color": "white",
+      "backgroundColor": "Goldenrod",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "jsdom",
       "color": "white",
       "backgroundColor": "Goldenrod",
       "isWholeLine": false,
@@ -357,11 +502,25 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "@tailwindcss/typography",
+      "color": "white",
+      "backgroundColor": "SaddleBrown",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "tailwindcss",
       "color": "white",
       "backgroundColor": "SaddleBrown",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@firebase/rules-unit-testing",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "Maroon"
     },
     {
       "text": "firebase",
@@ -382,6 +541,41 @@
     // https://code.visualstudio.com/docs/languages/jsconfig
     {
       "text": "prettier",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier-plugin-svelte",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-prettier",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-turbo",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint/parser",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint/eslint-plugin",
       "color": "white",
       "backgroundColor": "purple",
       "isWholeLine": false,
@@ -732,10 +926,18 @@
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
+
+    {
+      "text": "\"peerDependencies",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
     {
       "text": "\"devDependencies",
-      "color": "black",
-      "backgroundColor": "Crimson",
+      "color": "white",
+      "backgroundColor": "blue",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
@@ -747,9 +949,16 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "extends: [",
+      "text": "overrides",
+      "color": "white",
+      "backgroundColor": "Crimson",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "extends",
       "color": "black",
-      "backgroundColor": "gold",
+      "backgroundColor": "cyan",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
@@ -761,17 +970,17 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "env: {",
-      "color": "black",
-      "backgroundColor": "gold",
-      "isWholeLine": true,
+      "text": "env",
+      "color": "white",
+      "backgroundColor": "deepPink",
+      "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "parserOptions: {",
+      "text": "parserOptions",
       "color": "black",
       "backgroundColor": "gold",
-      "isWholeLine": true,
+      "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
@@ -899,10 +1108,10 @@
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "\"files\":",
+      "text": "files",
       "color": "white",
       "backgroundColor": "green",
-      "isWholeLine": true,
+      "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
     {
@@ -922,8 +1131,8 @@
 
     {
       "text": "\"exports\": {",
-      "color": "white",
-      "backgroundColor": "green",
+      "color": "black",
+      "backgroundColor": "cyan",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
@@ -1009,8 +1218,8 @@
     },
     {
       "text": "\"main\": ",
-      "color": "white",
-      "backgroundColor": "green",
+      "color": "black",
+      "backgroundColor": "cyan",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
@@ -1030,8 +1239,8 @@
     },
     {
       "text": "\".\": {",
-      "color": "white",
-      "backgroundColor": "green",
+      "color": "black",
+      "backgroundColor": "cyan",
       "isWholeLine": true,
       "overviewRulerColor": "transparent"
     },
@@ -1110,6 +1319,13 @@
       "text": "../0-config",
       "color": "white",
       "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@axelox/",
+      "color": "white",
+      "backgroundColor": "DeepPink",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -1326,6 +1542,13 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "chromatic",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "storybook-static",
       "color": "black",
       "backgroundColor": "gainsboro",
@@ -1438,6 +1661,13 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "\"--SMUI",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "\"--GO",
       "color": "white",
       "backgroundColor": "black",
@@ -1498,5 +1728,7 @@
   "material-icon-theme.saturation": 0,
   "material-icon-theme.opacity": 0.5,
   "material-icon-theme.files.color": "#7cb342",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+
+  "explorer.autoReveal": false // do not go inside explorer
 }

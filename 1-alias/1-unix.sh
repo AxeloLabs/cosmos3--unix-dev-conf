@@ -1,6 +1,17 @@
 #!/bin/sh
 
 # ----------------------------------------------------------
+# fast move
+# ----------------------------------------------------------
+
+alias uis="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo5/apps/z-story--uiblog"
+alias ui="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo5/packages/axelox-uiblog"
+alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo5/"
+
+# ----------------------------------------------------------
+
+alias yt='youtube-dl'
+# ----------------------------------------------------------
 alias rc='code $COSMOS_RC'
 # ----------------------------------------------------------
 # Unix

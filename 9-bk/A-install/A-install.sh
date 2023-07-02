@@ -9,6 +9,9 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 # ----------------------------------------------------------
 # -0 MOST USED GLOBAL CMD
+
+# brew install youtube-dl
+
 # ----------------------------------------------------------
 # dev
 brew install git
