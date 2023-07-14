@@ -5,33 +5,28 @@
 # fast move
 # ----------------------------------------------------------
 # git merge BRANCH_NAME --strategy-option theirs
-alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/"
+alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/"
 
-alias facture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/apps/spa--facture"
-alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/apps/ecom--wa"
-alias sfacture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/zsocle--data/spa--facture"
-alias swa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/zsocle--data/ecom--wa"
-alias scri="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/zsocle--script/"
+alias facture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/spa--facture"
+alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/wa--ecom--wa"
+alias sfacture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/spa--facture"
+alias swa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/wa--ecom--wa"
+alias scri="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--script/"
 
-alias kit="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/axelox--uikit"
-alias story="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/apps/z-story--uikit"
-alias blog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/apps/blog--vinz"
-alias sblog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/zsocle--data/blog--vinz"
-alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/apps/landing--leo"
-alias sleo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/zsocle--data/landing--leo"
+alias kit="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/axelox--uikit"
+alias story="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/z-story--uikit"
+alias blog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/blog--vinz"
+alias sblog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/blog--vinz"
+alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/landing--leo"
+alias sleo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/landing--leo"
 
-alias fire="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/axelox--firebase"
+alias fire="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/axelox--firebase"
 
-alias nnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/apps/NEW"
-alias snnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox6/packages/NEW"
+alias nnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/NEW"
+alias snnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/NEW"
 
 alias o='code package.json  '
 
-alias ax1='cd $HOME/0-dev/1-genesis/axelo1 && code $HOME/0-dev/1-genesis/axelo1'
-alias ax2='cd $HOME/0-dev/1-genesis/axelo2 && code $HOME/0-dev/1-genesis/axelo2'
-alias ax3='cd $HOME/0-dev/1-genesis/axelo3 && code $HOME/0-dev/1-genesis/axelo3'
-alias ax4='cd $HOME/0-dev/1-genesis/axelo4 && code $HOME/0-dev/1-genesis/axelo4'
-alias ax5='cd $HOME/0-dev/1-genesis/axelox6 && code $HOME/0-dev/1-genesis/axelox6'
 alias ax6='cd $HOME/0-dev/1-genesis/axelo6 && code $HOME/0-dev/1-genesis/axelo6'
 # ----------------------------------------------------------
 

@@ -1,9 +1,4 @@
 {
-  // -----------------------------------------------
-  // svelte inspector -- https://dev.to/mikehtmlallthethings/setting-up-svelte-inspector-with-vs-code-wsl-ao
-  "terminal.integrated.env.linux": {
-    "EDITOR": "code"
-  },
   // -9
   // -9 WORKBENCH
   // -9
@@ -106,122 +101,8 @@
     // -9 Z
     // "editor.background": "#1a2801"
   },
-  // -0
-  // -0 Z
-  // -0
-  // -0 FONT
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Victor Mono",
-  // "editor.fontFamily": "Mononoki",
-  // "editor.fontFamily": "Firicico",
-  // "editor.fontFamily": "Cascadia Code",
-  // "editor.fontFamily": "FiraCode",
-  // -2
-  // -2
-  // -2 FORMAT - this prettier default formater -> it will remove trailing space
-  "svelte.ask-to-enable-ts-plugin": false,
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    // "source.fixAll": true,
-    // "source.organizeImports": true,
-    "source.sortMembers": true
-  },
-  // -- svelte for vscode plugin
-  "svelte.enable-ts-plugin": true,
-  "[svelte]": {
-    // -- svelte for vscode plugin
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  // -2
-  // -2
-  // -2
-  // -0 EDITOR
-  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
-  "explorer.confirmDragAndDrop": false,
-
-  "editor.tabSize": 2,
-  "editor.rulers": [60, 100],
-  "workbench.list.horizontalScrolling": true,
-  "workbench.editor.labelFormat": "short",
-  "security.workspace.trust.untrustedFiles": "open",
-  "explorer.confirmDelete": false,
-  "workbench.tree.indent": 16,
-  "material-icon-theme.folders.color": "#000",
-  "material-icon-theme.folders.theme": "classic",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.cursorBlinking": "solid",
-  "editor.cursorWidth": "4",
-  "workbench.colorTheme": "Rainbow Contrast (rainglow)",
-  // -0 HINT
-
-  "javascript.validate.enable": false, // desactivons le correcteur JS de vscode
-  "typescript.validate.enable": false, // desactivons le correcteur JS de vscode
-
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
-
-  // --2
-  // TODO
-  // "editor.suggestSelection": "bottom",
-  "editor.snippetSuggestions": "bottom",
-  "editor.suggest.showWords": true, // ne pas afficher suggestion abc => but mANDATORY FOR JSDOC
-  // --2
-  // "[javascript]": {
-  //   "editor.autoClosingBrackets": "languageDefined"
-  // },
-  // "[typescript]": {
-  //   "editor.autoClosingBrackets": "languageDefined"
-  // },
-  // -0 minimap S
-  // "editor.minimap.enabled": false,
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.showSlider": "always",
-  // -0 Z
-  // "tabnine.experimentalAutoImports": true,
-  "git.openRepositoryInParentFolders": "never",
-  // do not import if I wont use it
-  "typescript.preferences.autoImportFileExcludePatterns": [
-    "**/dist",
-    "**/build"
-  ],
-  "dotenv.enableAutocloaking": false,
-  "search.showLineNumbers": true,
-  "search.sortOrder": "fileNames",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "sonarlint.rules": {
-    "typescript:S101": {
-      "level": "off"
-    },
-    "javascript:S125": {
-      "level": "off"
-    },
-    "typescript:S3776": {
-      "level": "off"
-    }
-  },
-  "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "files.associations": {
-    ".env*": "dotenv",
-    "libturbo.h": "c",
-    "*.json": "jsonc",
-    ".prettierrc": "jsonc",
-    "turbo.json": "jsonc"
-  },
-  "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  // "terminal.integrated.cwd": "/Users/0-minuit-ax/0-dev/1-genesis/axelox6",
+  // "terminal.integrated.cwd": "/Users/0-minuit-ax/0-dev/1-genesis/axelo5",
   // -0
   // -0 EDITOR
   // -0
@@ -310,6 +191,7 @@
       }
     ]
   },
+
   // --3
   // --3 HIGHLIGHT
   // --3
@@ -812,16 +694,6 @@
     }
   ],
 
-  "material-icon-theme.saturation": 0,
-  "material-icon-theme.opacity": 0.5,
-  "material-icon-theme.files.color": "#7cb342",
-
-  // "highlightLine.borderColor": "red", 	Change the border color. (Ex: 'red', '#FFF' #FFFFFFF, 'RGB(255,255,255)','RGB(255, 255, 255. 0.5) )	#65EAB9
-  // "highlightLine.borderWidth"		4,
-  "highlightLine.borderStyle": "solid",
-  "highlightLine.borderColor": "#ff0000",
-
-  "explorer.autoReveal": false,
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -860,6 +732,7 @@
       "value": "#42b883"
     }
   ],
+  
   "window.zoomLevel": 2
 
   // "vitest.enable": true,

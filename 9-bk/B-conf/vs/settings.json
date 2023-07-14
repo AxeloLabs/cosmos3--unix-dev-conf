@@ -1,17 +1,45 @@
 {
-    "workbench.colorTheme": "Rainbow (rainglow)",
-    "files.associations": {
-        ".env*": "dotenv"
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "keyword.other.dotenv",
-                "settings": {
-                    "foreground": "#FF000000"
-                }
-            }
-        ]
-    },
-    "svelte.enable-ts-plugin": true
+  // ---------------------------------------------
+  "workbench.tree.indent": 20,
+  "explorer.autoReveal": false,
+  // ---------------------------------------------
+  "terminal.integrated.env.linux": {
+    "EDITOR": "code"
+  },
+  // ---------------------------------------------
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    // -- svelte for vscode plugin
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  // ---------------------------------------------
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": true,
+    // "source.organizeImports": true,
+    "source.sortMembers": true
+  },
+  "svelte.enable-ts-plugin": true,
+  // ---------------------------------------------
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 1,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  }
+  // ---------------------------------------------
 }
