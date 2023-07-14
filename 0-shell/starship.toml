@@ -39,18 +39,18 @@ style = "bold white"
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
 
 [git_status]
-conflicted = "⚔️ "
-ahead = "ahead_x${count}-"
-behind = "behind_x${count}-"
-diverged = "diverged_x${ahead_count} 🐢 ×${behind_count}-"
-untracked = "untracked_x${count}-"
-stashed = "stashed×${count}-"
-modified = "M×${count}-"
-staged = "S×${count}-"
-renamed = "R×${count}-"
-deleted = "D×${count}-"
-style = "bright-white"
-format = "$all_status$ahead_behind"
+# conflicted = "⚔️ "
+# ahead = "ahead_x${count}-"
+# behind = "behind_x${count}-"
+# diverged = "diverged_x${ahead_count} 🐢 ×${behind_count}-"
+# untracked = "untracked_x${count}-"
+# stashed = "stashed×${count}-"
+# modified = "M×${count}-"
+# staged = "S×${count}-"
+# renamed = "R×${count}-"
+# deleted = "D×${count}-"
+# style = "bright-white"
+# format = "$all_status$ahead_behind"
 
 [hostname]
 ssh_only = false

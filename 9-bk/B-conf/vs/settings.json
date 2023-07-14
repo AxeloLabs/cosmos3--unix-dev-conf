@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Azure Light (rainglow)",
+    "workbench.colorTheme": "Rainbow (rainglow)",
     "files.associations": {
         ".env*": "dotenv"
     },
