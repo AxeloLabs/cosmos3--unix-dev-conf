@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# set up project
+# gcloud config set project y-toucherterre
+
+# gcloud firestore export gs://[BUCKET_NAME]
+# gcloud firestore export gs://y-toucherterre.appspot.com
+
+# gcloud auth login
+
 #
 # firebase login
 #
@@ -15,7 +23,7 @@ alias f-0-use--add='f use --add'
 # ----------------------------------------------------------
 # PROJECTS
 # ----------------------------------------------------------
-alias f-0-projects--list='f projects:list'
+alias f-0-projects--list='f projects:list | h firestore-ax-test  axelox-titanic   y-toucherterre tgmines-202 landing--leo spa-facture-id ecom--wa '
 alias f-0-projects--create='f projects:create'
 alias f-0-projects--addfirebase='f projects:addfirebase'
 
@@ -34,6 +42,7 @@ alias f-help='f -h | h : apps database functions settup projects login hosting  
 # ----------------------------------------------------------
 # DEPLOY
 # ----------------------------------------------------------
+alias fd='firebase deploy --only hosting'
 alias f-2-deploy='f deploy'
 alias f-2-deploy--only-hosting='f deploy --only hosting'
 alias f-2-deploy--only-firestore-rules='f deploy --only firestore:rules'

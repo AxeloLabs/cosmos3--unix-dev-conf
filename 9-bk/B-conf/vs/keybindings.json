@@ -198,9 +198,17 @@
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": "@apply $1; " // -0
+      "snippet": " style='$1'" // -3
     }
   },
+  // {
+  //   "key": "cmd+7",
+  //   "command": "editor.action.insertSnippet",
+  //   "when": "editorTextFocus",
+  //   "args": {
+  //     "snippet": "@apply $1; " // -0
+  //   }
+  // },
   //  ??? z
   // {
   //   "key": "ctrl+shift+-",

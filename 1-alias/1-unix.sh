@@ -1,13 +1,38 @@
 #!/bin/sh
 
+# git push --follow-tags
 # ----------------------------------------------------------
 # fast move
 # ----------------------------------------------------------
+# git merge BRANCH_NAME --strategy-option theirs
+alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/"
 
-alias uis="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo5/apps/z-story--uiblog"
-alias ui="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo5/packages/axelox-uiblog"
-alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo5/"
+alias facture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/apps/spa--facture"
+alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/apps/ecom--wa"
+alias sfacture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/zsocle--data/spa--facture"
+alias swa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/zsocle--data/ecom--wa"
+alias scri="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/zsocle--script/"
 
+alias kit="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/axelox--uikit"
+alias story="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/apps/z-story--uikit"
+alias blog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/apps/blog--vinz"
+alias sblog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/zsocle--data/blog--vinz"
+alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/apps/landing--leo"
+alias sleo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/zsocle--data/landing--leo"
+
+alias fire="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/axelox--firebase"
+
+alias nnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/apps/NEW"
+alias snnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelox5/packages/NEW"
+
+alias o='code package.json  '
+
+alias ax1='cd $HOME/0-dev/1-genesis/axelo1 && code $HOME/0-dev/1-genesis/axelo1'
+alias ax2='cd $HOME/0-dev/1-genesis/axelo2 && code $HOME/0-dev/1-genesis/axelo2'
+alias ax3='cd $HOME/0-dev/1-genesis/axelo3 && code $HOME/0-dev/1-genesis/axelo3'
+alias ax4='cd $HOME/0-dev/1-genesis/axelo4 && code $HOME/0-dev/1-genesis/axelo4'
+alias ax5='cd $HOME/0-dev/1-genesis/axelox5 && code $HOME/0-dev/1-genesis/axelox5'
+alias ax6='cd $HOME/0-dev/1-genesis/axelo6 && code $HOME/0-dev/1-genesis/axelo6'
 # ----------------------------------------------------------
 
 alias yt='youtube-dl'
@@ -48,6 +73,15 @@ alias ECHOO="echo && echo && echo '🪸 ........................................
 # -0
 # ----------------------------------------------------------
 alias killnode="sudo killall node"
+# ----------------------------------------------------------
+# sudo lsof -i -P | grep LISTEN | grep :$PORT
+# ----------------------------------------------------------
+# $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
+# ----------------------------------------------------------
+# sudo kill -9 <PID>
+# ps -ef | grep chrome | grep -v grep | awk '{print $2}' | xargs kill -9
+# ps -ef | grep 8080 | grep -v grep | awk '{print $2}' | xargs kill -9
+# alias killl='kill-port --port 8000,9099,5001,8080,5033,9000,5000,8085,9199,4000,4400,4500'
 # ----------------------------------------------------------
 listening() {
   if [ $# -eq 0 ]; then

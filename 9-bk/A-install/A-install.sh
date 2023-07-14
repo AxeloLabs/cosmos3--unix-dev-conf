@@ -87,6 +87,12 @@ brew install --cask notunes
 brew install --cask vlc
 
 # ----------------------------------------------------------
+# LAST
+# ----------------------------------------------------------
+# bin GCLOUD
+brew install --cask google-cloud-sdk
+
+# ----------------------------------------------------------
 # does not work
 # ----------------------------------------------------------
 # brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
@@ -110,8 +116,7 @@ brew install --cask vlc
 # ----------------------------------------------------------
 # BACKLOG
 # ----------------------------------------------------------
-# # bin GCLOUD
-# brew install --cask google-cloud-sdk
+
 # # SYS-ADMIN
 # brew install procs    # RUST
 # brew tap cjbassi/ytop # RUST

@@ -27,6 +27,10 @@ format = " [$symbol$branch]($style) "
 symbol = "🌴 "
 style = "bold yellow"
 
+[nodejs]
+format = "[🤖$version](bold green) "
+
+
 [git_commit]
 commit_hash_length = 8
 style = "bold white"
@@ -36,15 +40,15 @@ format = '[\($state( $progress_current of $progress_total)\)]($style) '
 
 [git_status]
 conflicted = "⚔️ "
-ahead = "🏎️ 💨 ×${count}"
-behind = "🐢 ×${count}"
-diverged = "🔱 🏎️ 💨 ×${ahead_count} 🐢 ×${behind_count}"
-untracked = "🛤️  ×${count}"
-stashed = "📦 "
-modified = "📝 ×${count}"
-staged = "🗃️  ×${count}"
-renamed = "📛 ×${count}"
-deleted = "🗑️  ×${count}"
+ahead = "ahead_x${count}-"
+behind = "behind_x${count}-"
+diverged = "diverged_x${ahead_count} 🐢 ×${behind_count}-"
+untracked = "untracked_x${count}-"
+stashed = "stashed×${count}-"
+modified = "M×${count}-"
+staged = "S×${count}-"
+renamed = "R×${count}-"
+deleted = "D×${count}-"
 style = "bright-white"
 format = "$all_status$ahead_behind"
 
@@ -87,5 +91,3 @@ disabled = false
 style_user = "bold dimmed blue"
 show_always = false
 
-[nodejs]
-format = "via [🤖 $version](bold green) "

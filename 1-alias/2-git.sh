@@ -49,10 +49,11 @@ alias ga='g add '
 alias gaa='g add --all .'
 # -- commit
 alias gm='g commit -m '
-alias gmm='g commit -m "⬛ -- [[`date`]]"'
+alias gmm='g commit -m "⬛ WIP [[`date`]]"'
 # -- push
 alias gp='g push'
-alias gpp='gaa && gmm && gp '
+alias gppp='gaa && gmm && gp '
+alias gpp='gaa && gmm  '
 # -- stash
 alias gs='g stash'
 alias gsp='g stash pop'
@@ -160,10 +161,10 @@ alias gcp='g cherry-pick' #git cherry -v master
 # -0
 # You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
 # alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
-alias gl="ECHO CURRENT_BRANCH - ONE && g log -36 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
-alias lg="ECHO TREE - ONE && g log -36 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n          🎤 %C(white)%s 🙊 %C(dim white)%an%n';  ECHOO"
-alias gll="ECHO CURRENT_BRANCH - ALL && g log -36 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' --all; ECHOO"
-alias lgg="ECHO TREE - ALL && g log -36 --graph --show-linear-break --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an' --all;  ECHOO"
+alias gl="ECHO CURRENT_BRANCH - ONE && g log -20 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' ; ECHOO"
+alias lg="ECHO TREE - ONE && g log -20 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n          🎤 %C(white)%s 🙊 %C(dim white)%an%n';  ECHOO"
+alias gll="ECHO CURRENT_BRANCH - ALL && g log -20 --format=format:'%C(yellow)%h 🎤 %C(white)%s 🙊 %C(cyan)(%ar) %C(auto)%d %C(dim white)%an - %C(cyan)(%as)' --all; ECHOO"
+alias lgg="ECHO TREE - ALL && g log -20 --graph --show-linear-break --abbrev-commit --decorate --format=format:'%C(yellow)%h - %C(cyan)(%as) (%ar) %C(auto)%d%n''          🎤 %C(white)%s 🙊 %C(dim white)%an' --all;  ECHOO"
 # https://git-scm.com/docs/git-log
 # https://git-scm.com/docs/pretty-formats
 # https://git-scm.com/docs/git-config#Documentation/git-config.txt-color

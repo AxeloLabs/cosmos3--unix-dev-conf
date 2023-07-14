@@ -1,13 +1,5 @@
-# $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
 # ----------------------------------------------------------
 # alias mann='tldr'
-# ----------------------------------------------------------
-# sudo lsof -i -P | grep LISTEN | grep :$PORT
-# ----------------------------------------------------------
-# sudo kill -9 <PID>
-# ps -ef | grep chrome | grep -v grep | awk '{print $2}' | xargs kill -9
-# ps -ef | grep 8080 | grep -v grep | awk '{print $2}' | xargs kill -9
-# alias killl='kill-port --port 8000,9099,5001,8080,5033,9000,5000,8085,9199,4000,4400,4500'
 # ----------------------------------------------------------
 # Npm
 # alias Z='| fzf'

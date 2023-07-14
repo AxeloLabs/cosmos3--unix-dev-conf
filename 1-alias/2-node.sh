@@ -26,15 +26,16 @@ alias formatt='n format \
 # -0 -------------------------------------------------------
 # -0 2 LINT
 # -0 -------------------------------------------------------
+# /Users/0-minuit-ax/0-dev/master/axelo4|
 BOUCHON__LINT='\
 "unexpected any warning" \
-"/Users/0-minuit-ax/0-dev/master/axelo4|no-non-null-assertion" \
+"no-non-null-assertion" \
 "Unexpected any|error" \
 "warning|singleton|no-unused-vars" \
 "====================================" \
 "0 errors|0 warnings|0 hints" \
-"checking" \
-"\.ts|\.svelte" \
+"checking|1-blog|/axelox-firebase|/axelox-uiblog|/axelox-utils|/axelox-meta|/z-test--lib|/z-story--uiblog" \
+"\.ts|\.svelte|successful" \
 "\.cjs" \
 '
 alias lint="n lint"
@@ -99,13 +100,13 @@ alias ndeb="n debug"
 # ----------------------------------------------------------
 # DEPLOY
 # ----------------------------------------------------------
-alias ndep='n deploy'
+alias ndep='n fdeploy'
 
 # ----------------------------------------------------------
 # EMU
 # ----------------------------------------------------------
 alias ne="n emu"
-alias ne--kill='n emu--kill'
+alias nkill='n emu--kill'
 alias nserv="n serve"
 
 # ----------------------------------------------------------
