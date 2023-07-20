@@ -6,28 +6,29 @@
 # ----------------------------------------------------------
 # git merge BRANCH_NAME --strategy-option theirs
 alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/"
-
+#
+alias o='code package.json  '
+alias ax6='cd $HOME/0-dev/1-genesis/axelo6 && code $HOME/0-dev/1-genesis/axelo6'
+#
+alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/titanic"
+alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/leo--landing--bec"
+alias cv="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/ax--cv--ax"
+#
 alias facture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/spa--facture"
-alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/wa--ecom--wa"
 alias sfacture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/spa--facture"
-alias swa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/wa--ecom--wa"
+alias swa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/titanic"
 alias scri="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--script/"
 
 alias kit="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/axelox--uikit"
 alias story="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/z-story--uikit"
 alias blog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/blog--vinz"
 alias sblog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/blog--vinz"
-alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/landing--leo"
-alias sleo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/landing--leo"
 
 alias fire="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/axelox--firebase"
 
 alias nnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/NEW"
 alias snnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/NEW"
 
-alias o='code package.json  '
-
-alias ax6='cd $HOME/0-dev/1-genesis/axelo6 && code $HOME/0-dev/1-genesis/axelo6'
 # ----------------------------------------------------------
 
 alias yt='youtube-dl'

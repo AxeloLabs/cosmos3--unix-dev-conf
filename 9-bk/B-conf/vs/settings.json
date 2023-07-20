@@ -1,38 +1,1220 @@
 {
+  "workbench.colorCustomizations": {
+    // -1 tab
+    "tab.activeBorderTop": "#FFF",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#777777",
+    "tab.inactiveForeground": "#000000",
+    //
+    "sideBar.background": "#000000",
+    // 
+    // -1 suggest 
+    "editorSuggestWidget.selectedBackground": "#000",
+    "editorSuggestWidget.border": "#fff",
+    "editorSuggestWidget.foreground": "#000",
+    "editorSuggestWidget.background": "#fff",
+    "editorSuggestWidget.selectedForeground": "#fff",
+    "editorSuggestWidget.focusHighlightForeground": "#ff0000",
+    "editorSuggestWidget.highlightForeground": "#ff0000",
+  },
   // ---------------------------------------------
-  "workbench.tree.indent": 20,
+  "workbench.tree.indent": 30,
   "explorer.autoReveal": false,
+  "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
   // ---------------------------------------------
-  "terminal.integrated.env.linux": {
-    "EDITOR": "code"
-  },
-  // ---------------------------------------------
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[svelte]": {
-    // -- svelte for vscode plugin
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  // ---------------------------------------------
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    // "source.fixAll": true,
-    // "source.organizeImports": true,
-    "source.sortMembers": true
-  },
-  "svelte.enable-ts-plugin": true,
-  // ---------------------------------------------
+  "material-icon-theme.folders.color": "#000",
+  "material-icon-theme.folders.theme": "classic",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Potpourri Contrast (rainglow)",
   "workbench.startupEditor": "none",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 1,
+  "workbench.list.horizontalScrolling": true, // scroll in explorer S
+  // ---------------------------------------------
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  // inlay hints
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  // ---------------------------------------------
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  // ---------------------------------------------
+  // "tailwindCSS.suggestions": true,
+  "tailwindCSS.experimental.configFile": "/Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/titanic/tailwind.config.cjs",
+  // "editor.quickSuggestions": {
+  //   "strings": true // tailwind css
+  // },
+  // "tailwindCSS.includeLanguages": {
+  //   "plaintext": "html" // tailwind css
+  // },
+  // "css.validate": false, // tailwind css
+  // "editor.inlineSuggest.enabled": true, // tailwind css
+  // ---------------------------------------------
+  // TEST
+  // ---------------------------------------------
+  // ---------------------------------------------
+  // ---------------------------------------------
+  // ---------------------------------------------
   "files.associations": {
-    ".env*": "dotenv"
+    ".env*": "dotenv",
+    "*.json": "jsonc",
+    "*.css": "tailwindcss"
   },
+  // ---------------------------------------------
+  // "editor.snippetSuggestions": "bottom",
+  // ---------------------------------------------
+  "svelte.enable-ts-plugin": true,
+  // ---------------------------------------------
+  "editor.formatOnSave": true,
+  // "editor.codeActionsOnSave": {
+  // "source.fixAll": true,
+  // "source.organizeImports": true,
+  // "source.sortMembers": true
+  // },
+  // ---------------------------------------------
+  // "terminal.integrated.env.linux": {
+  //   "EDITOR": "code"
+  // },
+  // ---------------------------------------------
+  // activer ESLINT pour cela
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  // "[shellscript]": {
+  //   "editor.defaultFormatter": "foxundermoon.shell-format"
+  // },
+  // "[properties]": {
+  //   "editor.defaultFormatter": "foxundermoon.shell-format"
+  // },
+  // "[dotenv]": {
+  //   "editor.defaultFormatter": "foxundermoon.shell-format"
+  // },
+  // "[ignore]": {
+  //   "editor.defaultFormatter": "foxundermoon.shell-format"
+  // },
+  // ------------------------------------------------------------------
+  // "sonarlint.rules": {
+  //   "typescript:S101": {
+  //     "level": "off"
+  //   },
+  //   "javascript:S125": {
+  //     "level": "off"
+  //   },
+  //   "typescript:S3776": {
+  //     "level": "off"
+  //   }
+  // ---------------------------------------------
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "right": "10px",
+        "surround": "#155FFA",
+        "underline": "white"
+      }
+    }
+  },
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ------------------------------------------------------------------
+  // ---------------------------------------------
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "FIXME:", // without further details, this will use the defaultStyle
+    "REVIEW:", // as will this
+    {
+      "text": "wa--ecom--wa",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "leo--landing--bec",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "wa--cv--ax",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": " => {",
+      "color": "blue",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "function ",
+      "color": "blue",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "terminal",
+      "color": "blue",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "import ",
+      "color": "red",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tab",
+      "color": "red",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cookies",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "'$lib/",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "gitDecoration",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</script>",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</div>",
+      "color": "black",
+      "backgroundColor": "dimgray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<div",
+      "color": "gray",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</style>",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<style>",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<style lang=\"postcss\">",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<script>",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<script lang=\"ts\">",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "OverviewRuler",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<nav class=\"list-nav",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<a href=\"",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "DocsFooter",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "DocsSidebar",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "DocsAppBar",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "AppShell",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<section",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "variant-",
+      "color": "dimgray",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</AppRailTile>",
+      "color": "white",
+      "backgroundColor": "dimgray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "--admin",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "class=\"flex flex-col items-center space-y-10 text-center\">",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "class=\"container mx-auto flex h-full items-center justify-center\">",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<AppRailTile",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "badge",
+      "color": "cyan",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/users/axelo/wa-admin",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/users/axelo/wa/",
+      "color": "black",
+      "backgroundColor": "gainsboro",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/admin",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<i class=\"",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</svelte:fragment>",
+      "color": "black",
+      "backgroundColor": "dimgray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<svelte:fragment slot=\"lead\">",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<svelte:fragment slot=\"trail\">",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "card",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "btn",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "chip",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<footer",
+      "color": "gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<header ",
+      "color": "cyan",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "editor",
+      "color": "cyan",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"inherits\": ",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"scripts\": {",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"devDependencies\": {",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"dependencies\": {",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "zsocle--titanic",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "postinstall",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "preinstall",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@packages",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@socles",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@axelox",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "\"type\": \"module\"",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    //   "text": "",
+    //   "color": "white",
+    //   "backgroundColor": "blue",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "wa--cv",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "wa--cv--ax",
+      "color": "white",
+      "backgroundColor": "purple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    // 
+    {
+      "text": "../../packages/zsocle--titanic/env--dev/0-scripts/",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "wa--landing--bec",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "../../packages/zsocle--titanic/env--socle/0-scripts/",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "&&",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-prettier",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier-plugin-svelte",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier-plugin-tailwindcss",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "esm-env",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "tslib",
+      "color": "cyan",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "typescript",
+      "color": "cyan",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "allowJs",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "checkJs",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "esModuleInterop",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "forceConsistentCasingInFileNames",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "resolveJsonModule",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "skipLibCheck",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sourceMap",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "strict",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    //   "text": "-",
+    //   "color": "black",
+    //   "backgroundColor": "transparet",
+    //   "isWholeLine": false,
+    //   "overviewRulerColor": "transparent"
+    // },
+    //
+    {
+      "text": "publint",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "rimraf",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vite",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vite-plugin-dts",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "rollup-plugin-visualizer",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "vitest",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@vitest/coverage-v8",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@vitest/ui",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "happy-dom",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "jsdom",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "svelte",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte-check",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "svelte-preprocess",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/adapter-auto",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/adapter-static",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/kit",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/package",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@sveltejs/vite-plugin-svelte",
+      "color": "deeppink",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "@floating-ui/dom",
+      "color": "DarkOrange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@skeletonlabs/skeleton",
+      "color": "DarkOrange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "highlight.js",
+      "color": "DarkOrange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@faker-js/faker",
+      "color": "DarkOrange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "query-string",
+      "color": "DarkOrange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "sveld",
+      "color": "DarkOrange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "@tailwindcss/forms",
+      "color": "DarkOrchid",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@tailwindcss/typography",
+      "color": "DarkOrchid",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "tailwindcss",
+      "color": "DarkOrchid",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "autoprefixer",
+      "color": "Purple",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "postcss-import",
+      "color": "Purple",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "postcss-load-config",
+      "color": "Purple",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "postcss",
+      "color": "Purple",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "react",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "react-dom",
+      "color": "white",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-styling",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-essentials",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-interactions",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-links",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/blocks",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/svelte",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/sveltekit",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/testing-library",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-a11y",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-actions",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/addon-svelte-csf",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/test-runner",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@storybook/cli",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "storybook",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "chromatic",
+      "color": "LightCoral",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "@playwright/test",
+      "color": "Crimson",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "@types/eslint",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint/eslint-plugin",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@typescript-eslint/parser",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-plugin-turbo",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-plugin-storybook",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-plugin-svelte",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "eslint-config-turbo",
+      "color": "Gold",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "prettier",
+      "color": "Yellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    //
+    {
+      "text": "firebase",
+      "color": "SlateBlue",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "@firebase/rules-unit-testing",
+      "color": "SlateBlue",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    }
+  ],
+  // ------------------------------------------------------------------
   "editor.tokenColorCustomizations": {
     "textMateRules": [
+      {
+        "scope": [
+          "comment.block.svelte",
+          "comment.line.double-slash.js",
+          "comment.line.double-slash.ts",
+          "comment.block.html",
+          "comment.line.number-sign.shell",
+          "comment.block.documentation",
+          "storage.type.class.jsdoc",
+          "comment.block.documentation.js",
+          "variable.other.jsdoc"
+        ],
+        "settings": {
+          "foreground": "#f453a3"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.js",
+          "keyword.control.conditional.js",
+          "keyword.control.export.js",
+          "keyword.control.import.js",
+          "meta.brace.round.js",
+          "punctuation.definition.block.js",
+          "keyword.operator.assignment.js",
+          "punctuation.separator.key-value.js",
+          "keyword.operator.spread.js",
+          "keyword.control.flow.js",
+          "keyword.control.from.js",
+          "storage.modifier.async.js",
+          "punctuation.definition.template-expression.begin.js",
+          "entity.other.attribute-name.svelte",
+          "variable.other.readwrite.alias.js",
+          "meta.import.js",
+          "meta.import.ts",
+          "meta.script.svelte entity.name.tag.svelte"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "support.type.property-name.css.postcss"
+        ],
+        "settings": {
+          "foreground": "#d3b416"
+        }
+      },
+      {
+        "scope": [
+          "support.class.component.svelte",
+          "entity.other.attribute-name.class.css.postcss",
+          "entity.name.type.class.ts",
+          "entity.name.type.class.js"
+        ],
+        "settings": {
+          "foreground": "#01c4da"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.js",
+          "storage.type.ts",
+          "support.type.property-name.css.postcss"
+        ],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.js",
+          "entity.other.attribute-name.class.css.postcss",
+          "entity.name.type.class.ts",
+          "entity.name.type.class.js",
+          "support.class.component.svelte"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
       {
         "scope": "keyword.other.dotenv",
         "settings": {
@@ -40,6 +1222,15 @@
         }
       }
     ]
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
-  // ---------------------------------------------
 }
