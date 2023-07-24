@@ -43,6 +43,8 @@ alias f-help='f -h | h : apps database functions settup projects login hosting  
 # DEPLOY
 # ----------------------------------------------------------
 alias fdd='firebase deploy --only hosting'
+alias fddc='firebase hosting:channel:deploy demo1 --expires 7d'
+alias fdd--channel='firebase hosting:channel:deploy demo1 --expires 7d'
 alias f-2-deploy='f deploy'
 alias f-2-deploy--only-hosting='f deploy --only hosting'
 alias f-2-deploy--only-firestore-rules='f deploy --only firestore:rules'

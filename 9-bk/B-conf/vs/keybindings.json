@@ -8,27 +8,23 @@
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
-
   // --- save
   {
     "key": "cmd+s",
     "command": "workbench.action.files.saveAll"
   },
-
   // go to next error
   {
     "key": "cmd+[IntlBackslash]",
     "command": "editor.action.marker.next",
     "when": "editorFocus"
   },
-
   // --- intellisense
   {
     "key": "shift+space",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
-
   // --- navigation
   {
     "key": "ctrl+cmd+left",
@@ -94,12 +90,20 @@
       "snippet": "export let CONTENT: any[] = []"
     }
   },
+  // {
+  //   "key": "cmd+;",
+  //   "command": "editor.action.insertSnippet",
+  //   "when": "editorTextFocus",
+  //   "args": {
+  //     "snippet": "--------------------------------" // -1
+  //   }
+  // },
   {
     "key": "cmd+;",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
-      "snippet": "--------------------------------" // -1
+      "snippet": " bg-red-500 " // -1
     }
   },
   {
@@ -126,7 +130,6 @@
   //     "snippet": "{ \n \"text\": \"$1\", \n \"isWholeLine\": false, \n \"color\": \"$2\",\n \"backgroundColor\": \"transparent\", \n \"overviewRulerColor\": \"transparent\" \n },"
   //   }
   // },
-
   // {
   //   "key": "cmd+shift+s",
   //   "command": "editor.action.insertSnippet",
@@ -234,12 +237,10 @@
   //   "key": "shift+alt+down",
   //   "command": "cursorWordEndLeftSelect"
   // },
-
   // {
   //   "key": "cmd+1",
   //   "command": "-workbench.action.focusFirstEditorGroup"
   // }
-
   // ###
   // ### Z
   // ###
@@ -264,7 +265,6 @@
   //   "command": "workbench.action.terminal.sendSequence",
   //   "args": { "text": "0x18" }
   // }
-
   //  z
   // --- jump bracket todo
   // Jump to matching bracket	⇧⌘\	editor.action.jumpToBracket

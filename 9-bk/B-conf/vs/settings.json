@@ -1,4 +1,5 @@
 {
+  "editor.cursorSmoothCaretAnimation": "on", // speed cursor
   "workbench.colorCustomizations": {
     // -1 tab
     "tab.activeBorderTop": "#FFF",
@@ -18,16 +19,16 @@
     "editorSuggestWidget.highlightForeground": "#ff0000",
   },
   // ---------------------------------------------
-  "workbench.tree.indent": 30,
+  "workbench.tree.indent": 10,
   "explorer.autoReveal": false,
   "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
   // ---------------------------------------------
   "material-icon-theme.folders.color": "#000",
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Potpourri Contrast (rainglow)",
-  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Default High Contrast",
   "explorer.confirmDelete": false,
+  "workbench.startupEditor": "none",
   "explorer.confirmDragAndDrop": false,
   "workbench.list.horizontalScrolling": true, // scroll in explorer S
   // ---------------------------------------------
@@ -1232,5 +1233,6 @@
   },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "window.zoomLevel": 2
 }
