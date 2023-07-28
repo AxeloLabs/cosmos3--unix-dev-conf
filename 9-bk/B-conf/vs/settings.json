@@ -1234,5 +1234,7 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "window.zoomLevel": 2
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "security.workspace.trust.untrustedFiles": "open"
 }
