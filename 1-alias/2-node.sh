@@ -10,22 +10,22 @@ alias nv='node -v' # nv-18='nvm use 18.4.0' # fnv use ...
 alias ppp='cat package.json | h scripts dependencies devDependencies name start build deploy init test'
 
 # ----------------------------------------------------------
-# PNPM
+# 0 PNPM
 # ----------------------------------------------------------
 alias n="pnpm"                 # "npm run"
 alias upall='pnpm up --latest' # alias upall='ncu -u'
 
-# -0 -------------------------------------------------------
-# -0 1 FORMAT
-# -0 -------------------------------------------------------
+# -------------------------------------------------------
+# 1 FORMAT
+# -------------------------------------------------------
 alias format='n format'
 alias formatt='n format \
 | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css"  "\.json" "\.js" "\.md" "\.config"  "\.ts" "\.scss"  \
 | h -ni "index" "changelog"  "readme" "components" "package" "global" "\.cjs" "\.eslintrc"  '
 
-# -0 -------------------------------------------------------
-# -0 2 LINT
-# -0 -------------------------------------------------------
+# -------------------------------------------------------
+# 2 LINT
+# -------------------------------------------------------
 # /Users/0-minuit-ax/0-dev/master/axelo4|
 BOUCHON__LINT='\
 "unexpected any warning" \
@@ -41,9 +41,9 @@ BOUCHON__LINT='\
 alias lint="n lint"
 alias lintt="n lint | h -ni $BOUCHON__LINT"
 
-# -0 -------------------------------------------------------
-# -0 3 CHECK (svelte only)
-# -0 -------------------------------------------------------
+# -------------------------------------------------------
+# 3 CHECK (svelte only)
+# -------------------------------------------------------
 alias check="n check"
 alias mcheck="clear && n megacheck | h -ni \
 '0 errors|0 error|0 warnings|problems|0 hints|formatting|format|building|build|bundle|preview|svelte-check|megacheck|check|lint|is defined but never used|Cannot find module|is being used as a type here|is of type|is not assignable to parameter of type|is not assignable to type|does not exist on type' \

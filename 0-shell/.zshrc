@@ -1,15 +1,14 @@
 #!/bin/zsh
-# -0
+# -0 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 # -0 ZSH-RC -- 15 may 2023 - COSMOS
-# -0
+# -0 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
 export EDITOR=code
 export VISUAL="$EDITOR"
 
-
-# ----------------------------------------------------------
+# ##########################################################
 # UNIX SETUP
-# ----------------------------------------------------------
+# ##########################################################
 # -- zsh history
 # https://www.soberkoder.com/better-zsh-history/
 # https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/history.zsh
@@ -17,40 +16,38 @@ export HISTFILE=~/.zsh_history # HISTSIZE - Refers to the number of commands tha
 export HISTSIZE=100000000      # HISTFILE - Refers to the path/location of the history file
 export SAVEHIST=100000000      # SAVEHIST - Refers to the number of commands that are stored in the zsh history file
 export HISTTIMEFORMAT="[%F %T] "
-
 # ----------------------------------------------------------
 # -- Z
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" # use bat in man
-# ----------------------------------------------------------
 
-# -0
+# ##########################################################
 # -0 cosmos VARIABLEs
-# -0
-# ----------------------------------------------------------
+# ##########################################################
 # -- variables
 export COSMOS_RC=~/"0-dev/master/0-cosmos"
 export COSMOS_LIB=~/"0-dev/master/0-cosmos/0-shell/A-lib"
 
-# ----------------------------------------------------------
+# ##########################################################
+# ##########################################################
 # -- alias
+# ##########################################################
+# ##########################################################
+. "$COSMOS_RC/1-alias/0-cd.sh"
 . "$COSMOS_RC/1-alias/1-unix.sh"
 . "$COSMOS_RC/1-alias/2-firebase.sh"
 . "$COSMOS_RC/1-alias/2-git.sh"
 . "$COSMOS_RC/1-alias/2-node.sh"
 . "$COSMOS_RC/1-alias/2-turbo.sh"
-# ----------------------------------------------------------
 
-# -0
+# ##########################################################
 # -0 auto-complete
-# -0
-# ----------------------------------------------------------
+# ##########################################################
 # autoload -U compinit
 # compinit
 # setopt  autocd autopushd \ pushdignoredups
 # menu navigation start
 autoload -Uz compinit
 compinit
-
 # ----------------------------------------------------------
 # zstyle ':completion:*' menu select
 # menu navigation end
@@ -68,45 +65,38 @@ zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
 zstyle ":completion:*:git-checkout:*" sort false
 zstyle ':completion:*:exa' file-sort modification
 zstyle ':completion:*:exa' sort false
-
 # ----------------------------------------------------------
 # https://minsw.github.io/fzf-color-picker/
 # export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#000000,bg:#000000,hl:#ff0000 --color=fg+:#fff700,bg+:#000000,hl+:#ff0000 --color=info:#f05de4,prompt:#ff006f,pointer:#ff0000 --color=marker:#000000,spinner:#000000,header:#f05de4'
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#00b524,bg:#000000,hl:#ff0000 --color=fg+:#fff700,bg+:#000000,hl+:#ff0000 --color=info:#f05de4,prompt:#ff006f,pointer:#ff0000 --color=marker:#000000,spinner:#000000,header:#f05de4'
 # useless finalement (deps fzf-tab ?)
-# ----------------------------------------------------------
 
-# -0
+# ##########################################################
 # -0 lib
-# -0
+# ##########################################################
 pathadd() {
     if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
         PATH="${PATH:+"$PATH:"}$1"
     fi
 }
-
-# ==========================================================
+# ----------------------------------------------------------
 # UNIX
-# ==========================================================
-# -- FZF (tab ++)
+# ----------------------------------------------------------
+# 🟪 FZF (tab ++)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source "$COSMOS_RC/0-shell/A-lib/fzf-tab/fzf-tab.plugin.zsh"
-# ----------------------------------------------------------
-# -- Highlighter > echo "rvjbovRGYBOV" | h   r v j b o v R G Y B O V
+# 🟪 Highlighter > echo "rvjbovRGYBOV" | h   r v j b o v R G Y B O V
 source "$COSMOS_LIB/h/h.sh"
-# ----------------------------------------------------------
-# -- Syntax Highlight (fzf-tab must be before)
+# 🟪 Syntax Highlight (fzf-tab must be before)
 source /opt/homebrew/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-
-# ==========================================================
+# ----------------------------------------------------------
 # DEV
-# ==========================================================
-# -- JAVA
+# ----------------------------------------------------------
+# 🟩 JAVA
 export JAVA_HOME="/opt/homebrew/opt/openjdk"
 export JAVA_BIN="/opt/homebrew/opt/openjdk/bin"
 pathadd $JAVA_BIN
-# ----------------------------------------------------------
-# -- PNPM
+# 🟩 PNPM
 # curl -fsSL https://get.pnpm.io/install.sh | sh -
 export PNPM_HOME="/Users/0-minuit-ax/Library/pnpm"
 pathadd $PNPM_HOME
@@ -116,12 +106,11 @@ pathadd $PNPM_HOME
 # esac
 #   Content-addressable store is at: /Users/0-minuit-ax/Library/pnpm/store/v3
 #   Virtual store is at:             .pnpm
+# 🟩
 
-# ----------------------------------------------------------
-
-# -0
+# ##########################################################
 # -0 pimp-my-prompt
-# -0
+# ##########################################################
 eval "$(starship init zsh)"
 FZF_TAB_GROUP_COLORS=(
     $'\033[94m' $'\033[32m' $'\033[33m' $'\033[35m' $'\033[31m' $'\033[38;5;27m' $'\033[36m'
@@ -130,9 +119,9 @@ FZF_TAB_GROUP_COLORS=(
 )
 zstyle ':fzf-tab:*' group-colors $FZF_TAB_GROUP_COLORS
 
-# -0
+# ##########################################################
 # -0 FUNCTIONS HELPERS
-# -0
+# ##########################################################
 # Usage: palette
 palette() {
     local -a colors
@@ -141,14 +130,15 @@ palette() {
     done
     print -cP $colors
 }
+# ----------------------------------------------------------
 # Usage: printc COLOR_CODE
 # printc() {
 #     local color="%F{$1}"
 #     echo -E ${(qqqq)${(%)color}}
 # }
-
 # -9
 # -9 BUGS
 # -9
 # fnm (better nvm - node version manager)
 eval "$(fnm env --use-on-cd)"
+# ----------------------------------------------------------

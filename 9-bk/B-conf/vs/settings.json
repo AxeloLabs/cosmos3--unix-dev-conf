@@ -1235,6 +1235,6 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 4,
   "security.workspace.trust.untrustedFiles": "open"
 }

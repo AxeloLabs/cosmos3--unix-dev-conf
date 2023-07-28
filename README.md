@@ -1,3 +1,13 @@
+🟥
+🟧
+🟩
+⬛
+⬜
+🟫
+🟨
+🟪
+🟦
+
 <div align="center">
 
 # Dotfiles & Developer Environment

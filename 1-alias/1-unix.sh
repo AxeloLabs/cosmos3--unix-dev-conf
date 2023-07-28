@@ -1,41 +1,21 @@
 #!/bin/sh
 
-# git push --follow-tags
-# ----------------------------------------------------------
-# fast move
-# ----------------------------------------------------------
-# git merge BRANCH_NAME --strategy-option theirs
-alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/"
-#
+# ##########################################################
+# Z
+# ##########################################################
 alias o='code package.json  '
-alias ax6='cd $HOME/0-dev/1-genesis/axelo6 && code $HOME/0-dev/1-genesis/axelo6'
-#
-alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/titanic"
-alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/leo--landing--bec"
-alias cv="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/ax--cv--ax"
-#
-alias facture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/spa--facture"
-alias sfacture="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/spa--facture"
-alias swa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/titanic"
-alias scri="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--script/"
-
-alias kit="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/axelox--uikit"
-alias story="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/z-story--uikit"
-alias blog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/blog--vinz"
-alias sblog="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/zsocle--data/blog--vinz"
-
-alias fire="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/axelox--firebase"
-
-alias nnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/NEW"
-alias snnew="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/packages/NEW"
-
-# ----------------------------------------------------------
-
-alias yt='youtube-dl'
-# ----------------------------------------------------------
+# -----------------------------------------------------------
 alias rc='code $COSMOS_RC'
-# ----------------------------------------------------------
+# -----------------------------------------------------------
+
+# ##########################################################
+# FUN
+# ##########################################################
+alias yt='youtube-dl'
+
+# ##########################################################
 # Unix
+# ##########################################################
 alias sbb='. ~/.zshrc'
 # path folders
 alias PP='echo $PATH | tr ":" "\n" | sort -r --ignore-case  | fzf'
@@ -64,10 +44,9 @@ alias ECHO="echo '🪼 ........................................ 🪼' && echo &&
 alias ECHOO="echo && echo && echo '🪸 ........................................ 🪸'"
 # ----------------------------------------------------------
 
-# -0
-# -0 Process
-# -0
-# ----------------------------------------------------------
+# ##########################################################
+# Process
+# ##########################################################
 alias killnode="sudo killall node"
 # ----------------------------------------------------------
 # sudo lsof -i -P | grep LISTEN | grep :$PORT

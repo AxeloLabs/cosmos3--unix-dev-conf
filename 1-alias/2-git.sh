@@ -1,6 +1,9 @@
 #!/bin/sh
 
-# -0 rebase + squash
+# git push --follow-tags
+# git merge BRANCH_NAME --strategy-option theirs
+
+# rebase + squash
 # https://www.w3docs.com/snippets/git/how-to-combine-multiple-commits-into-one-with-3-steps.html
 # git rebase -i HEAD~3
 # git push --force-with-lease origin HEAD
@@ -14,16 +17,16 @@
 # -- remove remote
 # git remote rm <remote-name>
 
-# -0
-# -0
-# -0
+# -----------------------------------------------------------
+# BASE
+# -----------------------------------------------------------
 alias g='git'
 alias g-open='g-open'
 alias g-clone='g clone'
 
-# -0
-# -0 branch details
-# -0
+# -----------------------------------------------------------
+# branch details
+# -----------------------------------------------------------
 alias g-branch-a='g branch -a'               # list all branch
 alias g-branch-list-remote='g remote -v'     # list all remote URLs
 alias g-branch-list-upstream='g branch -vv ' # verbose list set-upstrzeam
@@ -41,9 +44,9 @@ alias g-remote-add-origin='g remote add origin'
 alias gpu='g push --set-upstream origin '
 alias g-push--set-upstream='g push --set-upstream origin '
 
-# -0
-# -0 USE
-# -0
+# -----------------------------------------------------------
+# USE
+# -----------------------------------------------------------
 # -- add
 alias ga='g add '
 alias gaa='g add --all .'
@@ -68,9 +71,9 @@ alias g-show-axel='g show $(g stash list | cut -d":" -f 1)'
 # -- tag
 alias g-tag='g tag | h -ni 2.2.3 2.2.4 2.2.5'
 
-# -0
-# -0 STATUS
-# -0
+# -----------------------------------------------------------
+# STATUS
+# -----------------------------------------------------------
 # hash
 BOUCHON__GIT_HASH="'ad2e172|e869510' 21068 22606 '615d7ff|ec4667e|ad2e172'"
 # files
@@ -95,9 +98,9 @@ alias a="ECHO && g status \
 | h $BOUCHON__GIT_STATUS ; \
 ECHO"
 
-# -0
-# -0 BRANCH
-# -0
+# -----------------------------------------------------------
+# BRANCH
+# -----------------------------------------------------------
 # -- merge
 alias gmg='g merge '
 # alias gb='g branch' # used by fuzzy
@@ -157,7 +160,7 @@ alias gcp='g cherry-pick' #git cherry -v master
 # GIT LOG - git log --oneline (stack view) - https://g-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-Cred
 
 # -0
-# -0 LOG
+# LOG
 # -0
 # You can set the color to any of the following values: normal, black, red, green, yellow, blue, magenta, cyan, or white. If you want an attribute like bold in the previous example, you can choose from bold, dim, ul (underline), blink, and reverse (swap foreground and background).
 # alias lg="ECHO && g log -25 --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto) 🎤 %d%C(reset)%C(normal)%s%C(reset)%C(dim white) 🙊 %an%C(reset)%C(dim blue)(%ar)%C(reset)' --all; ECHOO"
@@ -220,7 +223,7 @@ alias gl-6='g log -50 --author="axel" --stat'
 alias gl-7='g log --author="axel" --stat'
 
 # -0
-# -0 Z
+# Z
 # -0
 # %%% GIT FUZZY (==> puissant mais CTRL+P ne marche pas)
 # BASIC FZF
@@ -247,7 +250,7 @@ alias g-commit--theirs='g commit `g status | grep "both added:" | awk "{print $N
 # git config --global init.defaultBranch
 
 # -0
-# -0 FUNC
+# FUNC
 # -0
 # useful for daily stand-up
 git_standup() {
