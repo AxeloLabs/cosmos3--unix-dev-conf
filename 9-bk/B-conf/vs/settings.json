@@ -26,7 +26,7 @@
   "material-icon-theme.folders.color": "#000",
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default High Contrast",
+  "workbench.colorTheme": "Rainbow (rainglow)",
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
   "explorer.confirmDragAndDrop": false,
@@ -42,7 +42,7 @@
   "editor.minimap.showSlider": "always",
   // ---------------------------------------------
   // "tailwindCSS.suggestions": true,
-  "tailwindCSS.experimental.configFile": "/Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/titanic/tailwind.config.cjs",
+  "tailwindCSS.experimental.configFile": "/Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/0-titanic/tailwind.config.cjs",
   // "editor.quickSuggestions": {
   //   "strings": true // tailwind css
   // },
@@ -775,6 +775,27 @@
     },
     //
     {
+      "text": ":hover",
+      "color": "black",
+      "backgroundColor": "yellow",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "title",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "poster",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "svelte",
       "color": "deeppink",
       "backgroundColor": "black",
@@ -1235,6 +1256,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 4,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+  "window.zoomLevel": 1
 }

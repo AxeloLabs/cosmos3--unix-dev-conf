@@ -8,6 +8,7 @@ alias r="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/"
 alias ax6='cd $HOME/0-dev/1-genesis/axelo6 && code $HOME/0-dev/1-genesis/axelo6'
 
 # PISTES
+alias pdf="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/4-scrap--pdf"
 alias wa="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/0-titanic"
 alias cv="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/1-ax--cv--ax"
 alias leo="cd /Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/2-leo--landing--bec"
