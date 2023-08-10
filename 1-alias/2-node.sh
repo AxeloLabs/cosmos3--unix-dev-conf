@@ -9,6 +9,7 @@
 alias nv='node -v' # nv-18='nvm use 18.4.0' # fnv use ...
 alias ppp='cat package.json | h scripts dependencies devDependencies name start build deploy init test'
 
+alias megaclean='rm -rf **/node_modules **/.sveltekit **/.turbo **/stats.html **/build **/.scrapper-kit pnpm-lock.yaml'
 # ----------------------------------------------------------
 # 0 PNPM
 # ----------------------------------------------------------

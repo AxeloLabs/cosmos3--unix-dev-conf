@@ -1,4 +1,10 @@
 {
+  // "i18n-ally.disabled": false,
+  // "i18n-ally.localesPaths": [
+  //   "apps/1-ax--cv--ax/src/locales"
+  // ],
+  // "i18n-ally.keystyle": "flat",
+  // 
   "editor.cursorSmoothCaretAnimation": "on", // speed cursor
   "workbench.colorCustomizations": {
     // -1 tab
@@ -42,7 +48,7 @@
   "editor.minimap.showSlider": "always",
   // ---------------------------------------------
   // "tailwindCSS.suggestions": true,
-  "tailwindCSS.experimental.configFile": "/Users/0-minuit-ax/0-dev/1-genesis/axelo6/apps/0-titanic/tailwind.config.cjs",
+  "tailwindCSS.experimental.configFile": "/Users/0-minuit-ax/0-dev/axelo6/apps/0-titanic/tailwind.config.cjs",
   // "editor.quickSuggestions": {
   //   "strings": true // tailwind css
   // },
@@ -470,6 +476,20 @@
     },
     {
       "text": "\"scripts\": {",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "{",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "}",
       "color": "white",
       "backgroundColor": "blue",
       "isWholeLine": false,
@@ -1258,5 +1278,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.inlineSuggest.enabled": true,
+  "update.showReleaseNotes": false,
+  "i18n-ally.displayLanguage": "fr",
   "window.zoomLevel": 1
 }

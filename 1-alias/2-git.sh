@@ -55,8 +55,8 @@ alias gm='g commit -m '
 alias gmm='g commit -m "⬛ WIP [[`date`]]"'
 # -- push
 alias gp='g push'
-alias gppp='gaa && gmm && gp '
-alias gpp='gaa && gmm  '
+alias gpp='gaa && gmm && gp '
+alias gppp='gaa && gmm  '
 # -- stash
 alias gs='g stash'
 alias gsp='g stash pop'
