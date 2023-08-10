@@ -40,4 +40,4 @@ COSMOS 3 (9 juin 2023)
 - [Microsoft's Cascadia Code with Powerlines](https://github.com/microsoft/cascadia-code): mono, ligatures, free
 - [Fira Code](https://github.com/tonsky/FiraCode): mono, ligatures, free
 
-![Cosmos](https://raw.githubusercontent.com/nzaero/cosmos3-unix-dev-conf/main/8-doc/img/1cosmos.webp)
+![Cosmos](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/1cosmos.webp)
