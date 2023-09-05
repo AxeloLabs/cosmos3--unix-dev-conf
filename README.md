@@ -22,12 +22,12 @@ COSMOS 3
 
 ## Summary
 
-- [Softwares](#other-useful-software)
-  - [Fonts](#fonts)
-- [TODO](#todo)
-- [License](#license)
+- [1 Softwares](#softwares)
+- [2 Fonts](#fonts)
+- [3 TODO](#todo)
+- [4 License](#license)
 
-## Softwares
+## 1 Softwares
 
 - [`nushell`](https://www.nushell.sh/): a new type of shell
 - [`starship`](https://starship.rs/): cross-shell theme
@@ -36,10 +36,14 @@ COSMOS 3
 - [`bat`](https://github.com/sharkdp/bat): A cat(1) clone with wings
 - [`fd`](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
 
-## Fonts
+## 2 Fonts
 
 - [Victor Mono](https://rubjo.github.io/victor-mono/): mono, ligatures, free
 - [Microsoft's Cascadia Code with Powerlines](https://github.com/microsoft/cascadia-code): mono, ligatures, free
 - [Fira Code](https://github.com/tonsky/FiraCode): mono, ligatures, free
 
 ![Cosmos](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/1cosmos.webp)
+
+## 3 TODO
+
+## 4 Licence
