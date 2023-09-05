@@ -24,7 +24,7 @@ COSMOS 3
 4 - [License](#license)
 
 </div>
-
+  
 ## 1 Stack
 
 - [`starship`](https://starship.rs/): cross-shell theme
