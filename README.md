@@ -1,5 +1,7 @@
 <div align="center">
 
+COSMOS 3
+
 🟥
 🟧
 🟩
@@ -11,8 +13,6 @@
 🟦
 
 # Dotfiles & Developer Env
-
-COSMOS 3
 
 (9 juin 2023)
 
