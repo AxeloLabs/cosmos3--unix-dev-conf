@@ -42,8 +42,8 @@ COSMOS 3
 - [Microsoft's Cascadia Code with Powerlines](https://github.com/microsoft/cascadia-code): mono, ligatures, free
 - [Fira Code](https://github.com/tonsky/FiraCode): mono, ligatures, free
 
-![Cosmos](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/1cosmos.webp)
-
 ## 3 TODO
 
 ## 4 Licence
+
+![Cosmos](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/1cosmos.webp)
