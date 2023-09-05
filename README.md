@@ -18,13 +18,12 @@ COSMOS 3
 
 ![Lint](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/icon/badge-lint-passing.svg)
 
-</div>
-
 - [1 Stack](#stack)
 - [2 Fonts](#fonts)
 - [3 TODO](#todo)
 - [4 License](#license)
 
+</div>
 ## 1 Stack
 
 - [`starship`](https://starship.rs/): cross-shell theme
