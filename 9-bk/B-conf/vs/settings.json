@@ -1,4 +1,7 @@
 {
+  //   "editor.codeActionsOnSave": {
+  //     "source.sortImports": false
+  // }
   // "i18n-ally.disabled": false,
   // "i18n-ally.localesPaths": [
   //   "apps/1-ax--cv--ax/src/locales"
@@ -26,13 +29,13 @@
   },
   // ---------------------------------------------
   "workbench.tree.indent": 10,
-  "explorer.autoReveal": false,
+  "explorer.autoReveal": true, // show active file in explorer automatically
   "trailing-spaces.backgroundColor": "rgba(0,255,0,0.3)",
   // ---------------------------------------------
   "material-icon-theme.folders.color": "#000",
   "material-icon-theme.folders.theme": "classic",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Rainbow (rainglow)",
+  "workbench.colorTheme": "Banner Contrast (rainglow)",
   "explorer.confirmDelete": false,
   "workbench.startupEditor": "none",
   "explorer.confirmDragAndDrop": false,
@@ -139,9 +142,233 @@
     "FIXME:", // without further details, this will use the defaultStyle
     "REVIEW:", // as will this
     {
+      "text": "simple-pdf-rendering",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "popup",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "id=\"",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "wa--ecom--wa",
       "color": "white",
       "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CardProfilCmd",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "NumberCurrent",
+      "color": "black",
+      "backgroundColor": "cyan",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cmdState",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cmd",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "client",
+      "color": "black",
+      "backgroundColor": "yellowgreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CardFooterDevisAx",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "class:isEditMode",
+      "color": "black",
+      "backgroundColor": "yellowgreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "codeur",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "products",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Mail",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Statut",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Siret",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Adr1",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "text-[10px]",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "text-[",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Adr2",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "leading-",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Adr3",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Url",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Project",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Name",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "Tel",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "btnEdit",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "btnAx",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "hover:",
+      "color": "black",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CardProduct1",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CardProfilDevisA",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CardCmd",
+      "color": "white",
+      "backgroundColor": "green",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "CardProfilAxelo",
+      "color": "white",
+      "backgroundColor": "green",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -153,7 +380,154 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "saveAsPdf",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "wa--cv--ax",
+      "color": "white",
+      "backgroundColor": "deeppink",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "clientUrl",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "clientProjectUrl",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cmdTitle",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cmdType",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cmdNumber",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productDescription",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productPrice",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productPriceMode",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productQty",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productQtyMode",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productDescription2",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productPrice2",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productPriceMode2",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productQty2",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "productQtyMode2",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "clientName",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cmdMessageCodeur1",
+      "color": "black",
+      "backgroundColor": "gold",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "currentCmd",
+      "color": "black",
+      "backgroundColor": "yellowgreen",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "state.cmdsById",
+      "color": "black",
+      "backgroundColor": "orange",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "name=",
       "color": "white",
       "backgroundColor": "deeppink",
       "isWholeLine": false,
@@ -226,6 +600,27 @@
       "text": "</div>",
       "color": "black",
       "backgroundColor": "dimgray",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/boutique/",
+      "color": "green",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/billing/",
+      "color": "pink",
+      "backgroundColor": "white",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/order/",
+      "color": "blue",
+      "backgroundColor": "white",
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
@@ -357,6 +752,20 @@
     },
     {
       "text": "class=\"container mx-auto flex h-full items-center justify-center\">",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<input",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "bind:",
       "color": "white",
       "backgroundColor": "blue",
       "isWholeLine": false,
@@ -1063,6 +1472,50 @@
       "isWholeLine": false,
       "overviewRulerColor": "transparent"
     },
+    // 
+    {
+      "text": "selectedCard",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "flyingCard",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "detailCard",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "isAnimating",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "currentStep",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "cards[",
+      "color": "GreenYellow",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    // 
     {
       "text": "@storybook/cli",
       "color": "GreenYellow",
@@ -1280,5 +1733,6 @@
   "editor.inlineSuggest.enabled": true,
   "update.showReleaseNotes": false,
   "i18n-ally.displayLanguage": "fr",
+  "git.openRepositoryInParentFolders": "never",
   "window.zoomLevel": 1
 }

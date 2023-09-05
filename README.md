@@ -1,3 +1,5 @@
+<div align="center">
+
 🟥
 🟧
 🟩
@@ -7,8 +9,6 @@
 🟨
 🟪
 🟦
-
-<div align="center">
 
 # Dotfiles & Developer Environment
 
