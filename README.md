@@ -10,7 +10,7 @@
 🟪
 🟦
 
-# Dotfiles & Developer Environment
+# Dotfiles & Developer Env
 
 COSMOS 3
 
@@ -19,8 +19,6 @@ COSMOS 3
 ![Lint](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/icon/badge-lint-passing.svg)
 
 </div>
-
-## Summary
 
 - [1 Stack](#stack)
 - [2 Fonts](#fonts)
