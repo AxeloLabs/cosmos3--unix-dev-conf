@@ -12,7 +12,9 @@
 
 # Dotfiles & Developer Environment
 
-COSMOS 3 (9 juin 2023)
+COSMOS 3
+
+(9 juin 2023)
 
 ![Lint](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/icon/badge-lint-passing.svg)
 
