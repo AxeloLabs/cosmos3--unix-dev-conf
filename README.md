@@ -22,14 +22,13 @@ COSMOS 3
 
 ## Summary
 
-- [1 Softwares](#softwares)
+- [1 Stack](#stack)
 - [2 Fonts](#fonts)
 - [3 TODO](#todo)
 - [4 License](#license)
 
-## 1 Softwares
+## 1 Stack
 
-- [`nushell`](https://www.nushell.sh/): a new type of shell
 - [`starship`](https://starship.rs/): cross-shell theme
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep): recursively search directories for a regex pattern while respecting your gitignore
 - [`zoxide`](https://github.com/ajeetdsouza/zoxide): A smarter cd command
