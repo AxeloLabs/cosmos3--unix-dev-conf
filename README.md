@@ -12,16 +12,12 @@ COSMOS 3
 🟪
 🟦
 
-# Dotfiles & Developer Env
+# Dotfiles
 
 (9 juin 2023)
 
-![Lint](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/icon/badge-lint-passing.svg)
-
 1 - [Stack](#stack)  
-2 - [Fonts](#fonts)  
-3 - [TODO](#todo)  
-4 - [License](#license)
+2 - [Fonts](#fonts)
 
 </div>
   
@@ -38,9 +34,3 @@ COSMOS 3
 - [Victor Mono](https://rubjo.github.io/victor-mono/): mono, ligatures, free
 - [Microsoft's Cascadia Code with Powerlines](https://github.com/microsoft/cascadia-code): mono, ligatures, free
 - [Fira Code](https://github.com/tonsky/FiraCode): mono, ligatures, free
-
-## 3 TODO
-
-## 4 Licence
-
-![Cosmos](https://github.com/nzaero/cosmos3-unix-dev-conf/blob/main/__DOC__/1-img/1cosmos.webp)
