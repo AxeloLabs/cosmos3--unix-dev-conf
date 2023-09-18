@@ -142,3 +142,7 @@ palette() {
 # fnm (better nvm - node version manager)
 eval "$(fnm env --use-on-cd)"
 # ----------------------------------------------------------
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
